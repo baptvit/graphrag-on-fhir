@@ -1,0 +1,32 @@
+{
+    "experiment_id": [
+        "Q3:gemini-1.5-pro:similarity_search_0_hop"
+    ],
+    "timestamp": [
+        "2024-12-18 10:44:40"
+    ],
+    "records": [
+        "{'Main health record': 'Resource Type: Condition,\nClinical Status: resolved,\nVerification Status: confirmed,\nCategory: Encounter Diagnosis (Medical number: 160903007, Coding Classification System: http://terminology.hl7.org/CodeSystem/condition-category),\nCode: Full-time employment (finding) (Medical number: 160903007, Coding Classification System: http://snomed.info/sct),\nOnset Date: 2016-08-10T17:25:06-04:00,\nAbatement Date: 2017-08-16T17:17:09-04:00,\nRecorded Date: 2016-08-10T17:25:06-04:00\n'}\n\n"
+    ],
+    "caracteres_count": [
+        503
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        ""
+    ],
+    "main_keys": [
+        "conditions"
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        1000000
+    ],
+    "strategy_name": [
+        "SimilaritySearch0HopStrategy"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "experiment_id": [
+        "Q3:gemini-1.5-pro:similarity_search_1_hop"
+    ],
+    "timestamp": [
+        "2024-12-14 18:39:51"
+    ],
+    "records": [
+        "{'Main health record': 'Resource Type: Observation, Status: final, Category: Social history, Code: Tobacco smoking status, Effective Date Time: 09/04/2017 13:37:42, Issued: 09/04/2017 13:37:42.868, Value: Never smoked tobacco (finding)\n', 'Related health records': [('Relationship' :'issued', 'Health Record' :'04/09/2017'), ('Relationship' :'effective_date_time', 'Health Record' :'04/09/2017'), ('Relationship' :'encounter', 'Health Record' :'Resource Type: Encounter,\nStatus: Finished,\nClass: ambulatory,\nType: Well child visit (procedure),\nSubject: Beatris270 Bogan287,\nParticipant: primary performer Dr. Elisa944 Rojo930 from 2017-04-09T13:37:42+00:00 to 2017-04-09T13:52:42+00:00,\nPeriod: from 2017-04-09T13:37:42+00:00 to 2017-04-09T13:52:42+00:00,\nLocation: BLUESKIES WELLNESS INC,\nService Provider: BLUESKIES WELLNESS INC\n'), ]}\n\n{'Main health record': 'Resource Type: Observation, Status: final, Category: Social history, Code: Tobacco smoking status, Code Text: Tobacco smoking status, Effective Date Time: 10/04/2016 13:37:42+00:00, Issued: 10/04/2016 13:37:42.868+00:00, Value: Never smoked tobacco (finding), Value Text: Never smoked tobacco (finding)\n', 'Related health records': [('Relationship' :'issued', 'Health Record' :'04/10/2016'), ('Relationship' :'effective_date_time', 'Health Record' :'04/10/2016'), ('Relationship' :'encounter', 'Health Record' :'Status: Finished\nClass: Ambulatory\nType: Well child visit (procedure)\nSubject: Beatris270 Bogan287\nParticipant: Dr. Elisa944 Rojo930, Primary performer, From 2016-04-10T13:37:42+00:00 to 2016-04-10T13:52:42+00:00\nPeriod: From 2016-04-10T13:37:42+00:00 to 2016-04-10T13:52:42+00:00\nLocation: BLUESKIES WELLNESS INC\nService provider: BLUESKIES WELLNESS INC \n'), ]}\n\n{'Main health record': 'Resource Type: Observation, Status: final, Category: Social history, Code: Tobacco smoking status, Code Text: Tobacco smoking status, Effective Date Time: 2015-06-07T13:37:42+00:00, Issued: 2015-06-07T13:37:42.868+00:00, Value: Never smoked tobacco (finding), Value Text: Never smoked tobacco (finding)\n', 'Related health records': [('Relationship' :'issued', 'Health Record' :'06/07/2015'), ('Relationship' :'effective_date_time', 'Health Record' :'06/07/2015'), ('Relationship' :'encounter', 'Health Record' :'Status: Finished\nClass: Ambulatory\nType: Well child visit (procedure)\nSubject: Beatris270 Bogan287\nParticipant: Dr. Elisa944 Rojo930 - primary performer from 2015-06-07T13:37:42+00:00 to 2015-06-07T13:52:42+00:00\nPeriod: From 2015-06-07T13:37:42+00:00 to 2015-06-07T13:52:42+00:00\nLocation: BLUESKIES WELLNESS INC\nService Provider: BLUESKIES WELLNESS INC \n'), ]}\n\n"
+    ],
+    "caracteres_count": [
+        2639
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        ""
+    ],
+    "main_keys": [
+        "Conditions"
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        1000000
+    ],
+    "strategy_name": [
+        "SimilaritySearch1HopStrategy"
+    ]
+}

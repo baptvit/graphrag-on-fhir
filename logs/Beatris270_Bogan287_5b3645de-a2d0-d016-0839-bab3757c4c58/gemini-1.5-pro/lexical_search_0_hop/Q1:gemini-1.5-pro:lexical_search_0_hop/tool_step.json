@@ -1,0 +1,32 @@
+{
+    "experiment_id": [
+        "Q1:gemini-1.5-pro:lexical_search_0_hop"
+    ],
+    "timestamp": [
+        "2024-12-14 18:29:47"
+    ],
+    "records": [
+        "{'Main health record': 'Status: Stopped\nIntent: Order\nCategory: Community\nMedication: Amoxicillin 500 MG Oral Tablet\nAuthored On: November 23, 2016 at 1:37 PM UTC\nRequester: Dr. Alvin56 Crona259\nDosage Instructions: Take at regular intervals. Complete the prescribed course unless otherwise directed (qualifier value). Take 1 dose 3 times a day'}\n\n{'Main health record': 'Resource Type: Medication Request\nStatus: Active\nIntent: Order\nCategory: Community\nMedication: NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector\nAuthored On: August 30, 2017 at 12:14:48 PM UTC\nRequester: Dr. Alvin56 Crona259\nDosage Instruction: Take as needed.\nDosage Instruction As Needed: True\n'}\n\n{'Main health record': 'Resource Type: Medication Request\nStatus: Active\nIntent: Order\nCategory: Community\nMedication: Fexofenadine hydrochloride 30 MG Oral Tablet\nAuthored On: 2017-08-22T13:37:42+00:00\nRequester: Dr. Alvin56 Crona259\nDosage Instruction: Take as needed.\nAs Needed Boolean: true'}\n\n{'Main health record': 'Resource Type: Medication Request\nStatus: Stopped\nIntent: Order\nCategory: Community\nMedication: Penicillin V Potassium 250 MG Oral Tablet\nAuthored On: February 26, 2022 at 5:37 PM UTC\nRequester: Dr. Alvin56 Crona259\nReason: Streptococcal sore throat (disorder) \n'}\n\n{'Main health record': 'Resource Type: Medication Request\nStatus: Stopped\nIntent: Order\nCategory: Community\nMedication: Acetaminophen 160 MG Chewable Tablet\nAuthored On: November 23, 2016 at 1:37 PM UTC\nRequester: Dr. Alvin56 Crona259\nDosage Instruction: Take as needed.\nDosage Instruction As Needed: True\n'}\n\n{'Main health record': 'Resource Type: Medication Request\nStatus: Stopped\nIntent: Order\nCategory: Community\nMedication: Penicillin V Potassium 250 MG Oral Tablet\nAuthored On: February 17, 2021 at 4:37 PM UTC\nRequester: Dr. Alvin56 Crona259\nReason: Streptococcal sore throat (disorder) \n'}\n"
+    ],
+    "caracteres_count": [
+        1860
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        "MedicationRequest"
+    ],
+    "main_keys": [
+        ""
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        1000000
+    ],
+    "strategy_name": [
+        "LexicalSearch0HopStrategy"
+    ]
+}

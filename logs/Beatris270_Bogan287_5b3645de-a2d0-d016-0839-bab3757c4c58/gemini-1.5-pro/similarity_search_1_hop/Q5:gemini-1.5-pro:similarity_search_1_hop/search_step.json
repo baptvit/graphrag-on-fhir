@@ -1,0 +1,23 @@
+{
+    "experiment_id": [
+        "Q5:gemini-1.5-pro:similarity_search_1_hop"
+    ],
+    "timestamp": [
+        "2024-12-14 18:40:15"
+    ],
+    "latency_s": [
+        0.017436504364013672
+    ],
+    "query": [
+        "Similarity Search 1-Hop"
+    ],
+    "similarity_threshold": [
+        0.84
+    ],
+    "k": [
+        100000
+    ],
+    "embedding_model": [
+        "BAAI/bge-small-en-v1.5"
+    ]
+}

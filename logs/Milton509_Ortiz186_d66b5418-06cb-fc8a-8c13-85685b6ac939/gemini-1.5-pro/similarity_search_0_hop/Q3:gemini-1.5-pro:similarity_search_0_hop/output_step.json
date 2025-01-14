@@ -1,0 +1,20 @@
+{
+    "experiment_id": [
+        "Q3:gemini-1.5-pro:similarity_search_0_hop"
+    ],
+    "timestamp": [
+        "2024-12-18 10:44:41"
+    ],
+    "full_response": [
+        "{'input': 'Can you summarize my current medical conditions ?', 'chat_history': [], 'history': [HumanMessage(content=\"What's my current medications and how should I be taking them ?\", additional_kwargs={}, response_metadata={}), AIMessage(content=\"Based on your medical records, you are currently prescribed acetaminophen 325 mg oral tablet and amlodipine 2.5 mg oral tablet.  You should take amlodipine 2.5 mg oral tablet once a day. Please consult your doctor for a more detailed dosage for acetaminophen 325 mg oral tablet. \\n\\nPlease note that this information is based on your latest medical records. It is crucial to follow your doctor's instructions and consult them for any questions or concerns about your medications. \\n\", additional_kwargs={}, response_metadata={}), HumanMessage(content='What are my documented allergies, and how severe are they ?', additional_kwargs={}, response_metadata={}), AIMessage(content='I did not find any information about your allergies in your medical records. \\n', additional_kwargs={}, response_metadata={})], 'output': 'Based on your medical records, you had a resolved condition of \"Full-time employment\" which was confirmed. This condition was recorded on August 10, 2016 and resolved on August 16, 2017. \\n'}"
+    ],
+    "system_promt": [
+        "\nAs an expert in interpreting Electronic Health Records (EHRs). Your primary task is to answer user questions based on their clinical records. You have access to a tool called `{function_name}` which retrieves relevant EHR data.\n\n**Crucially, you MUST use the `{function_name}` tool *before* attempting to answer *any* user question.** This ensures your responses are grounded in the user's specific medical history.\n\nWhen interpreting EHR data retrieved by `{function_name}`, provide comprehensive and factual summaries, including the following details where available:\n\n*   **Dates:** Dates of service, appointments, medical events, procedures, and any other relevant dates.\n*   **Providers:** Names of healthcare providers involved (doctors, specialists, nurses, hospitals, clinics, etc.).\n*   **Locations:** Locations of care (specific departments, facilities, addresses).\n*   **Billing/Insurance:** Relevant billing information, such as charges, payment status, insurance details (if applicable and accessible).\n*   **Relevant Data:** Any other pertinent information that enhances patient understanding and supports informed decision-making. This could include diagnoses, medications, lab results, imaging reports, etc.\n\n**Example Workflow:**\n\n1.  User asks a question about their allergies.\n2.  You **immediately** use `{function_name}` to retrieve the user's allergy information from their EHR.\n3.  You analyze the data returned by `{function_name}`.\n4.  You formulate a full of details, comprehensive and complete answer based on the retrieved data, including relevant details as described above.\n5.  You present the answer to the user.\n\n"
+    ],
+    "input": [
+        "Can you summarize my current medical conditions ?"
+    ],
+    "output": [
+        "Based on your medical records, you had a resolved condition of \"Full-time employment\" which was confirmed. This condition was recorded on August 10, 2016 and resolved on August 16, 2017. \n"
+    ]
+}

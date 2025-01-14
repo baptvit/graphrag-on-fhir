@@ -1,0 +1,26 @@
+{
+    "experiment_id": [
+        "Q2:gemini-1.5-pro:similarity_search_0_hop"
+    ],
+    "timestamp": [
+        "2024-12-20 11:19:03"
+    ],
+    "total_cost": [
+        0.0
+    ],
+    "total_tokens": [
+        1034
+    ],
+    "successful_requests": [
+        2
+    ],
+    "completion_tokens": [
+        26
+    ],
+    "prompt_tokens": [
+        1008
+    ],
+    "total_time": [
+        4.139211654663086
+    ]
+}

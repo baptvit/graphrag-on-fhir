@@ -1,0 +1,32 @@
+{
+    "experiment_id": [
+        "Q3:gemini-1.5-pro:similarity_search_0_hop"
+    ],
+    "timestamp": [
+        "2024-12-20 11:19:09"
+    ],
+    "records": [
+        "{'Main health record': 'Resource Type: Condition,\nClinical Status: resolved,\nVerification Status: confirmed,\nCategory: Encounter Diagnosis (Medical number: encounter-diagnosis - Coding Classification System: http://terminology.hl7.org/CodeSystem/condition-category),\nCondition Code: Stress (finding) (Medical number: 73595000 - Coding Classification System: http://snomed.info/sct),\nPatient: unknown,\nEncounter: unknown,\nOnset Date: February 9, 2022, 2:28 PM,\nAbatement Date: July 6, 2022, 2:33 PM,\nRecorded Date: February 9, 2022, 2:28 PM\n'}\n\n{'Main health record': 'Resource Type: Condition,\nClinical Status: active,\nVerification Status: confirmed,\nCategory: Encounter Diagnosis (Medical number: encounter-diagnosis, Coding Classification System: http://terminology.hl7.org/CodeSystem/condition-category),\nCode: Essential hypertension (disorder) (Medical number: 59621000, Coding Classification System: http://snomed.info/sct),\nOnset Date Time: 06/06/1973 13:53:15+00:00,\nRecorded Date: 06/06/1973 13:53:15+00:00\n'}\n\n{'Main health record': 'Resource Type: Condition,\nClinical Status: resolved,\nVerification Status: confirmed,\nCategory: Encounter Diagnosis (Medical Number: encounter-diagnosis - Coding Classification System: http://terminology.hl7.org/CodeSystem/condition-category),\nCode: Stress (finding) (Medical Number: 73595000 - Coding Classification System: http://snomed.info/sct),\nOnset Date Time: 2012-09-26T14:51:56+00:00,\nAbatement Date Time: 2014-01-22T14:39:07+00:00,\nRecorded Date: 2012-09-26T14:51:56+00:00 \n'}\n\n{'Main health record': 'Condition Clinical Status: Active,\nCondition Verification Status: Confirmed,\nCondition Category: Encounter Diagnosis (Medical number: encounter-diagnosis - Coding Classification System: http://terminology.hl7.org/CodeSystem/condition-category),\nCondition: Proteinuria due to type 2 diabetes mellitus (disorder) (Medical number: 157141000119108 - Coding Classification System: http://snomed.info/sct),\nOnset Date: 2018-08-29T13:53:15+00:00,\nRecorded Date: 2018-08-29T13:53:15+00:00\n'}\n\n{'Main health record': 'Resource Type: Condition,\nClinical Status: resolved,\nVerification Status: confirmed,\nCategory: Encounter Diagnosis (Medical number: 73595000, Coding Classification System: http://terminology.hl7.org/CodeSystem/condition-category),\nCode: Stress (finding) (Medical number: 73595000, Coding Classification System: http://snomed.info/sct),\nOnset Date Time: 2015-01-28T14:36:13+00:00,\nAbatement Date Time: 2016-08-03T14:42:59+00:00,\nRecorded Date: 2015-01-28T14:36:13+00:00\n'}\n\n{'Main health record': 'Resource Type: Condition,\nClinical Status: resolved,\nVerification Status: confirmed,\nCategory: Encounter Diagnosis (Medical Number: encounter-diagnosis - Coding Classification System: http://terminology.hl7.org/CodeSystem/condition-category),\nCode: Stress (finding) (Medical Number: 73595000 - Coding Classification System: http://snomed.info/sct),\nSubject: Patient (Reference),\nEncounter: Encounter (Reference),\nOnset Date/Time: 2019-05-22T14:48:57+00:00,\nAbatement Date/Time: 2020-07-15T14:26:58+00:00,\nRecorded Date: 2019-05-22T14:48:57+00:00\n'}\n\n{'Main health record': 'Resource type: Condition,\nClinical status: active,\nVerification status: confirmed,\nCategory: Encounter Diagnosis (Medical number: encounter-diagnosis, Coding Classification System: http://terminology.hl7.org/CodeSystem/condition-category),\nCode: Chronic kidney disease stage 1 (disorder) (Medical number: 431855005, Coding Classification System: http://snomed.info/sct),\nSubject: Unknown,\nEncounter: Unknown,\nOnset date time: 2004-12-01T13:53:15+00:00,\nRecorded date: 2004-12-01T13:53:15+00:00\n'}\n\n"
+    ],
+    "caracteres_count": [
+        3632
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        ""
+    ],
+    "main_keys": [
+        "Conditions"
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        1000000
+    ],
+    "strategy_name": [
+        "SimilaritySearch0HopStrategy"
+    ]
+}

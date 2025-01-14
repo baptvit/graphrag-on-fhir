@@ -1,0 +1,32 @@
+{
+    "experiment_id": [
+        "Q3:gemini-1.5-pro:lexical_search_0_hop"
+    ],
+    "timestamp": [
+        "2024-12-14 18:33:30"
+    ],
+    "records": [
+        "{'Main health record': 'Clinical Status: resolved,\nVerification Status: confirmed,\nCategory: Encounter Diagnosis,\nCode: Medication review due (situation),\nOnset Date/Time: 2023-04-30T13:37:42+00:00,\nAbatement Date/Time: 2023-04-30T13:37:42+00:00,\nRecorded Date: 2023-04-30T13:37:42+00:00\n'}\n\n{'Main health record': 'Clinical Status: Resolved, Verification Status: Confirmed, Category: Encounter Diagnosis, Code: Otitis media, Onset Date: 2016-11-23T13:37:42+00:00, Abatement Date: 2017-04-09T13:37:42+00:00, Recorded Date: 2016-11-23T13:37:42+00:00 \n'}\n\n{'Main health record': 'Resource Type: Condition,\nClinical Status: resolved,\nVerification Status: confirmed,\nCategory: Encounter Diagnosis,\nCode: Medication review due (situation),\nOnset Date: August 9, 2015  1:37 PM UTC,\nAbatement Date: January 10, 2016  1:37 PM UTC,\nRecorded Date: August 9, 2015  1:37 PM UTC\n'}\n\n{'Main health record': 'Resource Type: Condition,\nClinical Status: active,\nVerification Status: confirmed,\nCategory: Encounter Diagnosis,\nCode: Perennial allergic rhinitis,\nCode System: http://snomed.info/sct,\nOnset Date Time: 2017-08-22T13:37:42+00:00,\nRecorded Date: 2017-08-22T13:37:42+00:00\n'}\n\n{'Main health record': 'Clinical Status: Resolved,\nVerification Status: Confirmed,\nCategory: Encounter Diagnosis,\nCode: Acute viral pharyngitis (disorder),\nOnset Date: 2023-10-02T00:37:42+00:00,\nAbatement Date: 2023-10-14T09:37:42+00:00,\nRecorded Date: 2023-10-02T00:37:42+00:00\n'}\n\n{'Main health record': 'Resource Type: Condition,\nClinical Status: active,\nVerification Status: confirmed,\nCategory: Encounter Diagnosis,\nCode: Atopic dermatitis,\nOnset Date: 2015-09-13T13:37:42+00:00,\nRecorded Date: 2015-09-13T13:37:42+00:00\n'}\n\n{'Main health record': 'Resource Type: Condition,\nClinical Status: active,\nVerification Status: confirmed,\nCategory: Encounter Diagnosis,\nCode: Aortic valve stenosis (disorder),\nOnset Date Time: 2019-05-02T13:37:42+00:00,\nRecorded Date: 2019-05-02T13:37:42+00:00\n'}\n\n{'Main health record': 'Clinical Status: Resolved,\nVerification Status: Confirmed,\nCategory: Encounter Diagnosis,\nCode: Streptococcal sore throat (disorder),\nOnset Date: 2022-02-26T17:37:42+00:00,\nAbatement Date: 2022-03-09T15:37:42+00:00,\nRecorded Date: 2022-02-26T17:37:42+00:00\n'}\n\n{'Main health record': 'Clinical Status: Resolved, Verification Status: Confirmed, Category: Encounter Diagnosis, Code: Medication review due (situation), Onset Date Time: October 9, 2016 at 1:37:42 PM UTC, Abatement Date Time: March 6, 2022 at 1:37:42 PM UTC, Recorded Date: October 9, 2016 at 1:37:42 PM UTC \n'}\n\n{'Main health record': 'Resource Type: Condition,\nClinical Status: resolved,\nVerification Status: confirmed,\nCategory: Encounter Diagnosis,\nCode: Medication review due (situation),\nOnset Date: 2015-06-07T13:37:42+00:00,\nAbatement Date: 2015-06-07T13:37:42+00:00,\nRecorded Date: 2015-06-07T13:37:42+00:00 \n'}\n\n{'Main health record': 'Clinical Status: Resolved, Verification Status: Confirmed, Category: Encounter Diagnosis, Code: Medication review due (situation), Onset Date: 2022-04-24T13:37:42+00:00, Abatement Date: 2022-04-24T13:37:42+00:00, Recorded Date: 2022-04-24T13:37:42+00:00 \n'}\n\n{'Main health record': 'Clinical Status: Resolved,\nVerification Status: Confirmed,\nCategory: Encounter Diagnosis,\nCode: Acute viral pharyngitis (disorder),\nOnset Date: 2016-09-26T19:37:42+00:00,\nAbatement Date: 2016-10-09T00:37:42+00:00,\nRecorded Date: 2016-09-26T19:37:42+00:00\n'}\n\n{'Main health record': 'Clinical Status: resolved,\nVerification Status: confirmed,\nCategory: Encounter Diagnosis,\nCode: Medication review due (situation),\nOnset Date: 2015-05-03T13:37:42+00:00,\nAbatement Date: 2015-05-03T13:37:42+00:00,\nRecorded Date: 2015-05-03T13:37:42+00:00\n'}\n\n{'Main health record': 'Clinical Status: Resolved\nVerification Status: Confirmed\nCategory: Encounter Diagnosis\nCode: Medication review due (situation)\nOnset Date: 2016-04-10T13:37:42+00:00\nAbatement Date: 2016-07-10T13:37:42+00:00\nRecorded Date: 2016-04-10T13:37:42+00:00 \n'}\n\n{'Main health record': 'Resource Type: Condition\nClinical Status: resolved\nVerification Status: confirmed\nCategory: Encounter Diagnosis\nCode: Streptococcal sore throat (disorder)\nOnset Date Time: February 17, 2021 at 4:37 PM UTC\nAbatement Date Time: February 26, 2021 at 11:37 PM UTC\nRecorded Date: February 17, 2021 at 4:37 PM UTC \n'}\n"
+    ],
+    "caracteres_count": [
+        4336
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        "Condition"
+    ],
+    "main_keys": [
+        ""
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        1000000
+    ],
+    "strategy_name": [
+        "LexicalSearch0HopStrategy"
+    ]
+}

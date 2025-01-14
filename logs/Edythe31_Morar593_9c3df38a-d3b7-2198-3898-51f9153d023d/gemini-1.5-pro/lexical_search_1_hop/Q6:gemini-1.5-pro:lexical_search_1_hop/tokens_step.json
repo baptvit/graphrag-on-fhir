@@ -1,0 +1,26 @@
+{
+    "experiment_id": [
+        "Q6:gemini-1.5-pro:lexical_search_1_hop"
+    ],
+    "timestamp": [
+        "2024-12-16 17:10:45"
+    ],
+    "total_cost": [
+        0.0
+    ],
+    "total_tokens": [
+        87158
+    ],
+    "successful_requests": [
+        2
+    ],
+    "completion_tokens": [
+        213
+    ],
+    "prompt_tokens": [
+        86945
+    ],
+    "total_time": [
+        69.8815987110138
+    ]
+}

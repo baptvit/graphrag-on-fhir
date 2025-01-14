@@ -1,0 +1,32 @@
+{
+    "experiment_id": [
+        "Q5:gemini-1.5-pro:lexical_search_0_hop"
+    ],
+    "timestamp": [
+        "2024-12-14 18:33:54"
+    ],
+    "records": [
+        "{'Main health record': 'Resource Type: CarePlan\nProfile: http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan\nText: Care Plan for Self-care interventions (procedure).<br/>Activities: <ul><li>Self-care interventions (procedure)</li></ul>\nStatus: active\nIntent: order\nCategory: assess-plan\nCategory: Self-care interventions (procedure)\nPeriod Start: 2017-08-30T12:14:48+00:00\nActivity Code: Allergy education\nActivity Status: in-progress\nActivity Location: HOLY FAMILY HOSPITAL \n'}\n\n{'Main health record': 'Care Plan Status: active\nCare Plan Intent: order\nCare Plan Text: Care Plan for Skin condition care.<br/>Care plan is meant to treat Atopic dermatitis.<br/>Activities: <ul><li>Skin condition care</li></ul>\nCare Plan Category: assess-plan\nCare Plan Category: Skin condition care (Skin condition care)\nCare Plan Period Start: 2015-09-13T13:37:42+00:00\nCare Plan Activity Code: Application of moisturizer to skin (Application of moisturizer to skin)\nCare Plan Activity Status: in-progress\nCare Plan Activity Location: HOLY FAMILY HOSPITAL \n'}\n"
+    ],
+    "caracteres_count": [
+        1056
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        "CarePlan"
+    ],
+    "main_keys": [
+        ""
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        1000000
+    ],
+    "strategy_name": [
+        "LexicalSearch0HopStrategy"
+    ]
+}

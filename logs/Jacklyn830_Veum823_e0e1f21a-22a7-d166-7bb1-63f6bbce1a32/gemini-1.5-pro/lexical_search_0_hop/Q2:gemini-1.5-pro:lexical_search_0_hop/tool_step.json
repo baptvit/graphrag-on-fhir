@@ -1,0 +1,32 @@
+{
+    "experiment_id": [
+        "Q2:gemini-1.5-pro:lexical_search_0_hop"
+    ],
+    "timestamp": [
+        "2024-12-20 11:06:10"
+    ],
+    "records": [
+        ""
+    ],
+    "caracteres_count": [
+        0
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        "AllergyIntolerance"
+    ],
+    "main_keys": [
+        ""
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        1000000
+    ],
+    "strategy_name": [
+        "LexicalSearch0HopStrategy"
+    ]
+}

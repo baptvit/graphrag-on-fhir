@@ -1,0 +1,32 @@
+{
+    "experiment_id": [
+        "Q2:gemini-1.5-pro:lexical_search_0_hop"
+    ],
+    "timestamp": [
+        "2024-12-14 18:33:21"
+    ],
+    "records": [
+        "{'Main health record': 'Clinical Status: Active, Verification Status: Confirmed, Type: Allergy, Category: Medication, Criticality: Low, Substance: Aspirin, Recorded Date: 2017-08-30T11:37:42+00:00, Reaction 1 Manifestation: Abdominal pain (finding), Reaction 1 Severity: Moderate, Reaction 2 Manifestation: Wheal (finding), Reaction 2 Severity: Moderate \n'}\n\n{'Main health record': 'Resource Type: Allergy Intolerance\nClinical Status: Active\nVerification Status: Confirmed\nType: Allergy\nCategory: Environment\nCriticality: Low\nCode: Tree pollen (substance)\nRecorded Date: 2017-08-30T11:37:42+00:00 \n'}\n\n{'Main health record': 'Resource Type: Allergy Intolerance\nClinical Status: active\nVerification Status: confirmed\nType: allergy\nCategory: environment\nCriticality: low\nCode: Grass pollen (substance)\nRecorded Date: 2017-08-30T11:37:42+00:00 \n'}\n\n{'Main health record': 'Clinical Status: Active\nVerification Status: Confirmed\nType: Allergy\nCategory: Environment\nCriticality: Low\nCode: Animal dander (substance)\nRecorded Date: 2017-08-30T11:37:42+00:00\nReaction 1 Manifestation: Wheal (finding)\nReaction 1 Severity: Mild\nReaction 2 Manifestation: Rhinoconjunctivitis (disorder)\nReaction 2 Severity: Moderate \n'}\n\n{'Main health record': 'Resource Type: Allergy Intolerance\nClinical Status: Active\nVerification Status: Confirmed\nType: Allergy\nCategory: Environment\nCriticality: Low\nCode: House dust mite (organism)\nRecorded Date: August 30, 2017 at 11:37:42 AM Coordinated Universal Time\n'}\n\n{'Main health record': 'Resource Type: AllergyIntolerance\nClinical Status: active\nVerification Status: confirmed\nType: allergy\nCategory: environment\nCriticality: low\nCode: Mold (organism)\nRecorded Date: 2017-08-30T11:37:42+00:00\nReaction Manifestation: Sneezing\nReaction Severity: mild \n'}\n\n{'Main health record': 'Resource Type: AllergyIntolerance\nClinical Status: active\nVerification Status: confirmed\nType: allergy\nCategory: environment\nCriticality: low\nCode: Bee venom (substance)\nRecorded Date: 2017-08-30T11:37:42+00:00\nReaction Manifestation: Eruption of skin (disorder)\nReaction Severity: moderate \n'}\n\n{'Main health record': 'Resource Type: AllergyIntolerance\nClinical Status: active\nVerification Status: confirmed\nType: allergy\nCategory: environment\nCriticality: low\nCode: Latex (substance)\nRecorded Date: 2017-08-30T11:37:42+00:00\nReaction Manifestation: Wheal (finding)\nReaction Severity: mild\nReaction Manifestation: Itching (finding)\n'}\n\n{'Main health record': 'Resource Type: Allergy Intolerance\nClinical Status: Active\nVerification Status: Confirmed\nType: Allergy\nCategory: Environment\nCriticality: Low\nCode: Allergy to substance (finding)\nRecorded Date: August 30, 2017 at 11:37:42 AM Coordinated Universal Time\n'}\n"
+    ],
+    "caracteres_count": [
+        2720
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        "AllergyIntolerance"
+    ],
+    "main_keys": [
+        ""
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        1000000
+    ],
+    "strategy_name": [
+        "LexicalSearch0HopStrategy"
+    ]
+}
