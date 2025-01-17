@@ -14,7 +14,7 @@ from master_experiments.prompts.system_prompt import HEALTHCARE_SYSTEM_PROMPT_AP
 
 
 def create_healthcare_agent_executor(strategy="any"):
-    os.environ["GOOGLE_API_KEY"] = "AIzaSyAvx7-qbykLs3E65csPphtpkrMF3YVNDjE"
+    os.environ["GOOGLE_API_KEY"] = ""
 
     llm = config.LLM_MODEL_EVALUATION
 
