@@ -10,7 +10,6 @@ from langchain_google_vertexai import (
 ## Neo4j Configurations
 NEO4J_URI = os.getenv("NEO4J_URI", "neo4j://192.168.2.129:7687")
 NEO4J_USER = os.getenv("NEO4J_USERNAME", "neo4j")
-# NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD", "password")
 NEO4J_PASSWORD = "password"
 NEO4J_DATABASE = os.getenv("NEO4J_DATABASE", "neo4j")
 
@@ -31,22 +30,6 @@ SYNTHEA_DATA_DIR = BASE_DIR = (
 )
 
 # MODELS
-
-## llm = ChatVertexAI(model="gemini-1.5-pro-002", temperature=0)
-
-## llm = ChatOpenAI(
-# model="meta/llama-3.1-405b-instruct-maas",
-# base_url=f"https://{MODEL_LOCATION}-aiplatform.googleapis.com/v1/projects/{PROJECT_ID}/locations/{MODEL_LOCATION}/endpoints/openapi/chat/completions?",
-# #base_url=f"https://${ENDPOINT}/v1beta1/projects/${PROJECT_ID}/locations/${REGION}/endpoints/openapi/chat/completions?",
-# api_key=GOOGLE_TOKEN,
-# )
-# llm = AzureChatOpenAI(
-#         api_key=AZURE_OPENAI_API_KEY,
-#         azure_deployment="gpt-4o-mini-2024-07-18",
-#         api_version=OPENAI_API_VERSION,
-#         azure_endpoint=AZURE_OPENAI_ENDPOINT,
-#     )
-
 safety_settings = {
     HarmCategory.HARM_CATEGORY_UNSPECIFIED: HarmBlockThreshold.BLOCK_NONE,
     HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_NONE,
@@ -90,7 +73,7 @@ SIMILARITY_THRESHOLD = 0.84
 K = 100000  # no restriction pratical
 
 # User
-CONSUMER_ID = "Jacklyn830_Veum823_e0e1f21a-22a7-d166-7bb1-63f6bbce1a32"
+CONSUMER_ID = "Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58"
 
 INPUT_QUESTION = {}
 

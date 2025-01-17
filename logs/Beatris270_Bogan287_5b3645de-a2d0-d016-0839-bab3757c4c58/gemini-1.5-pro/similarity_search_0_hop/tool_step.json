@@ -1,0 +1,32 @@
+{
+    "experiment_id": [
+        ""
+    ],
+    "timestamp": [
+        "2025-01-15 09:58:15"
+    ],
+    "records": [
+        ""
+    ],
+    "caracteres_count": [
+        0
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        "Patient"
+    ],
+    "main_keys": [
+        ""
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        1000000
+    ],
+    "strategy_name": [
+        "LexicalSearch1HopStrategy"
+    ]
+}
