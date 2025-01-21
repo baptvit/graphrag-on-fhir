@@ -87,6 +87,7 @@ TDB
 
 ## Run experiments
 TDB
+python -m master_experiments.run_experiment
 
 # Contributing
 Contributions are welcome! Please follow these steps:

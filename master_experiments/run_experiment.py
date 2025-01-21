@@ -1,8 +1,11 @@
 import time
+import config
+import pydantic
+
 from pathlib import Path
 from typing import Any, Callable, List, Union
 
-import pydantic
+
 from dotenv import load_dotenv
 from langchain_community.callbacks.manager import get_openai_callback
 from langchain_community.chat_message_histories import FileChatMessageHistory
@@ -15,7 +18,6 @@ from langchain_core.messages import (
 )
 from langchain_core.runnables.history import RunnableWithMessageHistory
 
-import config
 from master_experiments.healthcare.agent_v1 import create_healthcare_agent_executor
 from master_experiments.healthcare.tracing import write_json_to_file
 from master_experiments.prompts.system_prompt import HEALTHCARE_SYSTEM_PROMPT
@@ -100,28 +102,23 @@ if __name__ == "__main__":
     # }
 
     EXPERIMENT_QUESTIONS = {
-        # "Q1": "Whats my current medication and how should I take them ?",
-        # "Q2": "What are the most common side effects for each medication I am taking?",
-        # "Q3": "Am I allergic to any of my medications?",
-        # "Q4": "Can you summarize my current medical conditions"
-        # # "Q5": "What are the health behaviors I should be incorporating into my daily routine to help with my conditions?",
-        # # "Q6": "Can you summarize my current medical conditions in German?",
-        # # "Q7": "What are my recent laboratory values, what do they mean, and how can I improve them?"
-        "Q1": "What's my current medications and how should I be taking them ?",
-        "Q2": "What are my documented allergies, and how severe are they ?",
-        "Q3": "Can you summarize my current medical conditions ?",
-        "Q4": "What are my recent laboratory values, what do they mean, and how can I improve them ?",
-        "Q5": "Can you summarize my care plan history ?",
-        "Q6": "Can you provide a breakdown of my medical bills ?",
-        "Q7": "What procedures have I undergone recently, and what were the outcomes ?",
-        "Q8": "Can you summarize my immunization history ?",
+         "Q1": "What's my current medications and how should I be taking them ?",
+         "Q2": "What are my documented allergies, and how severe are they ?",
+         "Q3": "Can you summarize my current medical conditions ?",
+         "Q4": "What are my recent laboratory values, what do they mean, and how can I improve them ?",
+         "Q5": "Can you summarize my care plan history ?",
+         "Q6": "Can you provide a breakdown of my medical bills ?",
+         "Q7": "What procedures have I undergone recently, and what were the outcomes ?",
+         "Q8": "Can you summarize my immunization history ?",
     }
 
     list_search_strategies = [
-        "lexical_search_0_hop",
-        "lexical_search_1_hop",
-        "similarity_search_0_hop",
-        "similarity_search_1_hop",
+        #"lexical_search_0_hop",
+        #"lexical_search_1_hop",
+        "lexical_search_2_hop",
+        #"similarity_search_0_hop",
+        #"similarity_search_1_hop",
+        "similarity_search_2_hop",
     ]
 
     # LOOP SEARCH STRATEGIES

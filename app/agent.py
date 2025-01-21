@@ -1,5 +1,5 @@
 import os
-import config
+import app.config as config
 
 from langchain.agents.output_parsers.openai_tools import OpenAIToolsAgentOutputParser
 from langchain.agents.format_scratchpad.openai_tools import (
@@ -13,7 +13,7 @@ from master_experiments.healthcare.tools import select_retrieval_strategy
 from master_experiments.prompts.system_prompt import HEALTHCARE_SYSTEM_PROMPT_APP
 
 
-def create_healthcare_agent_executor(strategy="any"):
+def create_healthcare_agent_executor(strategy="app"):
     os.environ["GOOGLE_API_KEY"] = ""
 
     llm = config.LLM_MODEL_EVALUATION

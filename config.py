@@ -1,4 +1,5 @@
 import os
+
 from pathlib import Path
 
 from langchain_google_vertexai import (
@@ -63,8 +64,9 @@ LLM_MODEL_EVALUATION = ChatVertexAI(
 EXPERTIMENT_STRATEGY = "similarity_search_0_hop"  # similarity_search_1_hop
 
 # Tokens limitis for enter in the MapReduce Summarizationborn
-MAX_TOKENS = 1000000
-MAX_CARACHTERES_IN_LLM_CONTEXT = 300000
+MAX_TOKENS = 1_000_000
+#MAX_TOKENS = 200_000
+MAX_CARACHTERES_IN_LLM_CONTEXT = MAX_TOKENS*4
 CHUNK_SIZE = 22600
 CHUNK_OVERLAP = 100
 
@@ -73,7 +75,7 @@ SIMILARITY_THRESHOLD = 0.84
 K = 100000  # no restriction pratical
 
 # User
-CONSUMER_ID = "Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58"
+CONSUMER_ID = "Jacklyn830_Veum823_e0e1f21a-22a7-d166-7bb1-63f6bbce1a32"
 
 INPUT_QUESTION = {}
 

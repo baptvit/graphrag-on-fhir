@@ -51,20 +51,22 @@ def summarize_long_text(long_text: str) -> str:
     """
     # Initialize the LLM
     from langchain_google_vertexai import (
-    ChatVertexAI,
-    HarmBlockThreshold,
-    HarmCategory,
+        ChatVertexAI,
+        HarmBlockThreshold,
+        HarmCategory,
     )
 
     safety_settings = {
-    HarmCategory.HARM_CATEGORY_UNSPECIFIED: HarmBlockThreshold.BLOCK_NONE,
-    HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_NONE,
-    HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_NONE,
-    HarmCategory.HARM_CATEGORY_HARASSMENT: HarmBlockThreshold.BLOCK_NONE,
-    HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: HarmBlockThreshold.BLOCK_NONE,
-}
+        HarmCategory.HARM_CATEGORY_UNSPECIFIED: HarmBlockThreshold.BLOCK_NONE,
+        HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_NONE,
+        HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_NONE,
+        HarmCategory.HARM_CATEGORY_HARASSMENT: HarmBlockThreshold.BLOCK_NONE,
+        HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: HarmBlockThreshold.BLOCK_NONE,
+    }
 
-    llm = ChatVertexAI(model="gemini-1.5-pro", temperature=0, safety_settings=safety_settings)
+    llm = ChatVertexAI(
+        model="gemini-1.5-pro", temperature=0, safety_settings=safety_settings
+    )
 
     # Define the map and reduce prompts
     map_template = SUMMARIZATION_MAP_PROMPT
@@ -98,7 +100,7 @@ def summarize_long_text(long_text: str) -> str:
 
     # Split the text into chunks
     text_splitter = CharacterTextSplitter(
-        chunk_size=128000/5,  # Adjust based on your needs
+        chunk_size=128000 / 5,  # Adjust based on your needs
         chunk_overlap=200,  # Overlap to maintain context
     )
     docs = text_splitter.create_documents([long_text])

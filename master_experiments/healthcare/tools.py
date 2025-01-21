@@ -7,14 +7,16 @@ from master_experiments.prompts.hallucination import HALLUCINATION_SELF_CHECK_PR
 from master_experiments.searchers.neo4j import (
     LexicalSearch0HopStrategy,
     LexicalSearch1HopStrategy,
+    LexicalSearch2HopStrategy,
     Neo4jResourceSearcher,
     SearchStrategy,
     SimilaritySearch0HopStrategy,
     SimilaritySearch1HopStrategy,
+    SimilaritySearch2HopStrategy,
 )
 
 from .save_outputs import read_string_from_file
-from .summarization import count_tokens, map_reduce_summarize_naive
+from .summarization import count_tokens, summarize_long_text
 
 
 class ResourceSearchTool:
@@ -46,15 +48,17 @@ class ResourceSearchTool:
             for document in documents:
                 records += f"{document[0].page_content}\n"
 
+        records_reduce = records
         if count_tokens(records) >= self.llm_token_limit:
             # TODO: Add the native approach to summarize the text
-            records = map_reduce_summarize_naive(records, self.user_query)
+            records_reduce = summarize_long_text(records)
             self.pass_map_reduce = True
 
         write_json_to_file(
             {
                 "records": [records],
                 "caracteres_count": [len(records)],
+                "caracteres_count_after_reduce": [len(records_reduce)],
                 "pass_map_reduce": [self.pass_map_reduce],
                 "resource_type": [self.resource_type],
                 "main_keys": [self.main_keys],
@@ -64,6 +68,10 @@ class ResourceSearchTool:
             },
             "tool_step",
         )
+
+        if self.pass_map_reduce:
+            return records_reduce
+        
         return records
 
 
@@ -91,6 +99,20 @@ def lexical_search_1_hop(resource_type: str) -> str:
     """
     tool = ResourceSearchTool(
         LexicalSearch1HopStrategy(), resource_type=resource_type, user_query=""
+    )
+    return tool.execute_search()
+
+
+@tool
+def lexical_search_2_hop(resource_type: str) -> str:
+    """
+    Return the patient’s electronic health record (EHR)
+
+    Args:
+        resource_type: Valid possible values in FHIR R4 resources type: i.e. Patient, Practitioner, PractitionerRole, Organization, Encounter, Observation, Condition, Procedure, Medication, MedicationRequest, Immunization, DiagnosticReport, AllergyIntolerance, CarePlan, CareTeam, Appointment, Coverage, Claim, Device, DocumentReference
+    """
+    tool = ResourceSearchTool(
+        LexicalSearch2HopStrategy(), resource_type=resource_type, user_query=""
     )
     return tool.execute_search()
 
@@ -129,6 +151,25 @@ def similarity_search_1_hop(main_keys: str) -> str:
     """
     tool = ResourceSearchTool(
         SimilaritySearch1HopStrategy(), main_keys=main_keys, user_query=""
+    )
+    return tool.execute_search()
+
+
+@tool
+def similarity_search_2_hop(main_keys: str) -> str:
+    """
+    Return the patient’s electronic health record (EHR)
+
+    Args:
+    main_keys (str): A string containing key terms or clinical concepts extracted from the user’s input. These may include:
+                    Medications (e.g., medications).
+                    Allergies (e.g., allergys).
+                    Conditions (e.g., conditions, observations).
+                    Lab Results (e.g., blood tests, lab results).
+                    Other Clinical Concepts (e.g., treatment plans or surgeries).
+    """
+    tool = ResourceSearchTool(
+        SimilaritySearch2HopStrategy(), main_keys=main_keys, user_query=""
     )
     return tool.execute_search()
 
@@ -178,13 +219,20 @@ def select_retrieval_strategy(strategy_name: str):
     strategy_tools = {
         "lexical_search_0_hop": [lexical_search_0_hop],
         "lexical_search_1_hop": [lexical_search_1_hop],
+        "lexical_search_2_hop": [lexical_search_2_hop],
         "similarity_search_0_hop": [similarity_search_0_hop],
         "similarity_search_1_hop": [similarity_search_1_hop],
+        "similarity_search_2_hop": [similarity_search_2_hop],
         "any": [
             lexical_search_1_hop,
             similarity_search_1_hop,
             self_check_hallucination,
         ],
+        "app": [
+            lexical_search_0_hop,
+            similarity_search_0_hop,
+            self_check_hallucination,
+        ]
     }
 
     return strategy_tools.get(strategy_name, strategy_tools["any"])
