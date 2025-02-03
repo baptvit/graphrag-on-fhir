@@ -1,17 +1,18 @@
 import tiktoken
+from langchain.chains import MapReduceDocumentsChain, ReduceDocumentsChain
+from langchain.chains.combine_documents.stuff import StuffDocumentsChain
+from langchain.chains.llm import LLMChain
+from langchain.prompts import PromptTemplate
+from langchain.text_splitter import (
+    CharacterTextSplitter,
+)
 
 import config
 from master_experiments.prompts.summarization import (
     SUMMARIZATION_MAP_PROMPT,
     SUMMARIZATION_REDUCE_PROMPT,
 )
-from langchain.chains import MapReduceDocumentsChain, ReduceDocumentsChain
-from langchain.chains.combine_documents.stuff import StuffDocumentsChain
-from langchain.chains.llm import LLMChain
-from langchain.prompts import PromptTemplate
-from langchain.text_splitter import CharacterTextSplitter
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.text_splitter import TokenTextSplitter
+
 
 def summarize_long_text(long_text: str) -> str:
     """
@@ -62,15 +63,16 @@ def summarize_long_text(long_text: str) -> str:
 
     # Split the text into chunks
     text_splitter = CharacterTextSplitter(
-        chunk_size=actual_size / ((actual_size / 4) / target_size),  # Adjust based on your needs
+        chunk_size=actual_size
+        / ((actual_size / 4) / target_size),  # Adjust based on your needs
         chunk_overlap=100,  # Overlap to maintain context
     )
 
-#     text_splitter = TokenTextSplitter(
-#     chunk_size=config.MAX_TOKENS / 4,  # Maximum number of tokens per chunk
-#     chunk_overlap=100,  # Number of tokens to overlap between chunks
-#     encoding_name="cl100k_base",  # Tokenizer encoding (default for OpenAI models)
-# )
+    #     text_splitter = TokenTextSplitter(
+    #     chunk_size=config.MAX_TOKENS / 4,  # Maximum number of tokens per chunk
+    #     chunk_overlap=100,  # Number of tokens to overlap between chunks
+    #     encoding_name="cl100k_base",  # Tokenizer encoding (default for OpenAI models)
+    # )
 
     docs = text_splitter.create_documents([long_text])
     # import ipdb
@@ -81,12 +83,9 @@ def summarize_long_text(long_text: str) -> str:
 
 
 import concurrent.futures
-from langchain.chains import MapReduceDocumentsChain, ReduceDocumentsChain
-from langchain.chains.combine_documents.stuff import StuffDocumentsChain
-from langchain.chains.llm import LLMChain
-from langchain.prompts import PromptTemplate
-from langchain.text_splitter import CharacterTextSplitter
+
 from langchain.docstore.document import Document
+
 
 def summarize_long_text(long_text: str) -> str:
     """
@@ -146,7 +145,7 @@ def summarize_long_text(long_text: str) -> str:
 
     # Combine the summaries into a single document
     combined_summary = " ".join(summaries)
-    doc =  Document(page_content=combined_summary, metadata={"source": "local"})
+    doc = Document(page_content=combined_summary, metadata={"source": "local"})
     return reduce_documents_chain.run([doc])
 
 

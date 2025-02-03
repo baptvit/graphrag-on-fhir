@@ -80,14 +80,25 @@ The project uses a config.py file to manage all configurations. Below is a detai
 
 # Running the Project
 ## Run ingestion
-TDB
-
+1. Config the `LLM_MODEL_INGESTION` in the config.py and the Neo4j instance to ingest the data on.
+2. Move the target files from `master_experiments/fhir_data/stanford_llm_on_fhir` to `master_experiments/fhir_data/data`.
+Every bundle in the `master_experiments/fhir_data/data` will be convert in the Graph Representation.
+3. Run the ingestion script
+```bash
+$ uv run python -m master_experiments.ingestion.ingestion_service_parallel
+```
 ## Run APP
-TDB
+1. Run the langchain serve
+```bash 
+$ uv run langchain serve
+```
 
 ## Run experiments
-TDB
-python -m master_experiments.run_experiment
+1. Config the paraments in the `config.py` and `master_experiments/run_experiment.py`, i.e the questions to be ask and the target consumer_id.
+2. Run the experiment script
+```bash 
+$ uv run python -m master_experiments.run_experiment
+```
 
 # Contributing
 Contributions are welcome! Please follow these steps:

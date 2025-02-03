@@ -11,7 +11,7 @@ def write_json_to_file(json_data, experiment_step):
         "logs",
         f"{config.CONSUMER_ID}/{config.LLM_MODEL}/{config.EXPERTIMENT_STRATEGY}/{config.EXPERIMENT_ID}",
     )
-    
+
     file_path = os.path.join(directory_path, f"{experiment_step}.json")
 
     # Ensure the directory exists

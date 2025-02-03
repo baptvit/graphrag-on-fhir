@@ -1,21 +1,17 @@
-import pydantic
-import re
-
-import uvicorn
 import os
+import re
+from pathlib import Path
+from typing import Any, Callable, List, Union
 
-from typing import Any, List, Union
+import pydantic
+import uvicorn
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import RedirectResponse
-from langserve import add_routes
-from pathlib import Path
-from typing import Callable
-from langchain_core.chat_history import BaseChatMessageHistory
-from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_community.chat_message_histories import FileChatMessageHistory
-
-
+from langchain_core.chat_history import BaseChatMessageHistory
 from langchain_core.messages import AIMessage, FunctionMessage, HumanMessage
+from langchain_core.runnables.history import RunnableWithMessageHistory
+from langserve import add_routes
 
 from app.agent import create_healthcare_agent_executor
 

@@ -20,4 +20,26 @@
     "embedding_model": [
         "BAAI/bge-small-en-v1.5"
     ]
+}{
+    "experiment_id": [
+        ""
+    ],
+    "timestamp": [
+        "2025-01-21 09:24:42"
+    ],
+    "latency_s": [
+        0.03785824775695801
+    ],
+    "query": [
+        "Similarity Search 0-Hop"
+    ],
+    "similarity_threshold": [
+        0.84
+    ],
+    "k": [
+        100000
+    ],
+    "embedding_model": [
+        "BAAI/bge-small-en-v1.5"
+    ]
 }

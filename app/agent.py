@@ -1,14 +1,13 @@
 import os
-import app.config as config
 
-from langchain.agents.output_parsers.openai_tools import OpenAIToolsAgentOutputParser
+from langchain.agents import AgentExecutor
 from langchain.agents.format_scratchpad.openai_tools import (
     format_to_openai_tool_messages,
 )
-
-from langchain.agents import AgentExecutor
+from langchain.agents.output_parsers.openai_tools import OpenAIToolsAgentOutputParser
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 
+import app.config as config
 from master_experiments.healthcare.tools import select_retrieval_strategy
 from master_experiments.prompts.system_prompt import HEALTHCARE_SYSTEM_PROMPT_APP
 
@@ -29,7 +28,7 @@ def create_healthcare_agent_executor(strategy="app"):
             (
                 "system",
                 HEALTHCARE_SYSTEM_PROMPT_APP.format(
-                    function_name="lexical_search_1_hop, similarity_search_1_hop and self_check_hallucination"
+                    function_name="lexical_search_0_hop, similarity_search_0_hop and self_check_hallucination"
                 ),
             ),
             MessagesPlaceholder(variable_name="history"),

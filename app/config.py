@@ -1,5 +1,4 @@
 import os
-
 from pathlib import Path
 
 from langchain_google_vertexai import (
@@ -65,7 +64,7 @@ EXPERTIMENT_STRATEGY = "app"  # similarity_search_1_hop
 
 # Tokens limitis for enter in the MapReduce Summarizationborn
 MAX_TOKENS = 1_000_000
-MAX_CARACHTERES_IN_LLM_CONTEXT = MAX_TOKENS*4
+MAX_CARACHTERES_IN_LLM_CONTEXT = MAX_TOKENS * 4
 
 # Similarity Search configs on the information extraction tool
 SIMILARITY_THRESHOLD = 0.85

@@ -16,7 +16,7 @@ from master_experiments.searchers.neo4j import (
 )
 
 from .save_outputs import read_string_from_file
-from .summarization import count_tokens, summarize_long_text
+from .summarization import count_tokens
 
 
 class ResourceSearchTool:
@@ -51,7 +51,7 @@ class ResourceSearchTool:
         records_reduce = records
         if count_tokens(records) >= self.llm_token_limit:
             # TODO: Add the native approach to summarize the text
-            records_reduce = summarize_long_text(records)
+            records_reduce = records[: config.MAX_CARACHTERES_IN_LLM_CONTEXT]
             self.pass_map_reduce = True
 
         write_json_to_file(
@@ -71,7 +71,7 @@ class ResourceSearchTool:
 
         if self.pass_map_reduce:
             return records_reduce
-        
+
         return records
 
 
@@ -232,7 +232,7 @@ def select_retrieval_strategy(strategy_name: str):
             lexical_search_0_hop,
             similarity_search_0_hop,
             self_check_hallucination,
-        ]
+        ],
     }
 
     return strategy_tools.get(strategy_name, strategy_tools["any"])

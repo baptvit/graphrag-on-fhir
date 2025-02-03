@@ -117,9 +117,8 @@ if __name__ == "__main__":
         }
         """
     )
-    synthea_bundles = glob.glob(
-        "/home/baptvit/Documents/mestrado/master-experiments/master_experiments/fhir_data/data/*.json"
-    )
+    synthea_bundles = glob.glob("master_experiments/fhir_data/data/*.json")
+
     synthea_bundles = synthea_bundles[0:1]
     # synthea_bundles.sort()
 
