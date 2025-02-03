@@ -1,0 +1,35 @@
+{
+    "experiment_id": [
+        "Q7:gpt-4o-2024-08-06:lexical_search_0_hop"
+    ],
+    "timestamp": [
+        "2025-02-03 18:47:15"
+    ],
+    "records": [
+        "{'Main health record': 'Status: Completed\nCode: Medication Reconciliation (procedure)\nMedical code: 430193006\nCoding Classification System: http://snomed.info/sct\nPerformed from: 2015-05-03T13:37:42+00:00\nPerformed to: 2015-05-03T13:52:42+00:00\nLocation: BLUESKIES WELLNESS INC \n'}\n\n{'Main health record': 'Procedure Status: Completed\nProcedure: Allergy screening test\nMedical Codes: SNOMED-CT: 395142003\nPerformed From: 2017-08-30 11:37:42 UTC\nPerformed To: 2017-08-30 12:14:48 UTC\nLocation: HOLY FAMILY HOSPITAL \n'}\n\n{'Main health record': 'Procedure Status: completed\nProcedure Code: 433236007\nCoding Classification System: http://snomed.info/sct\nProcedure: Transthoracic echocardiography (procedure)\nProcedure performed start datetime: 2019-05-02T13:50:53+00:00\nProcedure performed end datetime: 2019-05-02T14:20:53+00:00\nProcedure location: Fitchburg Outpatient Clinic\n'}\n\n{'Main health record': 'Procedure Status: completed\nProcedure Code: 433236007\nCoding Classification System: http://snomed.info/sct\nProcedure: Transthoracic echocardiography (procedure)\nProcedure performed from: 2020-02-01T14:18:16+00:00\nProcedure performed to: 2020-02-01T14:48:16+00:00\nLocation: Fitchburg Outpatient Clinic'}\n\n{'Main health record': 'Status: Completed,\nCode: Referral for echocardiography (procedure) (Medical number: 390791001, Coding Classification System: http://snomed.info/sct),\nCode Text: Referral for echocardiography (procedure),\nPerformed Period Start: 2019-05-02T13:37:42+00:00,\nPerformed Period End: 2019-05-02T13:50:53+00:00,\nLocation Display: Fitchburg Outpatient Clinic,\nReason: Aortic valve stenosis (disorder)'}\n\n{'Main health record': 'Resource Type: Procedure,\nStatus: Completed,\nProcedure Code: 390791001,\nCoding System: http://snomed.info/sct,\nProcedure Text: Referral for echocardiography (procedure),\nPerformed From: 2020-02-01 13:50:53+00:00,\nPerformed To: 2020-02-01 14:18:16+00:00,\nLocation: Fitchburg Outpatient Clinic,\nReason: Aortic valve stenosis (disorder)'}\n\n{'Main health record': 'Procedure Status: Completed\nProcedure Code: 433236007\nCoding Classification System: http://snomed.info/sct\nProcedure Description: Transthoracic echocardiography (procedure)\nProcedure Performed Start Date: 2021-05-29T14:38:02+00:00\nProcedure Performed End Date: 2021-05-29T15:08:02+00:00\nProcedure Location: Fitchburg Outpatient Clinic'}\n\n{'Main health record': 'Resource Type: Procedure,\nStatus: Completed,\nProcedure Code: 390791001,\nProcedure Coding System: http://snomed.info/sct,\nProcedure Display: Referral for echocardiography (procedure),\nProcedure Text: Referral for echocardiography (procedure),\nPerformed From: 2021-05-29T14:18:16+00:00,\nPerformed To: 2021-05-29T14:38:02+00:00,\nLocation Display: Fitchburg Outpatient Clinic,\nReason: Aortic valve stenosis (disorder)'}\n\n{'Main health record': 'Procedure Status: Completed\nProcedure Code: 430193006\nCoding Classification System: http://snomed.info/sct\nProcedure Text: Medication Reconciliation (procedure)\nProcedure Performed Start Date: 2022-03-06T13:37:42+00:00\nProcedure Performed End Date: 2022-03-06T13:52:42+00:00\nProcedure Location: HOLY FAMILY HOSPITAL\nLocation Identifier: https://github.com/synthetichealth/synthea|17ab5f4a-eb74-306c-8895-5ce93ec4592b\n'}\n\n{'Main health record': 'Resource Type: Procedure\nStatus: Completed\nProcedure: Medication Reconciliation (procedure)\nMedical Code: 430193006 (SNOMED CT)\nPerformed From: January 10, 2016, 1:37 PM UTC\nPerformed To: January 10, 2016, 1:52 PM UTC\nLocation: BLUESKIES WELLNESS INC \n'}\n\n{'Main health record': 'Procedure Status: Completed\nProcedure: Medication Reconciliation (procedure)\nMedical Codes: SNOMED-CT: 430193006\nPerformed From: 04/24/2022 1:37:42 PM UTC\nPerformed To: 04/24/2022 1:52:42 PM UTC\nLocation: BLUESKIES WELLNESS INC \n'}\n\n{'Main health record': 'Status: Completed, Procedure: Referral for echocardiography (procedure) - SNOMED Medical Number 390791001, Performed from: 28 Mar 2023 14:38:02 UTC to 28 Mar 2023 14:47:51 UTC, Location: Fitchburg Outpatient Clinic, Reason: Aortic valve stenosis (disorder)'}\n\n{'Main health record': 'Procedure Status: Completed\nProcedure Code: 433236007\nCoding Classification System: http://snomed.info/sct\nProcedure: Transthoracic echocardiography (procedure)\nProcedure performed start datetime: 2023-03-28 14:47:51+00:00\nProcedure performed end datetime: 2023-03-28 15:17:51+00:00\nLocation: Fitchburg Outpatient Clinic\nLocation Medical number: https://github.com/synthetichealth/synthea|81c75a54-2b95-3fdf-9327-b74df8630869\n'}\n\n{'Main health record': 'Procedure Status: Completed\nProcedure Code: 430193006\nCoding Classification System: http://snomed.info/sct\nProcedure Description: Medication Reconciliation (procedure)\nPatient: Unknown (Resource does not contain patient information)\nEncounter: Unknown (Resource does not contain encounter information)\nProcedure Performed Start Date/Time: 2023-04-30 13:37:42+00:00\nProcedure Performed End Date/Time: 2023-04-30 13:52:42+00:00\nLocation: BLUESKIES WELLNESS INC\nLocation Identifier: https://github.com/synthetichealth/synthea|97876511-009c-391a-a262-1557e46861bb \n'}\n\n{'Main health record': 'Status: Completed, Medical procedure: Throat culture (procedure) (Medical number: 117015009, Coding Classification System: http://snomed.info/sct), Performed from: 2 October 2023 00:37:42 UTC, Performed to: 2 October 2023 00:52:42 UTC, Location: HOLY FAMILY HOSPITAL (Medical number: https://github.com/synthetichealth/synthea|17ab5f4a-eb74-306c-8895-5ce93ec4592b), Reason for procedure: Acute viral pharyngitis (disorder)'}\n\n{'Main health record': 'Status: Completed,\nCode: Throat culture (procedure),\nMedical code: 117015009 (SNOMED CT),\nSubject: -,\nEncounter: -,\nPerformed Period Start: 2016-09-26 19:37:42+00:00,\nPerformed Period End: 2016-09-26 19:52:42+00:00,\nLocation: HOLY FAMILY HOSPITAL,\nReason: Acute viral pharyngitis (disorder)\n'}\n\n{'Main health record': 'Procedure Status: Completed\nProcedure Code: 430193006\nCoding Classification System: http://snomed.info/sct\nProcedure: Medication Reconciliation (procedure)\nPerformed From: July 10, 2016 1:37 PM UTC\nPerformed To: July 10, 2016 1:52 PM UTC\nLocation: BLUESKIES WELLNESS INC'}\n\n{'Main health record': 'Status: Completed\nCode: Medication Reconciliation (procedure)\nMedical number (SNOMED CT): 430193006\nPerformed from: June 7, 2015, 1:37 PM UTC\nPerformed to: June 7, 2015, 1:52 PM UTC\nLocation: BLUESKIES WELLNESS INC'}\n"
+    ],
+    "caracteres_count": [
+        6406
+    ],
+    "caracteres_count_after_reduce": [
+        6406
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        "Procedure"
+    ],
+    "main_keys": [
+        ""
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        128000
+    ],
+    "strategy_name": [
+        "LexicalSearch0HopStrategy"
+    ]
+}

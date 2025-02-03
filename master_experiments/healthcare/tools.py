@@ -51,7 +51,7 @@ class ResourceSearchTool:
         records_reduce = records
         if count_tokens(records) >= self.llm_token_limit:
             # TODO: Add the native approach to summarize the text
-            records_reduce = records[: config.MAX_CARACHTERES_IN_LLM_CONTEXT]
+            records_reduce = records[:(config.MAX_CARACHTERES_IN_LLM_CONTEXT - 10000)]
             self.pass_map_reduce = True
 
         write_json_to_file(

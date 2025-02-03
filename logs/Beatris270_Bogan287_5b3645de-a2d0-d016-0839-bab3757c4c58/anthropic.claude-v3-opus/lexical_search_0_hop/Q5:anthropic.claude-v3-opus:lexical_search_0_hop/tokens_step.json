@@ -1,0 +1,26 @@
+{
+    "experiment_id": [
+        "Q5:anthropic.claude-v3-opus:lexical_search_0_hop"
+    ],
+    "timestamp": [
+        "2025-02-03 19:31:21"
+    ],
+    "total_cost": [
+        0.0
+    ],
+    "total_tokens": [
+        4232
+    ],
+    "successful_requests": [
+        2
+    ],
+    "completion_tokens": [
+        1302
+    ],
+    "prompt_tokens": [
+        2930
+    ],
+    "total_time": [
+        31.909533500671387
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "experiment_id": [
+        "Q6:gpt-4o-2024-08-06:lexical_search_1_hop"
+    ],
+    "timestamp": [
+        "2025-02-03 18:49:44"
+    ],
+    "total_cost": [
+        0.16603500000000002
+    ],
+    "total_tokens": [
+        63903
+    ],
+    "successful_requests": [
+        2
+    ],
+    "completion_tokens": [
+        837
+    ],
+    "prompt_tokens": [
+        63066
+    ],
+    "total_time": [
+        32.056153297424316
+    ]
+}

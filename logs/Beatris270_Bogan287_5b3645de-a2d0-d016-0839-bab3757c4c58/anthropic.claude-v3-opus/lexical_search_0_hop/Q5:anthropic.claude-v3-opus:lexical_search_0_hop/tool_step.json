@@ -1,0 +1,35 @@
+{
+    "experiment_id": [
+        "Q5:anthropic.claude-v3-opus:lexical_search_0_hop"
+    ],
+    "timestamp": [
+        "2025-02-03 19:31:00"
+    ],
+    "records": [
+        "{'Main health record': 'Resource Type: CarePlan\nProfile: http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan\nStatus: generated\nText: Care Plan for Self-care interventions (procedure).<br/>Activities: <ul><li>Self-care interventions (procedure)</li></ul>\nStatus: active\nIntent: order\nCategory: Assess plan (Medical Number:  from Coding Classification System: http://hl7.org/fhir/us/core/CodeSystem/careplan-category)\nCategory: Self-care interventions (procedure) (Medical Number: 384758001 from Coding Classification System: http://snomed.info/sct)\nSubject: Unknown \nEncounter: Unknown \nPeriod Start: 2017-08-30T12:14:48+00:00\nCare Team: Unknown \nActivity Code: Allergy education (Medical Number: 58332002 from Coding Classification System: http://snomed.info/sct)\nActivity Status: in-progress\nActivity Location: HOLY FAMILY HOSPITAL \n'}\n\n{'Main health record': 'Resource Type: CarePlan\nStatus: active\nIntent: order\nCategory: Assess plan (Medical Number:  Coding Classification System: http://hl7.org/fhir/us/core/CodeSystem/careplan-category)\nCategory: Skin condition care (Medical Number: 711282006 Coding Classification System: http://snomed.info/sct)\nSubject: Unknown \nEncounter: Unknown \nPeriod Start: 09/13/2015 13:37:42+00:00\nCare Team: Unknown \nAddresses: Unknown \nActivity Code: Application of moisturizer to skin (Medical Number: 225130001 Coding Classification System: http://snomed.info/sct)\nActivity Reason: Unknown \nActivity Status: in-progress\nActivity Location: HOLY FAMILY HOSPITAL \nText: Care Plan for Skin condition care.\nCare plan is meant to treat Atopic dermatitis.\nActivities: \n- Skin condition care \n'}\n"
+    ],
+    "caracteres_count": [
+        1639
+    ],
+    "caracteres_count_after_reduce": [
+        1639
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        "CarePlan"
+    ],
+    "main_keys": [
+        ""
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        128000
+    ],
+    "strategy_name": [
+        "LexicalSearch0HopStrategy"
+    ]
+}

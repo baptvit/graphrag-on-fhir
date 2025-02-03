@@ -1,0 +1,35 @@
+{
+    "experiment_id": [
+        "Q8:gpt-4o-2024-08-06:lexical_search_0_hop"
+    ],
+    "timestamp": [
+        "2025-02-03 19:01:58"
+    ],
+    "records": [
+        "{'Main health record': 'Immunization Status: completed\nVaccine Code: Td (adult) preservative free\nMedical Number: 113\nCoding Classification System: http://hl7.org/fhir/sid/cvx\nDate Administered: 12/25/2012 10:24:54 AM EST\nReported By Provider: true\nLocation: Worcester Outpatient Clinic'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\n Medical number (Coding Classification System: http://hl7.org/fhir/sid/cvx): 140\nDate Administered: 12/25/2012 10:24:54 AM UTC-05:00\nWas this the primary source of this information: true\nLocation: Worcester Outpatient Clinic\n Medical number (Coding Classification System: https://github.com/synthetichealth/synthea): ca946e7b-d7ef-325a-aa6a-a80bb8cda341\n'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Codes: 140 | http://hl7.org/fhir/sid/cvx\nCoding Classification System: Systematized Nomenclature of Medicine - Clinical Terms\nDate Administered: 2013-12-31T10:24:54-05:00\nReported From Primary Source: true\nLocation: Worcester Outpatient Clinic'}\n\n{'Main health record': 'Resource Type: Immunization\nStatus: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Codes: 140 | http://hl7.org/fhir/sid/cvx\nCoding Classification System: CVX\nDate Administered: January 6, 2015, 10:24:54 AM EST\nPrimary Source: true\nLocation: Worcester Outpatient Clinic'}\n\n{'Main health record': 'Status: Completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Codes: 140 | CVX\nCoding Classification System: http://hl7.org/fhir/sid/cvx\nDate Administered: 2016-01-12T10:24:54-05:00\nReported by Primary Source: true\nLocation: Worcester Outpatient Clinic'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Codes: 140 | http://hl7.org/fhir/sid/cvx\nCoding Classification System: CVX\nImmunization Date: January 17, 2017, 10:24:54 AM EST\nReported From Primary Source: true\nLocation: Worcester Outpatient Clinic'}\n\n{'Main health record': 'Immunization Status: completed\nImmunization Vaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Code: 140\nCoding Classification System: http://hl7.org/fhir/sid/cvx\nImmunization Occurrence Date Time: January 23, 2018, 10:24:54 AM EST\nImmunization Primary Source: true\nImmunization Location: Worcester Outpatient Clinic'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nVaccine Code System: http://hl7.org/fhir/sid/cvx\nVaccine Code Code: 140\nImmunization Date: 2019-01-29T10:24:54-05:00\nPrimary Source: true\nLocation: Worcester Outpatient Clinic\nLocation Identifier: https://github.com/synthetichealth/synthea|ca946e7b-d7ef-325a-aa6a-a80bb8cda341\n'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical code: 140\nCoding Classification System: http://hl7.org/fhir/sid/cvx\nImmunization Date: 2020-02-04T10:24:54-05:00\nReported From Primary Source: true\nLocation: Worcester Outpatient Clinic'}\n\n{'Main health record': 'Status: Completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\n Medical number (Coding Classification System): 140 (http://hl7.org/fhir/sid/cvx)\nDate Administered: February 9, 2021, 10:24:54 AM EST\nSource of Information: Primary\nAdministered at: Worcester Outpatient Clinic'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 30 mcg/0.3mL dose\nMedical Code: 208\nCoding Classification System: http://hl7.org/fhir/sid/cvx\nPatient: unknown\nEncounter: unknown\nDate Administered: 2021-05-25T11:24:54-04:00\nWas this the primary source of this information: true\nLocation: Worcester Outpatient Clinic \n'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 30 mcg/0.3mL dose\nMedical Codes: \n    - Coding Classification System: http://hl7.org/fhir/sid/cvx\n    - Medical number: 208\nPatient: unknown \nEncounter: unknown\nDate of Immunization: 2021-05-04T11:24:54-04:00\nWas this the primary source of information?: true\nLocation: Worcester Outpatient Clinic\nMedical Codes: \n    - Coding Classification System: https://github.com/synthetichealth/synthea\n    - Medical number: ca946e7b-d7ef-325a-aa6a-a80bb8cda341 \n'}\n"
+    ],
+    "caracteres_count": [
+        4538
+    ],
+    "caracteres_count_after_reduce": [
+        4538
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        "Immunization"
+    ],
+    "main_keys": [
+        ""
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        128000
+    ],
+    "strategy_name": [
+        "LexicalSearch0HopStrategy"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "experiment_id": [
+        "Q1:gpt-4o-2024-08-06:lexical_search_0_hop"
+    ],
+    "timestamp": [
+        "2025-02-03 18:45:21"
+    ],
+    "latency_s": [
+        0.09609842300415039
+    ],
+    "query": [
+        "\n                MATCH (n)\n                WHERE toLower(n.name) CONTAINS toLower('MedicationRequest') AND toLower(n.consumer_id) CONTAINS toLower('Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58')\n                RETURN \"{'Main health record': '\" + n.text + \"'}\n\" AS text\n            "
+    ],
+    "similarity_threshold": [
+        0.84
+    ],
+    "k": [
+        100000
+    ],
+    "embedding_model": [
+        "BAAI/bge-small-en-v1.5"
+    ]
+}

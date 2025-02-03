@@ -1,0 +1,26 @@
+{
+    "experiment_id": [
+        "Q5:gpt-4o-2024-08-06:similarity_search_0_hop"
+    ],
+    "timestamp": [
+        "2025-02-03 18:51:24"
+    ],
+    "total_cost": [
+        0.01567
+    ],
+    "total_tokens": [
+        4888
+    ],
+    "successful_requests": [
+        2
+    ],
+    "completion_tokens": [
+        460
+    ],
+    "prompt_tokens": [
+        4428
+    ],
+    "total_time": [
+        10.693034172058105
+    ]
+}
