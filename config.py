@@ -49,8 +49,8 @@ safety_settings = {
 
 # Azure Configurations
 #LLM_MODEL = "gpt-4o-2024-08-06"
-#LLM_MODEL = "anthropic.claude-v3-opus"
-LLM_MODEL = "gpt-4o-2024-11-20"
+LLM_MODEL = "anthropic.claude-v3-opus"
+#LLM_MODEL = "gpt-4o-2024-11-20"
 llm = AzureChatOpenAI(
     api_key=OPENAI_API_KEY,
     azure_deployment=LLM_MODEL,

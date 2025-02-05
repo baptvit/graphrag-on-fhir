@@ -1,0 +1,35 @@
+{
+    "experiment_id": [
+        "Q2:gpt-4o-2024-08-06:similarity_search_1_hop"
+    ],
+    "timestamp": [
+        "2025-02-04 20:29:58"
+    ],
+    "records": [
+        "{'Main health record': 'Resource Type: Allergy Intolerance\nClinical Status: Active\nVerification Status: Confirmed\nType: Allergy\nCategory: Food\nCriticality: Low\nAllergen: Peanut (substance) (Medical Number: 762952008, Coding Classification System: SNOMED CT)\nPatient: Unknown\nDate Recorded: July 20, 1941\nReactions:\n    - Wheezing (finding) (Medical Number: 56018004, Coding Classification System: SNOMED CT), Severity: Mild\n    - Wheal (finding) (Medical Number: 247472004, Coding Classification System: SNOMED CT), Severity: Moderate\n    - Eruption of skin (disorder) (Medical Number: 271807003, Coding Classification System: SNOMED CT), Severity: Mild\n    - Anaphylaxis (disorder) (Medical Number: 39579001, Coding Classification System: SNOMED CT), Severity: Severe\n', 'Related health records': []}\n\n"
+    ],
+    "caracteres_count": [
+        803
+    ],
+    "caracteres_count_after_reduce": [
+        803
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        ""
+    ],
+    "main_keys": [
+        "allergies"
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        128000
+    ],
+    "strategy_name": [
+        "SimilaritySearch1HopStrategy"
+    ]
+}

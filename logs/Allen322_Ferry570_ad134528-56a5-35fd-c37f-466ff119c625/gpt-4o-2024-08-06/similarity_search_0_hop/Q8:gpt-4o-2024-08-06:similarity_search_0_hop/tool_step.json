@@ -1,0 +1,35 @@
+{
+    "experiment_id": [
+        "Q8:gpt-4o-2024-08-06:similarity_search_0_hop"
+    ],
+    "timestamp": [
+        "2025-02-04 20:27:25"
+    ],
+    "records": [
+        "{'Main health record': 'Immunization Status: completed\nImmunization Vaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Code: 140\nCoding Classification System: http://hl7.org/fhir/sid/cvx\nImmunization Occurrence Date Time: January 23, 2018, 10:24:54 AM EST\nImmunization Primary Source: true\nImmunization Location: Worcester Outpatient Clinic'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Codes: 140 | http://hl7.org/fhir/sid/cvx\nCoding Classification System: Systematized Nomenclature of Medicine - Clinical Terms\nDate Administered: 2013-12-31T10:24:54-05:00\nReported From Primary Source: true\nLocation: Worcester Outpatient Clinic'}\n\n{'Main health record': 'Resource Type: Immunization\nStatus: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Codes: 140 | http://hl7.org/fhir/sid/cvx\nCoding Classification System: CVX\nDate Administered: January 6, 2015, 10:24:54 AM EST\nPrimary Source: true\nLocation: Worcester Outpatient Clinic'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical code: 140\nCoding Classification System: http://hl7.org/fhir/sid/cvx\nImmunization Date: 2020-02-04T10:24:54-05:00\nReported From Primary Source: true\nLocation: Worcester Outpatient Clinic'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Codes: 140 | http://hl7.org/fhir/sid/cvx\nCoding Classification System: CVX\nImmunization Date: January 17, 2017, 10:24:54 AM EST\nReported From Primary Source: true\nLocation: Worcester Outpatient Clinic'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\n Medical number (Coding Classification System: http://hl7.org/fhir/sid/cvx): 140\nDate Administered: 12/25/2012 10:24:54 AM UTC-05:00\nWas this the primary source of this information: true\nLocation: Worcester Outpatient Clinic\n Medical number (Coding Classification System: https://github.com/synthetichealth/synthea): ca946e7b-d7ef-325a-aa6a-a80bb8cda341\n'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Td (adult) preservative free\nMedical Number: 113\nCoding Classification System: http://hl7.org/fhir/sid/cvx\nDate Administered: 12/25/2012 10:24:54 AM EST\nReported By Provider: true\nLocation: Worcester Outpatient Clinic'}\n\n{'Main health record': 'Status: Finished,\nClass: ambulatory,\nType: Administration of vaccine to produce active immunity (procedure) (SNOMED 33879002),\nSubject: Mr. Allen322 Ferry570,\nParticipant: Dr. Alexa171 Casper496 (NPI 9999999169) as primary performer from 2021-05-25 11:24:54-04:00 to 2021-05-25 11:39:54-04:00,\nPeriod: 2021-05-25 11:24:54-04:00 to 2021-05-25 11:39:54-04:00,\nLocation: Worcester Outpatient Clinic,\nService Provider: Worcester Outpatient Clinic. \n'}\n\n{'Main health record': 'Resource Type: Encounter,\nStatus: Finished,\nClass: AMB (ambulatory),\nType: Administration of vaccine to produce active immunity (procedure) (Medical Number: 33879002, Coding Classification System: http://snomed.info/sct),\nSubject: Mr. Allen322 Ferry570,\nParticipant: Dr. Alexa171 Casper496 (Medical Number: 9999999169, Coding Classification System: http://hl7.org/fhir/sid/us-npi) as primary performer from 2021-05-04T11:24:54-04:00 to 2021-05-04T11:39:54-04:00,\nPeriod: From 2021-05-04T11:24:54-04:00 to 2021-05-04T11:39:54-04:00,\nLocation: Worcester Outpatient Clinic,\nService Provider: Worcester Outpatient Clinic. \n'}\n\n{'Main health record': 'Resource Type: Encounter,\nStatus: Finished,\nClass: AMB (ambulatory),\nType: Encounter for problem (SNOMED CT: 185347001),\nSubject: Mr. Allen322 Ferry570 (urn:uuid:ad134528-56a5-35fd-c37f-466ff119c625),\nParticipant: Dr. Eleonora961 Langosh790 (NPI: 9999999789) as primary performer (v3 ParticipationType: PPRF) from 1941-07-07 3:24:54 PM to 1941-07-07 3:39:54 PM,\nPeriod: From 1941-07-07 3:24:54 PM to 1941-07-07 3:39:54 PM,\nLocation: CLINTON HOSPITAL ASSOCIATION,\nService Provider: CLINTON HOSPITAL ASSOCIATION \n'}\n\n"
+    ],
+    "caracteres_count": [
+        4149
+    ],
+    "caracteres_count_after_reduce": [
+        4149
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        ""
+    ],
+    "main_keys": [
+        "immunization history"
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        128000
+    ],
+    "strategy_name": [
+        "SimilaritySearch0HopStrategy"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "experiment_id": [
+        "Q1:anthropic.claude-v3-opus:similarity_search_0_hop"
+    ],
+    "timestamp": [
+        "2025-02-04 20:37:56"
+    ],
+    "latency_s": [
+        0.23122668266296387
+    ],
+    "query": [
+        "Similarity Search 0-Hop"
+    ],
+    "similarity_threshold": [
+        0.84
+    ],
+    "k": [
+        100000
+    ],
+    "embedding_model": [
+        "BAAI/bge-small-en-v1.5"
+    ]
+}
