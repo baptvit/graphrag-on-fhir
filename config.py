@@ -71,8 +71,8 @@ LLM_MODEL_EVALUATION = llm
 EXPERTIMENT_STRATEGY = "similarity_search_0_hop"  # similarity_search_1_hop
 
 # Tokens limitis for enter in the MapReduce Summarizationborn
-MAX_TOKENS = 128_000
-#MAX_TOKENS = 200_000
+#MAX_TOKENS = 128_000
+MAX_TOKENS = 200_000
 MAX_CARACHTERES_IN_LLM_CONTEXT = MAX_TOKENS * 4
 
 # Similarity Search configs on the information extraction tool

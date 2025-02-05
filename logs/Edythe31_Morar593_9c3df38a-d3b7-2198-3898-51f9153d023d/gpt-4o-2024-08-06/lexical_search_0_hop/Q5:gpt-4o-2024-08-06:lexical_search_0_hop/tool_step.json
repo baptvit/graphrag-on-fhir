@@ -1,0 +1,35 @@
+{
+    "experiment_id": [
+        "Q5:gpt-4o-2024-08-06:lexical_search_0_hop"
+    ],
+    "timestamp": [
+        "2025-02-05 20:08:19"
+    ],
+    "records": [
+        "{'Main health record': 'Resource Type: CarePlan\nStatus: active\nIntent: order\nCategory: assess-plan (from Care Plan Category code system)\nCategory: Diabetes self management plan (SNOMED CT code: 698360004)\nPeriod Start: August 17, 1993 at 12:03:08 AM UTC-04:00\nActivity: \n    Code: Diabetic diet (SNOMED CT code: 160670007)\n    Status: in-progress\n    Location: NEWTON-WELLESLEY UROLOGY, PC\nActivity: \n    Code: Exercise therapy (SNOMED CT code: 229065009)\n    Status: in-progress\n    Location: NEWTON-WELLESLEY UROLOGY, PC\nText Status: generated\nText: Care Plan for Diabetes self management plan.<br/>Activities: <ul><li>Diabetes self management plan</li><li>Diabetes self management plan</li></ul><br/>Care plan is meant to treat Prediabetes.'}\n\n{'Main health record': 'Resource Type: Care Plan\nStatus: Completed\nIntent: Order\nCategory: Assess Plan, Urinary tract infection care (Medical number: 869761000000107, Coding Classification System: http://snomed.info/sct)\nText: Care Plan for Urinary tract infection care.<br/>Activities: <ul><li>Urinary tract infection care</li><li>Urinary tract infection care</li></ul><br/>Care plan is meant to treat Escherichia coli urinary tract infection.\nPeriod Start: 2019-04-25T03:03:08-04:00\nPeriod End: 2019-05-09T03:03:08-04:00\nActivity Code: Discussion about hygiene (Medical number: 223472008, Coding Classification System: http://snomed.info/sct)\nActivity Status: Completed\nActivity Location: NEWTON-WELLESLEY HOSPITAL\nActivity Code: Urine screening (Medical number: 171245007, Coding Classification System: http://snomed.info/sct)\nActivity Status: Completed\nActivity Location: NEWTON-WELLESLEY HOSPITAL\n'}\n\n{'Main health record': 'Resource Type: CarePlan\nStatus: Completed\nIntent: Order\nCategory: Assess plan (Medical number:  from Coding Classification System: http://hl7.org/fhir/us/core/CodeSystem/careplan-category)\nCategory: Respiratory therapy (Medical number: 53950000 from Coding Classification System: http://snomed.info/sct)\nSubject: Unknown \nEncounter: Unknown \nPeriod Start: 12/17/2020 7:40:20 PM UTC\nPeriod End: 12/25/2020 7:40:20 PM UTC\nCare Team: Unknown \nAddresses: Unknown \nActivity Code: Recommendation to avoid exercise (Medical number: 304510005 from Coding Classification System: http://snomed.info/sct)\nActivity Status: Completed\nActivity Location: NEWTON-WELLESLEY HOSPITAL\nActivity Code: Deep breathing and coughing exercises (Medical number: 371605008 from Coding Classification System: http://snomed.info/sct)\nActivity Status: Completed\nActivity Location: NEWTON-WELLESLEY HOSPITAL\nText Status: Generated\nText: Care Plan for Respiratory therapy.<br/>Activities: <ul><li>Respiratory therapy</li><li>Respiratory therapy</li></ul><br/>Care plan is meant to treat Acute bronchitis (disorder).'}\n\n{'Main health record': 'Status: Completed,\nIntent: Order,\nCategory: Assess and plan,\nCategory: [SNOMED CT: 91251008] Physical therapy procedure,\nEncounter: Unknown,\nPeriod Start: 02/19/2021 08:28:09 PM EST,\nPeriod End: 03/10/2021 08:28:09 PM EST,\nCare Team: Unknown,\nAddresses: Unknown,\nActivity: [SNOMED CT: 229586001] Rest, ice, compression and elevation treatment programme - Status: Completed - Location: NEWTON-WELLESLEY HOSPITAL,\nActivity: [SNOMED CT: 229070002] Stretching exercises - Status: Completed - Location: NEWTON-WELLESLEY HOSPITAL,\nSubject: Unknown,\nDescription: Care Plan for Physical therapy procedure.<br/>Activities: <ul><li>Physical therapy procedure</li><li>Physical therapy procedure</li></ul><br/>Care plan is meant to treat Sprain of wrist.\n'}\n"
+    ],
+    "caracteres_count": [
+        3534
+    ],
+    "caracteres_count_after_reduce": [
+        3534
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        "CarePlan"
+    ],
+    "main_keys": [
+        ""
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        128000
+    ],
+    "strategy_name": [
+        "LexicalSearch0HopStrategy"
+    ]
+}

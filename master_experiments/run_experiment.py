@@ -114,8 +114,8 @@ if __name__ == "__main__":
         #"lexical_search_0_hop",
         #"lexical_search_1_hop",
         # "lexical_search_2_hop",
-        "similarity_search_0_hop",
-        #"similarity_search_1_hop",
+        #"similarity_search_0_hop",
+        "similarity_search_1_hop",
         # "similarity_search_2_hop",
     ]
 

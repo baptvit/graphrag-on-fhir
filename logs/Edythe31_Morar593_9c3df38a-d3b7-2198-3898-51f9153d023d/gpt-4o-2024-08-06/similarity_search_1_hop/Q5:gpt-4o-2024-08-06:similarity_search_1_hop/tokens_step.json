@@ -1,0 +1,51 @@
+{
+    "experiment_id": [
+        "Q5:gpt-4o-2024-08-06:similarity_search_1_hop"
+    ],
+    "timestamp": [
+        "2025-02-05 20:17:21"
+    ],
+    "total_cost": [
+        0.13909749999999999
+    ],
+    "total_tokens": [
+        54178
+    ],
+    "successful_requests": [
+        2
+    ],
+    "completion_tokens": [
+        487
+    ],
+    "prompt_tokens": [
+        53691
+    ],
+    "total_time": [
+        31.69964838027954
+    ]
+}{
+    "experiment_id": [
+        "Q5:gpt-4o-2024-08-06:similarity_search_1_hop"
+    ],
+    "timestamp": [
+        "2025-02-05 20:18:21"
+    ],
+    "total_cost": [
+        0.03322
+    ],
+    "total_tokens": [
+        11755
+    ],
+    "successful_requests": [
+        2
+    ],
+    "completion_tokens": [
+        511
+    ],
+    "prompt_tokens": [
+        11244
+    ],
+    "total_time": [
+        15.900477886199951
+    ]
+}

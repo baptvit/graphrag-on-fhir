@@ -1,0 +1,35 @@
+{
+    "experiment_id": [
+        "Q8:gpt-4o-2024-08-06:lexical_search_0_hop"
+    ],
+    "timestamp": [
+        "2025-02-05 20:09:06"
+    ],
+    "records": [
+        "{'Main health record': 'Resource Type: Immunization\nStatus: Completed\nVaccine Code: Hep A, adult\nMedical Number: 52\nCoding Classification System: http://hl7.org/fhir/sid/cvx\nOccurrence Date Time: 2014-06-24T00:03:08-04:00\nPrimary Source: true\nLocation: NEWTON-WELLESLEY UROLOGY, PC\n'}\n\n{'Main health record': 'Immunization Status: Completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Codes: 140 | CVX\nPatient: Unknown\nEncounter: Unknown\nDate Administered: June 24, 2014, 12:03:08 AM GMT-04:00\nWas this the primary source of this information: Yes\nLocation: NEWTON-WELLESLEY UROLOGY, PC'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Td (adult) preservative free\nMedical Codes: 113 | CVX\nCoding Classification System: http://hl7.org/fhir/sid/cvx\nDate Administered: 2016-06-28T00:03:08-04:00\nReported From Primary Source: true\nLocation: NEWTON-WELLESLEY UROLOGY, PC \n'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Codes: 140 | http://hl7.org/fhir/sid/cvx\nCoding Classification System: CVX\nImmunization Date: 2016-06-28T00:03:08-04:00\nReported From Primary Source: true\nLocation: NEWTON-WELLESLEY UROLOGY, PC'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Hep A, adult\nMedical Codes: 52 | http://hl7.org/fhir/sid/cvx\nCoding Classification System: http://hl7.org/fhir/sid/cvx\nDate Administered: 2016-06-28T00:03:08-04:00\nReported From Primary Source: true\nLocation: NEWTON-WELLESLEY UROLOGY, PC \n'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Codes: 140; Coding Classification System: http://hl7.org/fhir/sid/cvx\nImmunization Date: July 3, 2018, 12:03:08 AM GMT-04:00\nPrimary Source: true\nLocation: NEWTON-WELLESLEY UROLOGY, PC'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical code: 140\nCoding Classification System: http://hl7.org/fhir/sid/cvx\nImmunization Date: July 7, 2020, 12:03:08 AM GMT\nReported From Primary Source: true\nLocation: NEWTON-WELLESLEY UROLOGY, PC'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Codes: 140 | CVX\nPatient: Unknown\nEncounter: Unknown\nDate Administered: 12/28/2020 11:03:08 PM GMT\nPrimary Source: true\nLocation: NEWTON-WELLESLEY HOSPITAL'}\n\n{'Main health record': 'Status: Completed\nVaccine Code: SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 100 mcg/0.5mL dose\nMedical Codes: CVX: 207\nPatient: Unknown\nEncounter: Unknown\nDate of Immunization: March 30, 2021, 12:03:08 AM PDT\nWas this the primary source of the data?: Yes\nLocation: NEWTON-WELLESLEY HOSPITAL'}\n\n{'Main health record': 'Status: Completed\nVaccine Code: SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 100 mcg/0.5mL dose\nMedical Codes: System: http://hl7.org/fhir/sid/cvx, Code: 207\nPatient: Unknown\nEncounter: Unknown\nDate of Immunization: April 27, 2021, 12:03:08 AM PDT\nWas this the primary source of the immunization record?: Yes\nLocation: NEWTON-WELLESLEY HOSPITAL'}\n"
+    ],
+    "caracteres_count": [
+        3237
+    ],
+    "caracteres_count_after_reduce": [
+        3237
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        "Immunization"
+    ],
+    "main_keys": [
+        ""
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        128000
+    ],
+    "strategy_name": [
+        "LexicalSearch0HopStrategy"
+    ]
+}

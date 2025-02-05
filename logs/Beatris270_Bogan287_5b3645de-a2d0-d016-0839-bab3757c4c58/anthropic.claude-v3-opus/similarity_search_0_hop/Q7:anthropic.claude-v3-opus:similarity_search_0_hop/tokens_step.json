@@ -1,0 +1,26 @@
+{
+    "experiment_id": [
+        "Q7:anthropic.claude-v3-opus:similarity_search_0_hop"
+    ],
+    "timestamp": [
+        "2025-02-05 20:29:47"
+    ],
+    "total_cost": [
+        0.0
+    ],
+    "total_tokens": [
+        8634
+    ],
+    "successful_requests": [
+        2
+    ],
+    "completion_tokens": [
+        2286
+    ],
+    "prompt_tokens": [
+        6348
+    ],
+    "total_time": [
+        56.69508075714111
+    ]
+}
