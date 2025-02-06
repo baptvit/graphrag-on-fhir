@@ -1,0 +1,23 @@
+{
+    "experiment_id": [
+        "Q4:anthropic.claude-v3-opus:lexical_search_0_hop"
+    ],
+    "timestamp": [
+        "2025-02-06 20:34:42"
+    ],
+    "latency_s": [
+        0.11668610572814941
+    ],
+    "query": [
+        "\n                MATCH (n)\n                WHERE toLower(n.name) CONTAINS toLower('Observation') AND toLower(n.consumer_id) CONTAINS toLower('Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625')\n                RETURN \"{'Main health record': '\" + n.text + \"'}\n\" AS text\n            "
+    ],
+    "similarity_threshold": [
+        0.84
+    ],
+    "k": [
+        100000
+    ],
+    "embedding_model": [
+        "BAAI/bge-small-en-v1.5"
+    ]
+}
