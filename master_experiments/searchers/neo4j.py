@@ -20,7 +20,9 @@ class SearchStrategy(ABC):
 
 
 class LexicalSearch0HopStrategy(SearchStrategy):
-    def execute(self, searcher: "Neo4jResourceSearcher", resource_type: str) -> List[str]:
+    def execute(
+        self, searcher: "Neo4jResourceSearcher", resource_type: str
+    ) -> List[str]:
         query = (
             """
                 MATCH (n)
@@ -36,7 +38,9 @@ class LexicalSearch0HopStrategy(SearchStrategy):
 
 
 class LexicalSearch1HopStrategy(SearchStrategy):
-    def execute(self, searcher: "Neo4jResourceSearcher", resource_type: str) -> List[str]:
+    def execute(
+        self, searcher: "Neo4jResourceSearcher", resource_type: str
+    ) -> List[str]:
         query = (
             """MATCH (n)
                 WHERE toLower(n.name) CONTAINS toLower('"""
@@ -60,7 +64,9 @@ class LexicalSearch1HopStrategy(SearchStrategy):
 
 
 class LexicalSearch2HopStrategy(SearchStrategy):
-    def execute(self, searcher: "Neo4jResourceSearcher", resource_type: str) -> List[str]:
+    def execute(
+        self, searcher: "Neo4jResourceSearcher", resource_type: str
+    ) -> List[str]:
         query = (
             """MATCH (n)
         WHERE toLower(n.name) CONTAINS toLower('"""
@@ -93,7 +99,9 @@ class LexicalSearch2HopStrategy(SearchStrategy):
 
 
 class LexicalSearch3HopStrategy(SearchStrategy):
-    def execute(self, searcher: "Neo4jResourceSearcher", resource_type: str) -> List[str]:
+    def execute(
+        self, searcher: "Neo4jResourceSearcher", resource_type: str
+    ) -> List[str]:
         query = (
             """MATCH (n)
         WHERE toLower(n.name) CONTAINS toLower('"""

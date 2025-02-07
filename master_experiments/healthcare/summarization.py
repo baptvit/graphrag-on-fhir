@@ -134,7 +134,9 @@ def summarize_long_text(long_text: str) -> str:
     # Process chunks in parallel using ThreadPoolExecutor
     with concurrent.futures.ThreadPoolExecutor() as executor:
         # Submit all chunks for parallel processing
-        future_to_chunk = {executor.submit(process_chunk, chunk): chunk for chunk in docs}
+        future_to_chunk = {
+            executor.submit(process_chunk, chunk): chunk for chunk in docs
+        }
         summaries = []
         for future in concurrent.futures.as_completed(future_to_chunk):
             try:

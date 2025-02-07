@@ -36,9 +36,11 @@ class Input(pydantic.BaseModel):
     # Keep in mind that playground support for agents is not great at the moment.
     # To get a better experience, you'll need to customize the streaming output
     # for now.
-    chat_history: List[Union[HumanMessage, AIMessage, FunctionMessage]] = pydantic.Field(
-        ...,
-        extra={"widget": {"type": "chat", "input": "input", "output": "output"}},
+    chat_history: List[Union[HumanMessage, AIMessage, FunctionMessage]] = (
+        pydantic.Field(
+            ...,
+            extra={"widget": {"type": "chat", "input": "input", "output": "output"}},
+        )
     )
 
 

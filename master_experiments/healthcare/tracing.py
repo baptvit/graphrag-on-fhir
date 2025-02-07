@@ -23,7 +23,9 @@ def write_json_to_file(json_data, experiment_step):
             json.dump(
                 {
                     "experiment_id": [config.EXPERIMENT_ID],
-                    "timestamp": [datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")],
+                    "timestamp": [
+                        datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    ],
                 }
                 | json_data,
                 file,

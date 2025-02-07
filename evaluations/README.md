@@ -8,8 +8,8 @@ Below is a summary table of the evaluation status for different participants acr
 
 | Name  | Gemini - Microsoft Eval | Gemini - DeepEval | GPT-4o - Microsoft Eval | GPT-4o - DeepEval | Claude - Microsoft Eval | Claude - DeepEval |
 | :----------------------------------- | :---------------------: | :---------------: | :---------------------: | :---------------: | :---------------------: | :---------------: |
-| Allen322_Ferry570_ad1345...c625      | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ |
-| Beatris270_Bogan287_5b3645...c58     | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| Allen322_Ferry570_ad1345...c625      | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| Beatris270_Bogan287_5b3645...c58     | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Edythe31_Morar593_9c3df3...23d       | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | Jacklyn830_Veum823_e0e1f2...a32      | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | Milton509_Ortiz186_d66b54...939      | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
@@ -86,6 +86,31 @@ Once the consolidated log files are prepared, proceed to run the evaluation usin
 
      ```bash
      uv run python -m evaluations.microsoft_evaluation
+     ```
+
+   - The script will process the data and output the evaluation results.
+
+### 3. Run the DeepEval Evaluation
+
+Once the consolidated log files are prepared, proceed to run the evaluation using the DeepEval script.
+
+#### Steps:
+
+1. **Navigate to the Evaluation Script**:
+   - Open the `evaluations/deepeval_evaluation_incremental.py` script in your code editor.
+
+2. **Configure Global Parameters**:
+   - Edit the global parameters at the top of the script as needed.
+   - Ensure that:
+     - The file paths point to the correct directories.
+     - The model names correspond to the data you've prepared.
+     - Any additional configuration matches your environment.
+
+3. **Run the Evaluation Script**:
+   - Execute the script using the following command:
+
+     ```bash
+     uv run python -m evaluations.deepeval_evaluation_incremental
      ```
 
    - The script will process the data and output the evaluation results.
