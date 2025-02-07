@@ -1,12 +1,12 @@
 {
     "experiment_id": [
-        "Q3:gpt-4o-2024-08-06:lexical_search_1_hop"
+        "Q3:gpt-4o-2024-11-20:lexical_search_1_hop"
     ],
     "timestamp": [
-        "2025-02-04 20:16:08"
+        "2025-02-07 17:03:43"
     ],
     "latency_s": [
-        0.16048526763916016
+        0.16844582557678223
     ],
     "query": [
         "MATCH (n)\n                WHERE toLower(n.name) CONTAINS toLower('Condition') AND toLower(n.consumer_id) CONTAINS toLower('Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625')\n            WITH n\n            CALL {\n                WITH n\n                MATCH (n)<-[r]->(neighbor)\n                WHERE NOT type(r) IN ['subject', 'patient'] AND NOT neighbor:Date\n                RETURN collect({neighbor_text: neighbor.text, relationship: type(r)}) AS neighbors\n            }\n           RETURN \"{'Main health record': '\" + n.text + \"', 'Related health records': [\" + \n                reduce(s = \"\", neighbor IN neighbors | s + \"('Relationship' :'\" + neighbor.relationship + \"', 'Health Record' :'\" + neighbor.neighbor_text + \"'), \") + \"]}\" AS text\n                "
