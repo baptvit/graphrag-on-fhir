@@ -3,16 +3,15 @@
 
 import json
 import re
-from itertools import combinations
-
 import pandas as pd
-
 import config
+
+from itertools import combinations
 
 # Constants
 CONSUMER_ID = "Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58"
-SOURCE_INTERMEDIATE_PATH = "/home/baptvit/Documents/mestrado/master-experiments/evaluations/data/silver/{consumer_id}.csv"
-SOURCE_GOLD_PATH = "/home/baptvit/Documents/mestrado/master-experiments/evaluations/data/gold/{consumer_id}_microsoft_eval.csv"
+SOURCE_INTERMEDIATE_PATH = "/home/baptvit/repositories/graphrag-on-fhir/evaluations/data/silver/Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58-gpt-4o-2024-08-06.csv"
+SOURCE_GOLD_PATH = "/home/baptvit/repositories/graphrag-on-fhir/evaluations/data/gold/Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58-gpt-4o-2024-08-06_microsoft_eval.csv"
 
 AZURE_OPENAI_ENDPOINT = ""
 AZURE_OPENAI_API_KEY = ""
@@ -145,13 +144,13 @@ def cast_text_to_json(text: str) -> dict:
 
 
 class MicrosoftEvaluationProcessor:
-    def __init__(self, consumer_id):
-        self.consumer_id = consumer_id
+    def __init__(self):
+        self.consumer_id = CONSUMER_ID
 
         self.llm = config.LLM_MODEL_EVALUATION
 
         self.intermediate_df = pd.read_csv(
-            SOURCE_INTERMEDIATE_PATH.format(consumer_id=consumer_id)
+            SOURCE_INTERMEDIATE_PATH
         )
 
     def generate_pairs(self):
@@ -252,16 +251,10 @@ class MicrosoftEvaluationProcessor:
             SOURCE_GOLD_PATH.format(consumer_id=self.consumer_id), index=False
         )
 
+def main():
+    processor = MicrosoftEvaluationProcessor()
+    # Use process_evaluations_incremental for large datasets
+    processor.process_evaluations_incremental()
 
-# Uncomment the following to execute
-# def main():
-#     CONSUMER_ID = "Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58"
-#
-#     processor = MicrosoftEvaluationProcessor(
-#         consumer_id=CONSUMER_ID
-#     )
-#     # Use process_evaluations_incremental for large datasets
-#     processor.process_evaluations_incremental()
-#
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main__":
+    main()

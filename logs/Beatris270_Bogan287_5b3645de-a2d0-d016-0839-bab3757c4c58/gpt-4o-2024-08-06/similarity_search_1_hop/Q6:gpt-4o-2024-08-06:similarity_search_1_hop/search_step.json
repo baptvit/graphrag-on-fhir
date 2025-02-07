@@ -1,12 +1,12 @@
 {
     "experiment_id": [
-        "Q6:gpt-4o-2024-08-06:similarity_search_1_hop"
+        "Q6:gpt-4o-2024-11-20:similarity_search_1_hop"
     ],
     "timestamp": [
-        "2025-02-03 18:53:36"
+        "2025-02-07 14:15:08"
     ],
     "latency_s": [
-        0.09883689880371094
+        0.17357754707336426
     ],
     "query": [
         "Similarity Search 1-Hop"
