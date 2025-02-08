@@ -20,26 +20,4 @@
     "embedding_model": [
         "BAAI/bge-small-en-v1.5"
     ]
-}{
-    "experiment_id": [
-        "Q5:gpt-4o-2024-08-06:similarity_search_1_hop"
-    ],
-    "timestamp": [
-        "2025-02-05 20:18:14"
-    ],
-    "latency_s": [
-        0.053319454193115234
-    ],
-    "query": [
-        "Similarity Search 1-Hop"
-    ],
-    "similarity_threshold": [
-        0.84
-    ],
-    "k": [
-        100000
-    ],
-    "embedding_model": [
-        "BAAI/bge-small-en-v1.5"
-    ]
 }

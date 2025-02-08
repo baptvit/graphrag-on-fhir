@@ -11,9 +11,9 @@ from pathlib import Path
 from itertools import combinations
 
 # Constants
-CONSUMER_ID = "Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625"
-SOURCE_INTERMEDIATE_PATH = "/home/baptvit/repositories/graphrag-on-fhir/evaluations/data/silver/Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625-gpt-4o-2024-08-06.csv"
-SOURCE_GOLD_PATH = "/home/baptvit/repositories/graphrag-on-fhir/evaluations/data/gold/Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625-gpt-4o-2024-08-06_microsoft_eval.csv"
+CONSUMER_ID = "Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d"
+SOURCE_INTERMEDIATE_PATH = "/home/baptvit/repositories/graphrag-on-fhir/evaluations/data/silver/Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d-gpt-4o-2024-08-06.csv"
+SOURCE_GOLD_PATH = "/home/baptvit/repositories/graphrag-on-fhir/evaluations/data/gold/Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d-gpt-4o-2024-08-06_microsoft_eval.csv"
 
 AZURE_OPENAI_ENDPOINT = ""
 AZURE_OPENAI_API_KEY = ""

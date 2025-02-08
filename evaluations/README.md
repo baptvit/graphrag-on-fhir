@@ -8,9 +8,9 @@ Below is a summary table of the evaluation status for different participants acr
 
 | Name  | Gemini - Microsoft Eval | Gemini - DeepEval | GPT-4o - Microsoft Eval | GPT-4o - DeepEval | Claude - Microsoft Eval | Claude - DeepEval |
 | :----------------------------------- | :---------------------: | :---------------: | :---------------------: | :---------------: | :---------------------: | :---------------: |
-| Allen322_Ferry570_ad1345...c625      | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| Allen322_Ferry570_ad1345...c625      | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
 | Beatris270_Bogan287_5b3645...c58     | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Edythe31_Morar593_9c3df3...23d       | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| Edythe31_Morar593_9c3df3...23d       | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
 | Jacklyn830_Veum823_e0e1f2...a32      | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | Milton509_Ortiz186_d66b54...939      | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
 
