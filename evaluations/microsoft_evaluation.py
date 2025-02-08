@@ -6,12 +6,14 @@ import re
 import pandas as pd
 import config
 
+from pathlib import Path
+
 from itertools import combinations
 
 # Constants
-CONSUMER_ID = "Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58"
-SOURCE_INTERMEDIATE_PATH = "/home/baptvit/repositories/graphrag-on-fhir/evaluations/data/silver/Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58-anthropic.claude-v3-opus.csv"
-SOURCE_GOLD_PATH = "/home/baptvit/repositories/graphrag-on-fhir/evaluations/data/gold/Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58-anthropic.claude-v3-opus_microsoft_eval.csv"
+CONSUMER_ID = "Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625"
+SOURCE_INTERMEDIATE_PATH = "/home/baptvit/repositories/graphrag-on-fhir/evaluations/data/silver/Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625-gpt-4o-2024-08-06.csv"
+SOURCE_GOLD_PATH = "/home/baptvit/repositories/graphrag-on-fhir/evaluations/data/gold/Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625-gpt-4o-2024-08-06_microsoft_eval.csv"
 
 AZURE_OPENAI_ENDPOINT = ""
 AZURE_OPENAI_API_KEY = ""
@@ -228,26 +230,49 @@ class MicrosoftEvaluationProcessor:
                 )
 
         return pd.DataFrame(results)
+    
+    def is_new_experiment(self, exp1, exp2):
+        if Path(SOURCE_GOLD_PATH).exists():
+            df = pd.read_csv(SOURCE_GOLD_PATH)
+            df_filter = df[(df["experiment_1"] == exp1) & (df["experiment_2"] == exp2) ]
+            return df_filter.empty
+        else:
+            return True
 
+    def save_results(self, df: pd.DataFrame, file_path: Path):
+        """
+        Save the results DataFrame to a CSV file.
+
+        Args:
+            df (pd.DataFrame): DataFrame containing the evaluation results.
+            file_path (Path): Path to the CSV file.
+        """
+        if file_path.exists():
+            df.to_csv(file_path, mode="a", header=False, index=False)
+        else:
+            df.to_csv(file_path, index=False)
+    
     def process_evaluations_incremental(self):
         """Process evaluations and write results directly to a CSV incrementally."""
-        output_path = SOURCE_GOLD_PATH.format(consumer_id=self.consumer_id)
-        with open(output_path, "w") as f:
-            header_written = False
+        for exp1, exp2 in self.generate_pairs():
+            
+            if not self.is_new_experiment(exp1, exp2):
+                print(f"Skinping already processed experiments pairs: {exp1} and {exp2}")
+                continue 
 
-            for exp1, exp2 in self.generate_pairs():
-                evaluation_result = self.evaluate_pair(exp1, exp2)
-                if evaluation_result:
-                    df_result = pd.DataFrame([evaluation_result])
+            evaluation_result = self.evaluate_pair(exp1, exp2)
+            if evaluation_result:
+                df_result = pd.DataFrame([evaluation_result])
 
-                    # Append header only for the first row
-                    df_result.to_csv(f, header=not header_written, index=False)
-                    header_written = True
+                # Append header only for the first row
+                # df_result.to_csv(f, header=not header_written, index=False)
+                # header_written = True
+                self.save_results(df_result, Path(SOURCE_GOLD_PATH))
 
-    def save_results(self, df_results):
-        df_results.to_csv(
-            SOURCE_GOLD_PATH.format(consumer_id=self.consumer_id), index=False
-        )
+    # def save_results(self, df_results):
+    #     df_results.to_csv(
+    #         SOURCE_GOLD_PATH.format(consumer_id=self.consumer_id), index=False
+    #     )
 
 
 def main():

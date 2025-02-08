@@ -66,8 +66,8 @@ LLM_MODEL_SUMMARIZATION = llm
 
 
 # Azure Configurations
-#LLM_MODEL_EVAL = "gpt-4o-2024-11-20"  # gpt-4o, gpt-4o-2024-11-20, gpt-4o-2024-05-13
-LLM_MODEL_EVAL = "anthropic.claude-v3-5-sonnet-v2" # anthropic.claude-v3-haiku, anthropic.claude-v3-5-sonnet, anthropic.claude-v3-5-sonnet-v2, anthropic.claude-v3-5-sonnet-v1, anthropic.claude-v3-sonnet
+LLM_MODEL_EVAL = "gpt-4o-2024-11-20"  # gpt-4o, gpt-4o-2024-11-20, gpt-4o-2024-05-13
+#LM_MODEL_EVAL = "anthropic.claude-v3-5-sonnet-v2" # anthropic.claude-v3-haiku, anthropic.claude-v3-5-sonnet, anthropic.claude-v3-5-sonnet-v2, anthropic.claude-v3-5-sonnet-v1, anthropic.claude-v3-sonnet
 llm_eval = AzureChatOpenAI(
     api_key=OPENAI_API_KEY,
     azure_deployment=LLM_MODEL_EVAL,
