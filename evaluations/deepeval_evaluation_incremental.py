@@ -17,7 +17,7 @@ from deepeval.dataset import EvaluationDataset
 from deepeval import evaluate
 
 # Configuration Constants
-CONSUMER_ID = "Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d"
+CONSUMER_ID = "Milton509_Ortiz186_d66b5418-06cb-fc8a-8c13-85685b6ac939"
 MODEL_NAME = "gemini-1.5-pro"
 TEMPERATURE = 0
 REQUEST_PARALLELISM = 1
@@ -27,8 +27,8 @@ THRESHOLD = 0.5
 SILVER_DIR = Path("/home/baptvit/repositories/graphrag-on-fhir/evaluations/data/silver")
 GOLD_DIR = Path("/home/baptvit/repositories/graphrag-on-fhir/evaluations/data/gold")
 
-SILVER_FILE = Path("/home/baptvit/repositories/graphrag-on-fhir/evaluations/data/silver/Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d-gpt-4o-2024-08-06.csv")
-GOLD_FILE = Path("/home/baptvit/repositories/graphrag-on-fhir/evaluations/data/gold/Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d-gpt-4o-2024-08-06_deepeval.csv")
+SILVER_FILE = Path("/home/baptvit/repositories/graphrag-on-fhir/evaluations/data/silver/Milton509_Ortiz186_d66b5418-06cb-fc8a-8c13-85685b6ac939-gpt-4o-2024-08-06.csv")
+GOLD_FILE = Path("/home/baptvit/repositories/graphrag-on-fhir/evaluations/data/gold/Milton509_Ortiz186_d66b5418-06cb-fc8a-8c13-85685b6ac939-gpt-4o-2024-08-06_deepeval.csv")
 
 
 from deepeval.models import DeepEvalBaseLLM
