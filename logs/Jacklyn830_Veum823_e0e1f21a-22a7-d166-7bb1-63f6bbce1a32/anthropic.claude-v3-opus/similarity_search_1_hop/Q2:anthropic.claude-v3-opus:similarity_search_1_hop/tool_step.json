@@ -1,0 +1,35 @@
+{
+    "experiment_id": [
+        "Q2:anthropic.claude-v3-opus:similarity_search_1_hop"
+    ],
+    "timestamp": [
+        "2025-02-10 11:27:15"
+    ],
+    "records": [
+        ""
+    ],
+    "caracteres_count": [
+        0
+    ],
+    "caracteres_count_after_reduce": [
+        0
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        ""
+    ],
+    "main_keys": [
+        "allergies allergic reactions"
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        200000
+    ],
+    "strategy_name": [
+        "SimilaritySearch1HopStrategy"
+    ]
+}

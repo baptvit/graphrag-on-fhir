@@ -1,0 +1,35 @@
+{
+    "experiment_id": [
+        "Q8:anthropic.claude-v3-opus:similarity_search_0_hop"
+    ],
+    "timestamp": [
+        "2025-02-10 11:21:30"
+    ],
+    "records": [
+        "{'Main health record': 'Immunization Status: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Codes: 140; Coding Classification System: http://hl7.org/fhir/sid/cvx\nDate Administered: January 28, 2015, 1:53 PM UTC\nReported by Primary Source: true\nLocation: DAVIS SQUARE FAMILY PRACTICE'}\n\n{'Main health record': 'Resource Type: Immunization\nStatus: Completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Codes: 140 | http://hl7.org/fhir/sid/cvx\nCoding Classification System: CVX\nDate Administered: 2020-02-26T13:53:15+00:00\nPrimary Source: true\nLocation: DAVIS SQUARE FAMILY PRACTICE \n'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Number: 140\nCoding Classification System: http://hl7.org/fhir/sid/cvx\nDate Administered: 2014-01-22T13:53:15+00:00\nReported From Primary Source: true\nLocation: DAVIS SQUARE FAMILY PRACTICE'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Codes: 140 | http://hl7.org/fhir/sid/cvx\nCoding Classification System: CVX\nDate Administered: 2021-10-06T13:53:15+00:00\nReported From Primary Source: true\nLocation: CAMBRIDGE PUBLIC HEALTH COMMISSION'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Codes: 140 | http://hl7.org/fhir/sid/cvx\nCoding Classification System: CVX\nDate Administered: 2022-10-05T13:53:15+00:00\nPrimary Source: true\nLocation: CAMBRIDGE PUBLIC HEALTH COMMISSION'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Codes: 140; Coding Classification System: http://hl7.org/fhir/sid/cvx\nDate Administered: November 11, 2015, 1:53 PM UTC\nReported From Primary Source: true\nLocation: CAMBRIDGE PUBLIC HEALTH COMMISSION'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Codes: 140; Coding Classification System: http://hl7.org/fhir/sid/cvx\nDate Administered: 2019-01-23T13:53:15+00:00\nReported From Primary Source: true\nLocation: CAMBRIDGE PUBLIC HEALTH COMMISSION'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Codes: 140 | http://hl7.org/fhir/sid/cvx\nCoding Classification System: CVX\nDate Administered: February 14, 2018, 1:53 PM UTC\nReported From Primary Source: true\nLocation: DAVIS SQUARE FAMILY PRACTICE'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Number: 140\nCoding Classification System: http://hl7.org/fhir/sid/cvx\nDate Administered: February 8, 2017, 1:53 PM UTC\nPrimary Source: true\nLocation: DAVIS SQUARE FAMILY PRACTICE'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Td (adult), 5 Lf tetanus toxoid, preservative free, adsorbed\nMedical Codes: \n    - Coding Classification System: http://hl7.org/fhir/sid/cvx\n    - Medical Number: 113\nDate Administered: 2022-06-08T13:53:15+00:00\nReported From Primary Source: true\nLocation: CAMBRIDGE PUBLIC HEALTH COMMISSION'}\n\n{'Main health record': 'Resource Type: Immunization\nStatus: Completed\nVaccine Code: Influenza, seasonal, injectable, preservative free (Medical Number: 140; Coding Classification System: http://hl7.org/fhir/sid/cvx)\nOccurrence Date Time: 11/11/2020 1:53:15 PM UTC\nPrimary Source: true\nLocation: CAMBRIDGE PUBLIC HEALTH COMMISSION'}\n\n{'Main health record': 'Immunization status: completed\nVaccine code: 33\nCoding Classification System: http://hl7.org/fhir/sid/cvx\nVaccine name: pneumococcal polysaccharide vaccine, 23 valent\nMedical number: 33\nImmunization date: 2018-02-14T13:53:15+00:00\nPrimary source: true\nLocation name: DAVIS SQUARE FAMILY PRACTICE\nLocation identifier: https://github.com/synthetichealth/synthea|044ef112-a176-3686-8385-f2af139c51bd\n'}\n\n{'Main health record': 'Status: Completed\nImmunization: SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 30 mcg/0.3mL dose\nImmunization Coding System: http://hl7.org/fhir/sid/cvx\nImmunization Code: 208\nDate: 03/24/2021 1:53:15 PM UTC\nWas this the primary source of the immunization record?: Yes\nLocation: CAMBRIDGE PUBLIC HEALTH COMMISSION'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Pneumococcal conjugate PCV 13\nMedical Number (Coding Classification System: http://hl7.org/fhir/sid/cvx): 133\nImmunization Date: August 3, 2016, 1:53 PM Coordinated Universal Time\nReported From Primary Source: true\nLocation: CAMBRIDGE PUBLIC HEALTH COMMISSION'}\n\n"
+    ],
+    "caracteres_count": [
+        4739
+    ],
+    "caracteres_count_after_reduce": [
+        4739
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        ""
+    ],
+    "main_keys": [
+        "immunizations vaccinations shots"
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        200000
+    ],
+    "strategy_name": [
+        "SimilaritySearch0HopStrategy"
+    ]
+}

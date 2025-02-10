@@ -1,0 +1,35 @@
+{
+    "experiment_id": [
+        "Q1:anthropic.claude-v3-opus:lexical_search_0_hop"
+    ],
+    "timestamp": [
+        "2025-02-10 08:33:43"
+    ],
+    "records": [
+        "{'Main health record': 'Medication request status: Stopped\nMedication request intent: Order\nMedication: Jolivette 28 Day Pack\nMedication coding system: http://www.nlm.nih.gov/research/umls/rxnorm\nMedication code: 757594\nDate written: March 30, 2003, 8:47 PM CDT\nRequester: Dr. Darrick836 Franecki195\nRequester national provider identifier: 9999999579 \n'}\n\n{'Main health record': 'Medication request status: Stopped\nMedication request intent: Order\nMedication: Jolivette 28 Day Pack\nMedical number: 757594\nCoding Classification System: http://www.nlm.nih.gov/research/umls/rxnorm\nMedication request authored on: 03/22/2005 05:53:56 PM\nMedication requester: Dr. Darrick836 Franecki195\nRequester identifier: 9999999579\nRequester identifier system: http://hl7.org/fhir/sid/us-npi \n'}\n\n{'Main health record': 'Medication request status: Stopped\nMedication request intent: Order\nMedication: Jolivette 28 Day Pack\nMedical number: 757594\nCoding Classification System: http://www.nlm.nih.gov/research/umls/rxnorm\nDate written: March 17, 2006, 5:53 PM Coordinated Universal Time -05:00\nRequester: Dr. Darrick836 Franecki195\nRequester NPI: 9999999579'}\n\n{'Main health record': 'Resource Type: Medication Request\nStatus: Stopped\nIntent: Order\nMedication: 168 HR Ethinyl Estradiol 0.00146 MG/HR / norelgestromin 0.00625 MG/HR Transdermal System\nMedication Coding System: RX Norm\nMedication Code: 1534809\nPatient: Unknown \nEncounter: Unknown\nAuthored On: February 23, 2013 at 11:03:08 PM UTC-05:00\nRequester: Dr. Darrick836 Franecki195\nRequester National Provider Identifier: 9999999579 \n'}\n\n{'Main health record': 'Medication request status: Stopped\nMedication request intent: Order\nMedication: Jolivette 28 Day Pack\nMedical number (RxNorm): 757594\nCoding Classification System: http://www.nlm.nih.gov/research/umls/rxnorm\nMedication request authored on: February 13, 2015 at 11:03 PM UTC\nRequester: Dr. Darrick836 Franecki195\nRequester NPI: 9999999579'}\n\n{'Main health record': 'Medication request status: Stopped\nMedication request intent: Order\nMedication: Liletta 52 MG Intrauterine System\nMedication coding system: http://www.nlm.nih.gov/research/umls/rxnorm\nMedication code: 1605257\nDate written: Feb 2, 2018, 2:44 PM\nRequester: Dr. Darrick836 Franecki195\nRequester medical number type: NPI\nRequester medical number: 9999999579 \n'}\n\n{'Main health record': 'Medication request status: Stopped\nMedication request intent: Order\nMedication: 1 ML Epinephrine 1 MG/ML Injection\nMedical number (RxNorm): 1660014\nCoding Classification System: RxNorm\nMedication request authored on: June 19, 2018, 00:03:08 EDT\nMedication request requester: Dr. Darrick836 Franecki195\nMedication requester NPI: 9999999579'}\n\n{'Main health record': 'Medication request status: Stopped\nMedication request intent: Order\nMedication: Atropine Sulfate 1 MG/ML Injectable Solution\nMedical number (RxNorm): 1190795\nCoding Classification System: http://www.nlm.nih.gov/research/umls/rxnorm\nMedication request authored on: June 19, 2018, 00:03:08 EDT\nMedication request requester: Dr. Darrick836 Franecki195\nMedication request requester NPI: 9999999579'}\n\n{'Main health record': 'Medication request status: Stopped\nMedication request intent: Order\nMedication: 3 ML Amiodarone hydrocholoride 50 MG/ML Prefilled Syringe\nMedication coding system: http://www.nlm.nih.gov/research/umls/rxnorm\nMedication code: 834357\nDate written: June 19, 2018 00:03:08 GMT-04:00\nRequester: Dr. Darrick836 Franecki195\nRequester national provider identifier: 9999999579 \n'}\n\n{'Main health record': 'Resource Type: Medication Request\nStatus: Stopped\nIntent: Order\nMedication: Nitrofurantoin 5 MG/ML Oral Suspension (RxNorm: 311989)\nPatient: Unknown (Patient reference present in the resource)\nEncounter: Unknown (Encounter reference present in the resource)\nAuthored On: April 25, 2019, 3:03:08 AM\nRequester: Dr. Darrick836 Franecki195 (NPI: 9999999579)\nReason: Unknown (Reason reference present in the resource) \n'}\n\n{'Main health record': 'Resource Type: MedicationRequest\nStatus: Stopped\nIntent: Order\nMedication: Phenazopyridine hydrochloride 100 MG Oral Tablet (RxNorm: 1094107)\nSubject: Unknown \nEncounter: Unknown\nAuthored On: 04/25/2019 03:03:08-04:00\nRequester: Dr. Darrick836 Franecki195 (NPI: 9999999579)\nReason: Unknown \n'}\n\n{'Main health record': 'Resource Type: Medication Request, Status: Stopped, Intent: Order, Medication: NITROFURANTOIN, MACROCRYSTALS 50 MG Oral Capsule (RxNorm: 311995), Subject: Unknown, Encounter: Unknown, Authored On: May 2, 2019 at 3:03:08 AM EDT, Requester: Dr. Darrick836 Franecki195 (NPI: 9999999579), Reason: Unknown \n'}\n\n{'Main health record': 'Medication request status: Stopped\nMedication request intent: Order\nMedication: 1 ML medroxyPROGESTERone acetate 150 MG/ML Injection\nMedication coding system: http://www.nlm.nih.gov/research/umls/rxnorm\nMedication code: 1000126\nMedication request authored on: January 27, 2020 at 9:39 PM UTC\nMedication requester: Dr. Darrick836 Franecki195\nMedication requester NPI: 9999999579'}\n\n{'Main health record': 'Resource Type: Medication Request\nStatus: Stopped\nIntent: Order\nMedication: Acetaminophen 325 MG Oral Tablet\nMedication Coding System: http://www.nlm.nih.gov/research/umls/rxnorm\nMedication Code: 313782\nSubject: Unknown \nEncounter: Unknown\nAuthored On: 12/17/2020 7:40:20 PM GMT-5:00\nRequester: Dr. Darrick836 Franecki195\nRequester NPI: 9999999579\nReason: Unknown \n'}\n\n{'Main health record': 'Medication request status: active\nMedication request intent: order\nMedication: Jolivette 28 Day Pack\nMedication coding system: http://www.nlm.nih.gov/research/umls/rxnorm\nMedication code: 757594\nMedication request authored on: 2021-01-21T21:56:16-05:00\nRequester: Dr. Darrick836 Franecki195\nMedical number: 9999999579\nCoding Classification System: http://hl7.org/fhir/sid/us-npi \n'}\n\n{'Main health record': 'Resource Type: Medication Request\nStatus: Stopped\nIntent: Order\nMedication: Naproxen sodium 220 MG Oral Tablet\nMedication Coding System: RxNorm\nMedication Code: 849574\nSubject: Unknown\nEncounter: Unknown\nAuthored On: February 19, 2021 at 11:28 PM UTC\nRequester: Dr. Darrick836 Franecki195\nRequester Identifier System: NPI\nRequester Identifier: 9999999579\nDosage Instruction Text: Take as needed.\nDosage Instruction As Needed: True\nDosage Instruction Sequence: 1\nProfile: US Core Medication Request\n'}\n"
+    ],
+    "caracteres_count": [
+        6332
+    ],
+    "caracteres_count_after_reduce": [
+        6332
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        "MedicationRequest"
+    ],
+    "main_keys": [
+        ""
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        200000
+    ],
+    "strategy_name": [
+        "LexicalSearch0HopStrategy"
+    ]
+}

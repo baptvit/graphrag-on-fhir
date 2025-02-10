@@ -48,8 +48,8 @@ safety_settings = {
 # llm = ChatVertexAI(model=LLM_MODEL, temperature=0, safety_settings=safety_settings)
 
 # Azure Configurations
-LLM_MODEL = "gpt-4o-2024-08-06"
-# LLM_MODEL = "anthropic.claude-v3-opus"
+#LLM_MODEL = "gpt-4o-2024-08-06"
+LLM_MODEL = "anthropic.claude-v3-opus"
 #LLM_MODEL = "gpt-4o-2024-11-20"
 llm = AzureChatOpenAI(
     api_key=OPENAI_API_KEY,
@@ -81,8 +81,8 @@ LLM_MODEL_EVALUATION = llm_eval
 EXPERTIMENT_STRATEGY = "similarity_search_0_hop"  # similarity_search_1_hop
 
 # Tokens limitis for enter in the MapReduce Summarizationborn
-MAX_TOKENS = 128_000
-# MAX_TOKENS = 200_000
+#MAX_TOKENS = 128_000
+MAX_TOKENS = 200_000
 MAX_CARACHTERES_IN_LLM_CONTEXT = MAX_TOKENS * 4
 
 # Similarity Search configs on the information extraction tool
@@ -90,7 +90,7 @@ SIMILARITY_THRESHOLD = 0.84
 K = 100000  # no restriction pratical
 
 # User
-CONSUMER_ID = "Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d"
+CONSUMER_ID = "Jacklyn830_Veum823_e0e1f21a-22a7-d166-7bb1-63f6bbce1a32"
 
 INPUT_QUESTION = {}
 
