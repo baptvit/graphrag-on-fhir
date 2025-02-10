@@ -13,7 +13,7 @@
 ## Open models
 | Name | Llama 3 L0 | Llama 3 L1 | Llama 3 S0 | Llama 3 S1 | DeepSeek R1 L0 | DeepSeek R1 L1 | DeepSeek S0 | DeepSeek S1 | 
 | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- | 
-| Allen322_Ferry570_ad1345...c625 | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | 
+| Allen322_Ferry570_ad1345...c625 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 
 | Beatris270_Bogan287_5b3645...c58 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Edythe31_Morar593_9c3df3...23d | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | 
 | Jacklyn830_Veum823_e0e1f2...a32 | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |

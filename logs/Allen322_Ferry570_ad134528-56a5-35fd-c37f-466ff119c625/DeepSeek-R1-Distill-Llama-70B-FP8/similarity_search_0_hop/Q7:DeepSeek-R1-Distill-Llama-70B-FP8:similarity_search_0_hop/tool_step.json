@@ -1,0 +1,35 @@
+{
+    "experiment_id": [
+        "Q7:DeepSeek-R1-Distill-Llama-70B-FP8:similarity_search_0_hop"
+    ],
+    "timestamp": [
+        "2025-02-10 18:36:29"
+    ],
+    "records": [
+        "{'Main health record': 'Status: Completed\nProcedure: Depression screening (procedure), Medical Number: 171207006, Coding Classification System: http://snomed.info/sct\nPerformed from: 2020-02-04T12:01:02-05:00\nPerformed to: 2020-02-04T12:12:22-05:00\nLocation: Worcester Outpatient Clinic'}\n\n"
+    ],
+    "caracteres_count": [
+        290
+    ],
+    "caracteres_count_after_reduce": [
+        290
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        ""
+    ],
+    "main_keys": [
+        "procedures surgeries operations treatments"
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        128000
+    ],
+    "strategy_name": [
+        "SimilaritySearch0HopStrategy"
+    ]
+}

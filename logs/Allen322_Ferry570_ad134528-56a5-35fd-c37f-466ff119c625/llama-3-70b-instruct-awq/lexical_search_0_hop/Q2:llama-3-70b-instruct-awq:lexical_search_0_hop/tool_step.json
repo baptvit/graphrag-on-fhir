@@ -1,0 +1,35 @@
+{
+    "experiment_id": [
+        "Q2:llama-3-70b-instruct-awq:lexical_search_0_hop"
+    ],
+    "timestamp": [
+        "2025-02-10 18:41:44"
+    ],
+    "records": [
+        "{'Main health record': 'Clinical Status: Active\nVerification Status: Confirmed\nType: Allergy\nCategory: Medication\nCriticality: Low\nCode: 7984 - Penicillin V (RxNorm)\nPatient: Not available\nRecorded Date: July 20, 1941\nReactions: \n    - Manifestation: 271807003 - Eruption of skin (disorder) (SNOMED CT)\n      Severity: Mild\n    - Manifestation: 247472004 - Wheal (finding) (SNOMED CT)\n      Severity: Mild \n'}\n\n{'Main health record': 'Clinical Status: Active\nVerification Status: Confirmed\nType: Allergy\nCategory: Environment\nCriticality: Low\nCode: Animal dander (substance) (Medical Number: 264287008, Coding Classification System: SNOMED CT)\nRecorded Date: July 20, 1941\nReaction 1: \n    Manifestation: Eruption of skin (disorder) (Medical Number: 271807003, Coding Classification System: SNOMED CT)\n    Severity: Mild\nReaction 2: \n    Manifestation: Wheal (finding) (Medical Number: 247472004, Coding Classification System: SNOMED CT)\n    Severity: Mild \n'}\n\n{'Main health record': 'Resource Type: Allergy Intolerance\nClinical Status: Active\nVerification Status: Confirmed\nType: Allergy\nCategory: Food\nCriticality: Low\nAllergen: Peanut (substance) (Medical Number: 762952008, Coding Classification System: SNOMED CT)\nPatient: Unknown\nDate Recorded: July 20, 1941\nReactions:\n    - Wheezing (finding) (Medical Number: 56018004, Coding Classification System: SNOMED CT), Severity: Mild\n    - Wheal (finding) (Medical Number: 247472004, Coding Classification System: SNOMED CT), Severity: Moderate\n    - Eruption of skin (disorder) (Medical Number: 271807003, Coding Classification System: SNOMED CT), Severity: Mild\n    - Anaphylaxis (disorder) (Medical Number: 39579001, Coding Classification System: SNOMED CT), Severity: Severe\n'}\n"
+    ],
+    "caracteres_count": [
+        1734
+    ],
+    "caracteres_count_after_reduce": [
+        1734
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        "AllergyIntolerance"
+    ],
+    "main_keys": [
+        ""
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        128000
+    ],
+    "strategy_name": [
+        "LexicalSearch0HopStrategy"
+    ]
+}
