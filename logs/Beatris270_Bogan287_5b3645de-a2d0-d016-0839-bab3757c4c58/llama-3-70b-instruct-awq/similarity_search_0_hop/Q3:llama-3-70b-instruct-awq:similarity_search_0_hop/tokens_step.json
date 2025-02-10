@@ -1,0 +1,26 @@
+{
+    "experiment_id": [
+        "Q3:llama-3-70b-instruct-awq:similarity_search_0_hop"
+    ],
+    "timestamp": [
+        "2025-02-10 17:55:45"
+    ],
+    "total_cost": [
+        0.0
+    ],
+    "total_tokens": [
+        6969
+    ],
+    "successful_requests": [
+        2
+    ],
+    "completion_tokens": [
+        1038
+    ],
+    "prompt_tokens": [
+        5931
+    ],
+    "total_time": [
+        24.397401094436646
+    ]
+}

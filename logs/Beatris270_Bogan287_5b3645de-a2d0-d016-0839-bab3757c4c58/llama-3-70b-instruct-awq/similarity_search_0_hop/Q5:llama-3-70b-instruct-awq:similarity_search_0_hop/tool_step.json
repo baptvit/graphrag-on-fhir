@@ -1,0 +1,35 @@
+{
+    "experiment_id": [
+        "Q5:llama-3-70b-instruct-awq:similarity_search_0_hop"
+    ],
+    "timestamp": [
+        "2025-02-10 17:56:18"
+    ],
+    "records": [
+        "{'Main health record': 'Resource Type: CarePlan\nProfile: http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan\nStatus: generated\nText: Care Plan for Self-care interventions (procedure).<br/>Activities: <ul><li>Self-care interventions (procedure)</li></ul>\nStatus: active\nIntent: order\nCategory: Assess plan (Medical Number:  from Coding Classification System: http://hl7.org/fhir/us/core/CodeSystem/careplan-category)\nCategory: Self-care interventions (procedure) (Medical Number: 384758001 from Coding Classification System: http://snomed.info/sct)\nSubject: Unknown \nEncounter: Unknown \nPeriod Start: 2017-08-30T12:14:48+00:00\nCare Team: Unknown \nActivity Code: Allergy education (Medical Number: 58332002 from Coding Classification System: http://snomed.info/sct)\nActivity Status: in-progress\nActivity Location: HOLY FAMILY HOSPITAL \n'}\n\n{'Main health record': 'Patient: Unknown patient\nDocument Type: History and physical note; Evaluation + Plan note\nDocument Category: Clinical Note\nDocument Date: October 2, 2023\nDocument Author: Dr. Alvin56 Crona259 (NPI 9999990697)\nDocument Custodian: HOLY FAMILY HOSPITAL\nEncounter Period: October 2, 2023  00:37:42 to October 2, 2023  00:52:42\nMedications administered: \n- penicillin V potassium 250 MG Oral Tablet\n- amoxicillin 500 MG Oral Tablet\n- acetaminophen 160 MG Chewable Tablet\nChief Complaint: No complaints.\nHistory of Present Illness: Patient is an 8 year-old hispanic white female. Patient has a history of streptococcal sore throat (disorder), medication reviewed today (situation), otitis media, acute viral pharyngitis (disorder).\nSocial History: Patient has never smoked. Patient comes from a middle socioeconomic background. Patient currently has Medicaid.\nAllergies: No Known Allergies.\nAssessment and Plan: Patient is presenting with acute viral pharyngitis (disorder). \nPlan: \n- throat culture (procedure) \n'}\n\n{'Main health record': 'Resource Type: CarePlan\nStatus: active\nIntent: order\nCategory: Assess plan (Medical Number:  Coding Classification System: http://hl7.org/fhir/us/core/CodeSystem/careplan-category)\nCategory: Skin condition care (Medical Number: 711282006 Coding Classification System: http://snomed.info/sct)\nSubject: Unknown \nEncounter: Unknown \nPeriod Start: 09/13/2015 13:37:42+00:00\nCare Team: Unknown \nAddresses: Unknown \nActivity Code: Application of moisturizer to skin (Medical Number: 225130001 Coding Classification System: http://snomed.info/sct)\nActivity Reason: Unknown \nActivity Status: in-progress\nActivity Location: HOLY FAMILY HOSPITAL \nText: Care Plan for Skin condition care.\nCare plan is meant to treat Atopic dermatitis.\nActivities: \n- Skin condition care \n'}\n\n{'Main health record': 'Report Status: final\nReport Type: History and physical note, Evaluation + Plan note\nReport Code: History and physical note, Evaluation + Plan note\nPatient: not available\nEncounter: not available\nReport Date: February 26, 2022 at 05:37 PM\nReport Issued Date: February 26, 2022 at 05:37 PM\nReported By: Dr. Alvin56 Crona259, NPI: 9999990697\nReport: \n# Chief Complaint\nNo complaints.\n\n# History of Present Illness\nPatient27 \n is a 6 year-old hispanic female. Patient has a history of streptococcal sore throat (disorder), medication review due (situation), otitis media, acute viral pharyngitis (disorder).\n\n# Social History\n Patient has never smoked.\n\nPatient comes from a middle socioeconomic background.\n\nPatient currently has Medicaid.\n\n# Allergies\nNo Known Allergies.\n\n# Medications\npenicillin v potassium 250 mg oral tablet; amoxicillin 500 mg oral tablet; acetaminophen 160 mg chewable tablet\n\n# Assessment and Plan\nPatient is presenting with streptococcal sore throat (disorder). \n\n## Plan\n\nThe patient was prescribed the following medications:- penicillin v potassium 250 mg oral tablet'}\n\n"
+    ],
+    "caracteres_count": [
+        3795
+    ],
+    "caracteres_count_after_reduce": [
+        3795
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        ""
+    ],
+    "main_keys": [
+        "care plan treatment plan"
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        128000
+    ],
+    "strategy_name": [
+        "SimilaritySearch0HopStrategy"
+    ]
+}

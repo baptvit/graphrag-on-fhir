@@ -1,0 +1,35 @@
+{
+    "experiment_id": [
+        "Q5:llama-3-70b-instruct-awq:similarity_search_1_hop"
+    ],
+    "timestamp": [
+        "2025-02-10 17:58:56"
+    ],
+    "records": [
+        "{'Main health record': 'Resource Type: CarePlan\nProfile: http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan\nStatus: generated\nText: Care Plan for Self-care interventions (procedure).<br/>Activities: <ul><li>Self-care interventions (procedure)</li></ul>\nStatus: active\nIntent: order\nCategory: Assess plan (Medical Number:  from Coding Classification System: http://hl7.org/fhir/us/core/CodeSystem/careplan-category)\nCategory: Self-care interventions (procedure) (Medical Number: 384758001 from Coding Classification System: http://snomed.info/sct)\nSubject: Unknown \nEncounter: Unknown \nPeriod Start: 2017-08-30T12:14:48+00:00\nCare Team: Unknown \nActivity Code: Allergy education (Medical Number: 58332002 from Coding Classification System: http://snomed.info/sct)\nActivity Status: in-progress\nActivity Location: HOLY FAMILY HOSPITAL \n', 'Related health records': [('Relationship' :'care_team_0', 'Health Record' :'Status: active\nSubject: \nEncounter: \nPeriod: Since August 30, 2017 at 12:14:48 UTC\nParticipant: Patient - Beatris270 Bogan287 (Medical number: SNOMED CT: 116154003)\nParticipant: Healthcare professional (occupation) - Dr. Alvin56 Crona259 (Medical number: SNOMED CT: 223366009, National Provider Identifier: 9999990697)\nParticipant: Healthcare services (qualifier value) - HOLY FAMILY HOSPITAL (Medical number: SNOMED CT: 224891009)\nManaging Organization: HOLY FAMILY HOSPITAL \n'), ('Relationship' :'period_start', 'Health Record' :'08/30/2017'), ('Relationship' :'period_start', 'Health Record' :'08/30/2017'), ('Relationship' :'period_start', 'Health Record' :'08/30/2017'), ('Relationship' :'period_start', 'Health Record' :'08/30/2017'), ('Relationship' :'period_start', 'Health Record' :'08/30/2017'), ('Relationship' :'period_start', 'Health Record' :'08/30/2017'), ('Relationship' :'period_start', 'Health Record' :'08/30/2017'), ('Relationship' :'period_start', 'Health Record' :'08/30/2017'), ('Relationship' :'period_start', 'Health Record' :'08/30/2017'), ('Relationship' :'period_start', 'Health Record' :'08/30/2017'), ('Relationship' :'period_start', 'Health Record' :'08/30/2017'), ('Relationship' :'period_start', 'Health Record' :'08/30/2017'), ('Relationship' :'period_start', 'Health Record' :'08/30/2017'), ('Relationship' :'period_start', 'Health Record' :'08/30/2017'), ('Relationship' :'period_start', 'Health Record' :'08/30/2017'), ('Relationship' :'period_start', 'Health Record' :'08/30/2017'), ('Relationship' :'period_start', 'Health Record' :'08/30/2017'), ('Relationship' :'period_start', 'Health Record' :'08/30/2017'), ('Relationship' :'period_start', 'Health Record' :'08/30/2017'), ('Relationship' :'period_start', 'Health Record' :'08/30/2017'), ('Relationship' :'period_start', 'Health Record' :'08/30/2017'), ('Relationship' :'period_start', 'Health Record' :'08/30/2017'), ('Relationship' :'period_start', 'Health Record' :'08/30/2017'), ('Relationship' :'period_start', 'Health Record' :'08/30/2017'), ('Relationship' :'period_start', 'Health Record' :'08/30/2017'), ('Relationship' :'period_start', 'Health Record' :'08/30/2017'), ('Relationship' :'period_start', 'Health Record' :'08/30/2017'), ('Relationship' :'period_start', 'Health Record' :'08/30/2017'), ('Relationship' :'encounter', 'Health Record' :'Resource Type: Encounter\nStatus: Finished\nClass: ambulatory\nType: Encounter for problem (Medical Number: 185347001, Coding Classification System: SNOMED CT)\nSubject: Beatris270 Bogan287\nParticipant: \n  - Type: primary performer\n    Period: \n      - Start: 2017-08-30 11:37:42+00:00\n      - End: 2017-08-30 12:14:48+00:00\n    Individual: Dr. Alvin56 Crona259 (Medical Number: 9999990697, Coding Classification System: NPI)\nPeriod: \n  - Start: 2017-08-30 11:37:42+00:00\n  - End: 2017-08-30 12:14:48+00:00\nReason Code: Allergy to substance (finding) (Medical Number: 419199007, Coding Classification System: SNOMED CT)\nLocation: HOLY FAMILY HOSPITAL\nService Provider: HOLY FAMILY HOSPITAL \n'), ]}\n\n{'Main health record': 'Patient: Unknown patient\nDocument Type: History and physical note; Evaluation + Plan note\nDocument Category: Clinical Note\nDocument Date: October 2, 2023\nDocument Author: Dr. Alvin56 Crona259 (NPI 9999990697)\nDocument Custodian: HOLY FAMILY HOSPITAL\nEncounter Period: October 2, 2023  00:37:42 to October 2, 2023  00:52:42\nMedications administered: \n- penicillin V potassium 250 MG Oral Tablet\n- amoxicillin 500 MG Oral Tablet\n- acetaminophen 160 MG Chewable Tablet\nChief Complaint: No complaints.\nHistory of Present Illness: Patient is an 8 year-old hispanic white female. Patient has a history of streptococcal sore throat (disorder), medication reviewed today (situation), otitis media, acute viral pharyngitis (disorder).\nSocial History: Patient has never smoked. Patient comes from a middle socioeconomic background. Patient currently has Medicaid.\nAllergies: No Known Allergies.\nAssessment and Plan: Patient is presenting with acute viral pharyngitis (disorder). \nPlan: \n- throat culture (procedure) \n', 'Related health records': [('Relationship' :'context_period_end', 'Health Record' :'10/02/2023'), ('Relationship' :'context_period_end', 'Health Record' :'10/02/2023'), ('Relationship' :'context_period_end', 'Health Record' :'10/02/2023'), ('Relationship' :'context_period_end', 'Health Record' :'10/02/2023'), ('Relationship' :'context_period_start', 'Health Record' :'10/02/2023'), ('Relationship' :'context_period_start', 'Health Record' :'10/02/2023'), ('Relationship' :'context_period_start', 'Health Record' :'10/02/2023'), ('Relationship' :'context_period_start', 'Health Record' :'10/02/2023'), ]}\n\n"
+    ],
+    "caracteres_count": [
+        5612
+    ],
+    "caracteres_count_after_reduce": [
+        5612
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        ""
+    ],
+    "main_keys": [
+        "care plan treatment plans"
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        128000
+    ],
+    "strategy_name": [
+        "SimilaritySearch1HopStrategy"
+    ]
+}

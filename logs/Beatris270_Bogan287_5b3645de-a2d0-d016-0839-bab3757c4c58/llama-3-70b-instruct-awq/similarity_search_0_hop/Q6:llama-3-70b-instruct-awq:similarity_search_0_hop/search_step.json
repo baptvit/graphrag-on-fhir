@@ -1,0 +1,23 @@
+{
+    "experiment_id": [
+        "Q6:llama-3-70b-instruct-awq:similarity_search_0_hop"
+    ],
+    "timestamp": [
+        "2025-02-10 17:56:36"
+    ],
+    "latency_s": [
+        0.0659487247467041
+    ],
+    "query": [
+        "Similarity Search 0-Hop"
+    ],
+    "similarity_threshold": [
+        0.84
+    ],
+    "k": [
+        100000
+    ],
+    "embedding_model": [
+        "BAAI/bge-small-en-v1.5"
+    ]
+}

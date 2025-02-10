@@ -1,0 +1,35 @@
+{
+    "experiment_id": [
+        "Q7:llama-3-70b-instruct-awq:similarity_search_0_hop"
+    ],
+    "timestamp": [
+        "2025-02-10 17:57:11"
+    ],
+    "records": [
+        "{'Main health record': 'Status: Finished\nClass: Ambulatory (Medical number: AMB, Coding Classification System: http://terminology.hl7.org/CodeSystem/v3-ActCode)\nType: Encounter for problem (procedure) (Medical number: 185347001, Coding Classification System: http://snomed.info/sct)\nSubject: Beatris270 Bogan287\nParticipant: \n    - Role: primary performer (Medical number: PPRF, Coding Classification System: http://terminology.hl7.org/CodeSystem/v3-ParticipationType)\n    - Period: From 2023-03-28T14:38:02+00:00 to 2023-03-28T15:17:51+00:00\n    - Individual: Dr. Ted955 Reilly981 (Practitioner NPI: 9999984591)\nPeriod: From 2023-03-28T14:38:02+00:00 to 2023-03-28T15:17:51+00:00\nReason for encounter: Aortic valve stenosis (Medical number: 60573004, Coding Classification System: http://snomed.info/sct)\nLocation: Fitchburg Outpatient Clinic\nService provider: Fitchburg Outpatient Clinic \n'}\n\n{'Main health record': 'Imaging Study Status: available, \nImaging Study Identifier System: urn:ietf:rfc:3986, \nImaging Study Identifier Value: urn:oid:1.2.840.99999999.40813827.1556805053868, \nImaging Study Start Date/Time: 2019-05-02T13:50:53+00:00, \nNumber of Series: 1, \nNumber of Instances: 1, \nProcedure Code: 433236007, \nProcedure Coding System: http://snomed.info/sct, \nProcedure Display: Transthoracic echocardiography (procedure), \nProcedure Text: Transthoracic echocardiography (procedure), \nLocation Display: Fitchburg Outpatient Clinic, \nSeries Number: 1, \nModality Code: US, \nModality System: http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_29.html, \nModality Display: Ultrasound, \nNumber of Instances in Series: 1, \nBody Site Code: 80891009, \nBody Site System: http://snomed.info/sct, \nBody Site Display: Heart structure (body structure), \nSeries Start Date/Time: 2019-05-02T13:50:53+00:00, \nInstance Number: 1, \nSOP Class Code: urn:oid:1.2.840.10008.5.1.4.1.1.3.1, \nSOP Class System: urn:ietf:rfc:3986, \nInstance Title: Ultrasound Multiframe Image Storage\n'}\n\n{'Main health record': 'Procedure Status: Completed\nProcedure Code: 430193006\nCoding Classification System: http://snomed.info/sct\nProcedure Description: Medication Reconciliation (procedure)\nPatient: Unknown (Resource does not contain patient information)\nEncounter: Unknown (Resource does not contain encounter information)\nProcedure Performed Start Date/Time: 2023-04-30 13:37:42+00:00\nProcedure Performed End Date/Time: 2023-04-30 13:52:42+00:00\nLocation: BLUESKIES WELLNESS INC\nLocation Identifier: https://github.com/synthetichealth/synthea|97876511-009c-391a-a262-1557e46861bb \n'}\n\n{'Main health record': 'Resource Type: Encounter,\nStatus: Finished,\nClass: ambulatory,\nType: Well child visit (procedure) (SNOMED CT: 410620009),\nSubject: Beatris270 Bogan287,\nParticipant: \n    - Type: primary performer,\n    - Period: \n        - Start: 2015-10-11T13:37:42+00:00,\n        - End: 2015-10-11T13:52:42+00:00,\n    - Individual: Dr. Elisa944 Rojo930 (NPI: 9999950899),\nPeriod: \n    - Start: 2015-10-11T13:37:42+00:00,\n    - End: 2015-10-11T13:52:42+00:00,\nLocation: \n    - Location: BLUESKIES WELLNESS INC,\nService Provider: BLUESKIES WELLNESS INC\n'}\n\n{'Main health record': 'Resource Type: Document Reference\nStatus: Superseded\nDocument Type: History and physical note, Evaluation + Plan note\nDocument Category: Clinical Note\nSubject: Patient - [Redacted]\nDate: July 10, 2016, 1:37 PM\nAuthor: Dr. Elisa944 Rojo930\nCustodian: BLUESKIES WELLNESS INC\nFormat: mimeType Sufficient\nEncounter: [Redacted]\nPeriod Start: July 10, 2016, 1:37 PM\nPeriod End: July 10, 2016, 1:52 PM\nMedical Number (LOINC): 34117-2, 51847-2\nCoding Classification System (SNOMED CT): [Redacted]'}\n\n{'Main health record': 'Resource Type: Encounter,\nStatus: Finished,\nClass: AMB (ambulatory),\nType: Well child visit (procedure) (SNOMED CT: 410620009),\nSubject: Beatris270 Bogan287 (urn:uuid:5b3645de-a2d0-d016-0839-bab3757c4c58),\nParticipant: Dr. Elisa944 Rojo930 (NPI: 9999950899) as primary performer (HL7 ParticipationType: PPRF) from 2015-06-07T13:37:42+00:00 to 2015-06-07T13:52:42+00:00,\nPeriod: From 2015-06-07T13:37:42+00:00 to 2015-06-07T13:52:42+00:00,\nLocation: BLUESKIES WELLNESS INC,\nService Provider: BLUESKIES WELLNESS INC \n'}\n\n{'Main health record': 'Resource Type: Encounter,\nStatus: Finished,\nClass: ambulatory,\nType: Well child visit (procedure) (Medical Number: 410620009, Coding Classification System: http://snomed.info/sct),\nSubject: Beatris270 Bogan287,\nParticipant: \n    Type: primary performer,\n    Period: \n        Start: 2018-10-07T13:37:42+00:00,\n        End: 2018-10-07T13:52:42+00:00,\n    Individual: Dr. Elisa944 Rojo930 (Medical Number: 9999950899, Coding Classification System: http://hl7.org/fhir/sid/us-npi),\nPeriod: \n    Start: 2018-10-07T13:37:42+00:00,\n    End: 2018-10-07T13:52:42+00:00,\nLocation: \n    Location: BLUESKIES WELLNESS INC,\nService Provider: BLUESKIES WELLNESS INC\n'}\n\n{'Main health record': 'Resource Type: Encounter,\nStatus: Finished,\nClass: Outpatient,\nType: Encounter for check up (procedure) (SNOMED CT: 185349003),\nSubject: Beatris270 Bogan287,\nParticipant: Dr. Alvin56 Crona259 (NPI: 9999990697) as primary performer from 2021-02-28 1:37:42 PM to 2021-02-28 1:52:42 PM,\nPeriod: From 2021-02-28 1:37:42 PM to 2021-02-28 1:52:42 PM,\nLocation: HOLY FAMILY HOSPITAL,\nService Provider: HOLY FAMILY HOSPITAL. \n'}\n\n{'Main health record': 'Status: Finished\nClass: Ambulatory\nType: Encounter for problem (procedure) (Medical Number: 185347001; Coding Classification System: SNOMED CT)\nPatient: Beatris270 Bogan287\nParticipant: Dr. Ted955 Reilly981 (National Provider Identifier: 9999984591), Role: primary performer, Start: 2021-05-29 14:18:16, End: 2021-05-29 15:08:02\nEncounter Start: 2021-05-29 14:18:16\nEncounter End: 2021-05-29 15:08:02\nReason: Aortic valve stenosis (Medical Number: 60573004; Coding Classification System: SNOMED CT)\nLocation: Fitchburg Outpatient Clinic\nService Provider: Fitchburg Outpatient Clinic \n'}\n\n{'Main health record': 'Procedure Status: Completed\nProcedure Code: 430193006\nCoding Classification System: http://snomed.info/sct\nProcedure: Medication Reconciliation (procedure)\nPerformed From: July 10, 2016 1:37 PM UTC\nPerformed To: July 10, 2016 1:52 PM UTC\nLocation: BLUESKIES WELLNESS INC'}\n\n"
+    ],
+    "caracteres_count": [
+        6241
+    ],
+    "caracteres_count_after_reduce": [
+        6241
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        ""
+    ],
+    "main_keys": [
+        "surgical history medical procedures interventions"
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        128000
+    ],
+    "strategy_name": [
+        "SimilaritySearch0HopStrategy"
+    ]
+}

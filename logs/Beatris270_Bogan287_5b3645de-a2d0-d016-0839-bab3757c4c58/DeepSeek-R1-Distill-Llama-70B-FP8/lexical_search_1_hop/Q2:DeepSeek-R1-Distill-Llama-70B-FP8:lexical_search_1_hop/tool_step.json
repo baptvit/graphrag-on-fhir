@@ -1,0 +1,35 @@
+{
+    "experiment_id": [
+        "Q2:DeepSeek-R1-Distill-Llama-70B-FP8:lexical_search_1_hop"
+    ],
+    "timestamp": [
+        "2025-02-10 18:19:02"
+    ],
+    "records": [
+        "{'Main health record': 'Resource Type: AllergyIntolerance\nClinical Status: active\nVerification Status: confirmed\nType: allergy\nCategory: environment\nCriticality: low\nCode: 288328004 | Bee venom (substance) (SNOMED CT)\nPatient: \nRecorded Date: 2017-08-30T11:37:42+00:00\nReaction Manifestation: 271807003 | Eruption of skin (disorder) (SNOMED CT)\nReaction Severity: moderate \n', 'Related health records': []}\n{'Main health record': 'Resource Type: Allergy Intolerance\nClinical Status: Active\nVerification Status: Confirmed\nType: Allergy\nCategory: Environment\nCriticality: Low\nCode: 260147004 | House dust mite (organism) (SNOMED CT)\nPatient Reference: Unknown\nRecorded Date: August 30, 2017, 11:37:42 AM Coordinated Universal Time (UTC)\n', 'Related health records': []}\n{'Main health record': 'Resource Type: AllergyIntolerance\nClinical Status: active\nVerification Status: confirmed\nType: allergy\nCategory: environment\nCriticality: low\nCode: \n    - Medical Number: 84489001\n    - Coding Classification System: http://snomed.info/sct\n    - Display: Mold (organism)\nPatient: Unknown\nRecorded Date: 2017-08-30T11:37:42+00:00\nReaction: \n    - Manifestation: \n        - Medical Number: 76067001\n        - Coding Classification System: http://snomed.info/sct\n        - Display: Sneezing\n    - Severity: mild\n', 'Related health records': []}\n{'Main health record': 'Resource Type: AllergyIntolerance\nClinical Status: active\nVerification Status: confirmed\nType: allergy\nCategory: environment\nCriticality: low\nAllergen: \n    Medical Number: 419199007 (SNOMED CT)\n    Coding Classification System: http://snomed.info/sct\n    Display: Allergy to substance (finding)\nPatient: Patient with identifier 5b3645de-a2d0-d016-0839-bab3757c4c58\nRecorded Date: August 30, 2017 at 11:37:42 UTC \n', 'Related health records': []}\n{'Main health record': 'Resource Type: AllergyIntolerance\nClinical Status: active\nVerification Status: confirmed\nType: allergy\nCategory: environment\nCriticality: low\nAllergen: \n    Medical Number: 256277009\n    Coding Classification System: http://snomed.info/sct\n    Allergen: Grass pollen (substance)\nPatient: Unknown\nDate Recorded: 2017-08-30T11:37:42+00:00', 'Related health records': []}\n{'Main health record': 'Clinical Status: Active\nVerification Status: Confirmed\nType: Allergy\nCategory: Environment\nCriticality: Low\nAllergen: \n    Medical Number: 782576004\n    Coding Classification System: http://snomed.info/sct\n    Allergen: Tree pollen (substance)\nPatient: Unknown\nRecorded Date: 08/30/2017 11:37:42+00:00', 'Related health records': []}\n{'Main health record': 'Clinical Status: Active\nVerification Status: Confirmed\nType: Allergy\nCategory: Environment\nCriticality: Low\nAllergy Intolerance Code: 264287008 - Animal dander (substance)\nAllergy Intolerance Coding System: http://snomed.info/sct\nRecorded Date: 2017-08-30T11:37:42+00:00\nReaction 1 Manifestation: 247472004 - Wheal (finding)\nReaction 1 Manifestation Coding System: http://snomed.info/sct\nReaction 1 Severity: Mild\nReaction 2 Manifestation: 878820003 - Rhinoconjunctivitis (disorder)\nReaction 2 Manifestation Coding System: http://snomed.info/sct\nReaction 2 Severity: Moderate\n', 'Related health records': []}\n{'Main health record': 'Resource Type: AllergyIntolerance\nClinical Status: active\nVerification Status: confirmed\nType: allergy\nCategory: medication\nCriticality: low\nCode: Aspirin (RxNorm: 1191)\nPatient: Unknown\nRecorded Date: August 30, 2017 11:37:42 AM +00:00\nReaction 1 Manifestation: Abdominal pain (finding) (SNOMED CT: 21522001)\nReaction 1 Severity: moderate\nReaction 2 Manifestation: Wheal (finding) (SNOMED CT: 247472004)\nReaction 2 Severity: moderate \n', 'Related health records': []}\n{'Main health record': 'Clinical Status: Active, Verification Status: Confirmed, Type: Allergy, Category: Environment, Criticality: Low, Substance: Latex (substance) (Medical Number: 111088007, Coding Classification System: http://snomed.info/sct), Patient: Patient (Resource Reference), Recorded Date: 2017-08-30T11:37:42+00:00, Reaction 1 Manifestation: Wheal (finding) (Medical Number: 247472004, Coding Classification System: http://snomed.info/sct), Reaction 1 Severity: Mild, Reaction 2 Manifestation: Itching (finding) (Medical Number: 418290006, Coding Classification System: http://snomed.info/sct) \n', 'Related health records': []}"
+    ],
+    "caracteres_count": [
+        4322
+    ],
+    "caracteres_count_after_reduce": [
+        4322
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        "AllergyIntolerance"
+    ],
+    "main_keys": [
+        ""
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        128000
+    ],
+    "strategy_name": [
+        "LexicalSearch1HopStrategy"
+    ]
+}
