@@ -2,7 +2,7 @@
 
 This documentation provides instructions on how to perform evaluations using different models and methods, including the Microsoft Eval and DeepEval for various language models.
 
-## Evaluation Results
+## Evaluation close models Results
 
 Below is a summary table of the evaluation status for different participants across various models and evaluation methods:
 
@@ -12,7 +12,20 @@ Below is a summary table of the evaluation status for different participants acr
 | Beatris270_Bogan287_5b3645...c58     | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Edythe31_Morar593_9c3df3...23d       | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Jacklyn830_Veum823_e0e1f2...a32      | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Milton509_Ortiz186_d66b54...939      | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
+| Milton509_Ortiz186_d66b54...939      | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+✅ - Evaluation completed  
+❌ - Evaluation pending
+
+## Evaluation Open models Results
+
+| Name  | Llama 3 - Microsoft Eval | Llama 3 - DeepEval | DeepSeek - Microsoft Eval | DeepSeek - DeepEval |
+| :----------------------------------- | :---------------------: | :---------------: | :---------------------: | :---------------: |
+| Allen322_Ferry570_ad1345...c625      | ❌ | ❌ | ❌| ❌ | 
+| Beatris270_Bogan287_5b3645...c58     | ❌ | ❌ | ❌| ❌ |  
+| Edythe31_Morar593_9c3df3...23d       | ❌ | ❌ | ❌| ❌ | 
+| Jacklyn830_Veum823_e0e1f2...a32      | ❌ | ❌ | ❌| ❌ | 
+| Milton509_Ortiz186_d66b54...939      | ❌ | ❌ | ❌| ❌ | 
 
 ✅ - Evaluation completed  
 ❌ - Evaluation pending
