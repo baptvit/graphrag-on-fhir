@@ -51,8 +51,8 @@ safety_settings = {
 #LLM_MODEL = "gpt-4o-2024-08-06"
 #LLM_MODEL = "anthropic.claude-v3-opus"
 #LLM_MODEL = "gpt-4o-2024-11-20"
-LLM_MODEL = "llama-3-70b-instruct-awq"
-#LLM_MODEL = "DeepSeek-R1-Distill-Llama-70B-FP8"
+#LLM_MODEL = "llama-3-70b-instruct-awq"
+LLM_MODEL = "DeepSeek-R1-Distill-Llama-70B-FP8"
 llm = AzureChatOpenAI(
     api_key=OPENAI_API_KEY,
     azure_deployment=LLM_MODEL,
@@ -94,7 +94,7 @@ SIMILARITY_THRESHOLD = 0.84
 K = 100000  # no restriction pratical
 
 # User
-CONSUMER_ID = "Jacklyn830_Veum823_e0e1f21a-22a7-d166-7bb1-63f6bbce1a32"
+CONSUMER_ID = "Milton509_Ortiz186_d66b5418-06cb-fc8a-8c13-85685b6ac939"
 
 INPUT_QUESTION = {}
 

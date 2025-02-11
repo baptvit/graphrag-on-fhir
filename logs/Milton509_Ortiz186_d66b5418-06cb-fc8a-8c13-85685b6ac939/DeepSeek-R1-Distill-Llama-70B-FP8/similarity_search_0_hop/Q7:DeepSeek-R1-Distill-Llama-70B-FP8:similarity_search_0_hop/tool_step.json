@@ -1,0 +1,35 @@
+{
+    "experiment_id": [
+        "Q7:DeepSeek-R1-Distill-Llama-70B-FP8:similarity_search_0_hop"
+    ],
+    "timestamp": [
+        "2025-02-11 11:52:13"
+    ],
+    "records": [
+        "{'Main health record': 'Status: Completed\nProcedure: Depression screening (procedure), Medical number: 171207006, Coding Classification System: http://snomed.info/sct\nPerformed from: 07/24/2013 05:01:30 PM GMT\nPerformed to: 07/24/2013 05:13:25 PM GMT\nLocation: PCP167180'}\n\n"
+    ],
+    "caracteres_count": [
+        274
+    ],
+    "caracteres_count_after_reduce": [
+        274
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        ""
+    ],
+    "main_keys": [
+        "procedures surgeries operations treatments"
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        128000
+    ],
+    "strategy_name": [
+        "SimilaritySearch0HopStrategy"
+    ]
+}

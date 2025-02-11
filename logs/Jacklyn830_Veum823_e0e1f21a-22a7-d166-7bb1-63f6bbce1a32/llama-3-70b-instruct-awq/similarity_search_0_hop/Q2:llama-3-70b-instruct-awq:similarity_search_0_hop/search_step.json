@@ -3,28 +3,6 @@
         "Q2:llama-3-70b-instruct-awq:similarity_search_0_hop"
     ],
     "timestamp": [
-        "2025-02-11 09:50:16"
-    ],
-    "latency_s": [
-        0.07081913948059082
-    ],
-    "query": [
-        "Similarity Search 0-Hop"
-    ],
-    "similarity_threshold": [
-        0.84
-    ],
-    "k": [
-        100000
-    ],
-    "embedding_model": [
-        "BAAI/bge-small-en-v1.5"
-    ]
-}{
-    "experiment_id": [
-        "Q2:llama-3-70b-instruct-awq:similarity_search_0_hop"
-    ],
-    "timestamp": [
         "2025-02-11 09:50:22"
     ],
     "latency_s": [

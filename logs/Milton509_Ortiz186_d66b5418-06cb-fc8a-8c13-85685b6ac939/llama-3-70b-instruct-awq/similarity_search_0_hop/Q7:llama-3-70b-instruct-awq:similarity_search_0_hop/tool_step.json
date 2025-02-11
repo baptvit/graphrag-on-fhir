@@ -1,0 +1,35 @@
+{
+    "experiment_id": [
+        "Q7:llama-3-70b-instruct-awq:similarity_search_0_hop"
+    ],
+    "timestamp": [
+        "2025-02-11 11:26:22"
+    ],
+    "records": [
+        "{'Main health record': 'Status: Completed\nProcedure: Anticipatory guidance (procedure), Medical number: 386516004, Coding Classification System: http://snomed.info/sct\nPerformed from: July 30, 2014 05:47 PM to July 30, 2014 06:01 PM\nLocation: PCP167180'}\n\n{'Main health record': 'Status: Completed\nProcedure: Depression screening (procedure), Medical number: 171207006, Coding Classification System: http://snomed.info/sct\nPerformed from: 07/24/2013 05:01:30 PM GMT\nPerformed to: 07/24/2013 05:13:25 PM GMT\nLocation: PCP167180'}\n\n{'Main health record': 'Status: Completed\nProcedure: Depression screening (procedure), Medical number: 171207006, Coding Classification System: http://snomed.info/sct\nPerformed from: 08/10/2016 05:53:21 PM UTC\nPerformed to: 08/10/2016 06:07:05 PM UTC\nLocation: PCP167180'}\n\n{'Main health record': 'Resource Type: Procedure\nStatus: Completed\nCode: Anticipatory guidance (procedure)\nCoding Classification System: http://snomed.info/sct\nMedical Number: 386516004\nSubject: Unknown\nEncounter: Unknown\nPerformed Period Start: 2012-12-26T16:33:10-05:00\nPerformed Period End: 2012-12-26T16:47:22-05:00\nLocation: CAMBRIDGE HEALTH ALLIANCE \n'}\n\n"
+    ],
+    "caracteres_count": [
+        1165
+    ],
+    "caracteres_count_after_reduce": [
+        1165
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        ""
+    ],
+    "main_keys": [
+        "procedures surgeries operations treatments interventions"
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        128000
+    ],
+    "strategy_name": [
+        "SimilaritySearch0HopStrategy"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "experiment_id": [
+        "Q3:llama-3-70b-instruct-awq:lexical_search_1_hop"
+    ],
+    "timestamp": [
+        "2025-02-11 11:19:57"
+    ],
+    "latency_s": [
+        0.07451486587524414
+    ],
+    "query": [
+        "MATCH (n)\n                WHERE toLower(n.name) CONTAINS toLower('Condition') AND toLower(n.consumer_id) CONTAINS toLower('Milton509_Ortiz186_d66b5418-06cb-fc8a-8c13-85685b6ac939')\n            WITH n\n            CALL {\n                WITH n\n                MATCH (n)<-[r]->(neighbor)\n                WHERE NOT type(r) IN ['subject', 'patient'] AND NOT neighbor:Date\n                RETURN collect({neighbor_text: neighbor.text, relationship: type(r)}) AS neighbors\n            }\n           RETURN \"{'Main health record': '\" + n.text + \"', 'Related health records': [\" + \n                reduce(s = \"\", neighbor IN neighbors | s + \"('Relationship' :'\" + neighbor.relationship + \"', 'Health Record' :'\" + neighbor.neighbor_text + \"'), \") + \"]}\" AS text\n                "
+    ],
+    "similarity_threshold": [
+        0.84
+    ],
+    "k": [
+        100000
+    ],
+    "embedding_model": [
+        "BAAI/bge-small-en-v1.5"
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "experiment_id": [
+        "Q8:DeepSeek-R1-Distill-Llama-70B-FP8:lexical_search_0_hop"
+    ],
+    "timestamp": [
+        "2025-02-11 11:44:49"
+    ],
+    "records": [
+        "{'Main health record': 'Resource Type: Immunization\nStatus: Completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Codes: 140 | http://hl7.org/fhir/sid/cvx\nCoding Classification System: CVX\nVaccination Date: July 18, 2012, 4:36 PM Coordinated Universal Time - 04:00\nReported From Primary Source: Yes\nLocation: PCP167180'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine name: meningococcal MCV4P\nMedical code: 114\nCoding Classification System: http://hl7.org/fhir/sid/cvx\nDate administered: July 24, 2013 4:36 PM UTC-04:00\nReported by provider: true\nLocation: PCP167180'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Codes: 140; Coding Classification System: http://hl7.org/fhir/sid/cvx\nImmunization Date: 2012-12-26T15:36:45-05:00\nReported From Primary Source: true\nLocation: MOUNT AUBURN HOSPITAL'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Codes: 140\nCoding Classification System: http://hl7.org/fhir/sid/cvx\nDate Administered: July 30, 2014, 4:36 PM Coordinated Universal Time-04:00\nReported From Primary Source: true\nLocation: PCP167180'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\n Medical number: 140\n Coding Classification System: http://hl7.org/fhir/sid/cvx\nDate: 08/05/2015 04:36:45 PM GMT\nWas this the primary source of the data?: true\nLocation: PCP167180'}\n\n{'Main health record': 'Resource Type: Immunization\nStatus: Completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Number: 140\nCoding Classification System: http://hl7.org/fhir/sid/cvx\nOccurrence Date Time: August 10, 2016 at 4:36 PM Coordinated Universal Time - 04:00\nPrimary Source: true\nLocation: PCP167180'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Codes: 140\nCoding Classification System: http://hl7.org/fhir/sid/cvx\nImmunization Date: August 16, 2017, 4:36 PM\nReported From Primary Source: true\nLocation: PCP167180'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Hep B, adult\nMedical Codes: 43\nCoding Classification System: http://hl7.org/fhir/sid/cvx\nPatient: unknown\nEncounter: unknown\nDate Administered: 2017-08-16T16:36:45-04:00\nPrimary Source: true\nLocation: PCP167180'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Td (adult) preservative free\nMedical Code: 113\nCoding Classification System: http://hl7.org/fhir/sid/cvx\nDate Administered: August 22, 2018 4:36 PM Coordinated Universal Time-04\nReported From Primary Source: true\nLocation: PCP167180'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Number: 140\nCoding Classification System: http://hl7.org/fhir/sid/cvx\nDate Administered: August 22, 2018 4:36 PM UTC-04:00\nReported by Primary Source: true\nLocation: PCP167180'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Hep B, adult\nMedical Codes: 43; Coding Classification System: http://hl7.org/fhir/sid/cvx\nImmunization Date: August 22, 2018 at 4:36 PM Coordinated Universal Time (UTC) - 4 hours\nReported From Primary Source: true\nLocation: PCP167180'}\n\n{'Main health record': 'Immunization status: completed\nVaccine code: 114\nCoding Classification System: http://hl7.org/fhir/sid/cvx\nVaccine code display: meningococcal MCV4P\nVaccine code text: meningococcal MCV4P\nPatient reference: urn:uuid:d66b5418-06cb-fc8a-8c13-85685b6ac939\nEncounter reference: urn:uuid:21a45f7b-ff98-37c3-57a7-4e912ae99758\nOccurrence date time: 2018-08-22T16:36:45-04:00\nPrimary source: true\nLocation reference: Location?identifier=https://github.com/synthetichealth/synthea|606fd011-a5ff-3a38-a7be-d7f2632fafe9\nLocation display: PCP167180\n'}\n\n{'Main health record': 'Immunization status: completed\nVaccine code: Influenza, seasonal, injectable, preservative free\nMedical code: 140\nCoding Classification System: http://hl7.org/fhir/sid/cvx\nVaccine code text: Influenza, seasonal, injectable, preservative free\nImmunization date: August 28, 2019, 4:36 PM Coordinated Universal Time-04\nReported to registry: true\nLocation: PCP167180'}\n\n{'Main health record': 'Immunization status: completed\nVaccine code: Hep B, adult\nMedical code: 43\nCoding Classification System: http://hl7.org/fhir/sid/cvx\nImmunization date: August 28, 2019 4:36 PM UTC-04:00\nPrimary source: true\nLocation: PCP167180'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Codes: 140\nCoding Classification System: http://hl7.org/fhir/sid/cvx\nImmunization Date: 09/02/2020 04:36:45 PM GMT\nWas this the primary source of the data?: true\nLocation: PCP167180'}\n\n{'Main health record': 'Resource Type: Immunization\nStatus: Completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Number: 140\nCoding Classification System: http://hl7.org/fhir/sid/cvx\nOccurrence Date Time: 2021-09-08T16:36:45-04:00\nPrimary Source: true\nLocation: PCP167180'}\n"
+    ],
+    "caracteres_count": [
+        5230
+    ],
+    "caracteres_count_after_reduce": [
+        5230
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        "Immunization"
+    ],
+    "main_keys": [
+        ""
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        128000
+    ],
+    "strategy_name": [
+        "LexicalSearch0HopStrategy"
+    ]
+}

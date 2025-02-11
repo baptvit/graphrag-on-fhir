@@ -32,38 +32,4 @@
     "strategy_name": [
         "LexicalSearch0HopStrategy"
     ]
-}{
-    "experiment_id": [
-        "Q5:DeepSeek-R1-Distill-Llama-70B-FP8:lexical_search_0_hop"
-    ],
-    "timestamp": [
-        "2025-02-10 18:10:04"
-    ],
-    "records": [
-        "{'Main health record': 'Status: active\nSubject: \nEncounter: \nPeriod: Since August 30, 2017 at 12:14:48 UTC\nParticipant: Patient - Beatris270 Bogan287 (Medical number: SNOMED CT: 116154003)\nParticipant: Healthcare professional (occupation) - Dr. Alvin56 Crona259 (Medical number: SNOMED CT: 223366009, National Provider Identifier: 9999990697)\nParticipant: Healthcare services (qualifier value) - HOLY FAMILY HOSPITAL (Medical number: SNOMED CT: 224891009)\nManaging Organization: HOLY FAMILY HOSPITAL \n'}\n\n{'Main health record': 'Status: active, \nSubject: Patient Beatris270 Bogan287, \nEncounter: not available, \nPeriod start: 09/13/2015 1:37:42 PM UTC, \nParticipant: Patient - Beatris270 Bogan287, \nParticipant: Healthcare professional (occupation) - Dr. Alvin56 Crona259, Medical number: [http://hl7.org/fhir/sid/us-npi](http://hl7.org/fhir/sid/us-npi): 9999990697, \nParticipant: Healthcare services (qualifier value) - HOLY FAMILY HOSPITAL, Medical number: [https://github.com/synthetichealth/synthea](https://github.com/synthetichealth/synthea): 15d4c950-4691-3996-b4c4-bf06bfb58ff7, \nReason: Atopic dermatitis, Coding System: [http://snomed.info/sct](http://snomed.info/sct): 24079001, \nManaging organization: HOLY FAMILY HOSPITAL, Medical number: [https://github.com/synthetichealth/synthea](https://github.com/synthetichealth/synthea): 15d4c950-4691-3996-b4c4-bf06bfb58ff7\n'}\n"
-    ],
-    "caracteres_count": [
-        1382
-    ],
-    "caracteres_count_after_reduce": [
-        1382
-    ],
-    "pass_map_reduce": [
-        false
-    ],
-    "resource_type": [
-        "CareTeam"
-    ],
-    "main_keys": [
-        ""
-    ],
-    "user_query": [
-        ""
-    ],
-    "llm_token_limit": [
-        128000
-    ],
-    "strategy_name": [
-        "LexicalSearch0HopStrategy"
-    ]
 }

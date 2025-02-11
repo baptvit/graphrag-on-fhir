@@ -1,0 +1,20 @@
+{
+    "experiment_id": [
+        "Q2:DeepSeek-R1-Distill-Llama-70B-FP8:similarity_search_1_hop"
+    ],
+    "timestamp": [
+        "2025-02-11 11:53:18"
+    ],
+    "full_response": [
+        "{'input': 'What are my documented allergies, and how severe are they ?', 'chat_history': [], 'history': [HumanMessage(content=\"What's my current medications and how should I be taking them ?\", additional_kwargs={}, response_metadata={}), AIMessage(content='\\n\\nBased on the retrieved medical records, here are your current medications and instructions:\\n\\nCurrently Active Medications:\\n1. Acetaminophen 500 MG Oral Tablet\\n   - This was prescribed by Dr. Lesley194 Fisher429 and is currently active\\n   - Last prescribed during a hospital admission in November 2020\\n\\n2. Amlodipine 2.5 MG Oral Tablet\\n   - Currently active prescription from Dr. Lionel365 Cormier289\\n   - Most recent prescription date: September 8, 2021\\n   - Instructions: Take 1 tablet once daily (not as needed)\\n   - This medication is prescribed for hypertension (high blood pressure)\\n\\nHow to Take Your Medications:\\n1. Acetaminophen (Tylenol):\\n   - Take as prescribed for pain relief\\n   - Do not exceed 4,000 mg in 24 hours\\n   - Follow specific dosing instructions from your healthcare provider\\n\\n2. Amlodipine:\\n   - Take exactly 1 tablet once daily\\n   - Take at the same time each day\\n   - Continue taking this medication even if you feel well, as it\\'s for managing high blood pressure\\n   - Do not skip doses or stop taking without consulting your doctor\\n\\nImportant Notes:\\n- Your medical records indicate you have \"No Known Allergies\"\\n- Your most recent healthcare provider is Dr. Lionel365 Cormier289\\n- If you experience any side effects or have concerns about your medications, contact your healthcare provider\\n- Always inform your healthcare providers about all medications you\\'re taking\\n- Keep all follow-up appointments to monitor your blood pressure and medication effectiveness\\n\\nWould you like any specific information about either of these medications or their potential side effects?', additional_kwargs={}, response_metadata={})], 'output': 'Agent stopped due to max iterations.'}"
+    ],
+    "system_promt": [
+        "\nAs an expert in interpreting Electronic Health Records (EHRs). Your primary task is to answer user questions based on their clinical records. You have access to a tool called `{function_name}` which retrieves relevant EHR data.\n\n**Crucially, you MUST use the `{function_name}` tool *before* attempting to answer *any* user question.** This ensures your responses are grounded in the user's specific medical history.\n\nWhen interpreting EHR data retrieved by `{function_name}`, provide comprehensive and factual summaries, including the following details where available:\n\n*   **Dates:** Dates of service, appointments, medical events, procedures, and any other relevant dates.\n*   **Providers:** Names of healthcare providers involved (doctors, specialists, nurses, hospitals, clinics, etc.).\n*   **Locations:** Locations of care (specific departments, facilities, addresses).\n*   **Billing/Insurance:** Relevant billing information, such as charges, payment status, insurance details (if applicable and accessible).\n*   **Relevant Data:** Any other pertinent information that enhances patient understanding and supports informed decision-making. This could include diagnoses, medications, lab results, imaging reports, etc.\n\n**Example Workflow:**\n\n1.  User asks a question about their allergies.\n2.  You **immediately** use `{function_name}` to retrieve the user's allergy information from their EHR.\n3.  You analyze the data returned by `{function_name}`.\n4.  You formulate a full of details, comprehensive and complete answer based on the retrieved data, including relevant details as described above.\n5.  You present the answer to the user.\n\n"
+    ],
+    "input": [
+        "What are my documented allergies, and how severe are they ?"
+    ],
+    "output": [
+        "Agent stopped due to max iterations."
+    ]
+}

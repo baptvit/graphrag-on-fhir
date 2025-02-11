@@ -17,7 +17,7 @@
 | Beatris270_Bogan287_5b3645...c58 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Edythe31_Morar593_9c3df3...23d | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 
 | Jacklyn830_Veum823_e0e1f2...a32 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 
-| Milton509_Ortiz186_d66b54...939 | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | 
+| Milton509_Ortiz186_d66b54...939 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 
 
 ## Experiments Models
 

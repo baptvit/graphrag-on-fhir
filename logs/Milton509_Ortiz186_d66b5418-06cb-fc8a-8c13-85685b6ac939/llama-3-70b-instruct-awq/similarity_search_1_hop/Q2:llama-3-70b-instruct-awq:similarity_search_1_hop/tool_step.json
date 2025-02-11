@@ -1,0 +1,35 @@
+{
+    "experiment_id": [
+        "Q2:llama-3-70b-instruct-awq:similarity_search_1_hop"
+    ],
+    "timestamp": [
+        "2025-02-11 11:27:48"
+    ],
+    "records": [
+        "{'Main health record': 'Document Type: History and physical note; Evaluation+Plan note\nDocument Category: Clinical Note\nPatient: Not available\nDocument Date: August 16, 2017\nDocument Author: Dr. Lionel365 Cormier289, NPI 9999945659\nDocument Custodian: PCP167180\nDocument Status: Superseded\nEncounter Period: August 16, 2017  4:36 PM- August 16, 2017  4:51 PM\nMedical Medications: acetaminophen 325 mg oral tablet; amoxicillin 2.5 mg oral tablet\nLOINC: 34117-2\nLOINC: 51847-2\nThis is a clinical note created on August 16, 2017, documenting an encounter with an unknown patient. The author is Dr. Lionel365 Cormier289 (NPI 9999945659). The note is categorized as a Clinical Note and is superseded. \n\nThe note includes a history of present illness, social history, and allergies. The patient is a 20-year-old non-hispanic white male with a history of acute bronchitis, par-time employment, risky activities, full-time employment, viral sinusitis, stress, and social isolation. The patient identifies as heterosexual. \n\nThe assessment and plan indicate that the patient is presenting with full-time employment. The following procedures were conducted: assessment of health and social care needs, depression screening, depression screening using patient health questionnaire two-item score, depression screening using patient health questionnaire nine item score, assessment of substance use, and screening for drug abuse. The patient was prescribed amoxicillin 2.5 mg oral tablets. \n', 'Related health records': [('Relationship' :'context_encounter_0', 'Health Record' :'Resource Type: Encounter,\nStatus: Finished,\nClass: ambulatory,\nType: General examination of patient (procedure) (Medical Number: 162673000, Coding Classification System: http://snomed.info/sct),\nSubject: Mr. Milton509 Ortiz186,\nParticipant: \n- Type: primary performer,\n- Period: \n- Start: 08/16/2017 04:36:45 PM,\n- End: 08/16/2017 04:51:45 PM,\n- Individual: Dr. Lionel365 Cormier289 (Medical Number: 9999945659, Coding Classification System: http://hl7.org/fhir/sid/us-npi),\nPeriod: \n- Start: 08/16/2017 04:36:45 PM,\n- End: 08/16/2017 04:51:45 PM,\nLocation: \n- Location: PCP167180,\nService Provider: PCP167180\n'), ]}\n\n"
+    ],
+    "caracteres_count": [
+        2185
+    ],
+    "caracteres_count_after_reduce": [
+        2185
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        ""
+    ],
+    "main_keys": [
+        "allergy history medication allergies food allergies"
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        128000
+    ],
+    "strategy_name": [
+        "SimilaritySearch1HopStrategy"
+    ]
+}

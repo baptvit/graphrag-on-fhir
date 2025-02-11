@@ -3,40 +3,6 @@
         "Q7:DeepSeek-R1-Distill-Llama-70B-FP8:similarity_search_1_hop"
     ],
     "timestamp": [
-        "2025-02-10 18:40:07"
-    ],
-    "records": [
-        "{'Main health record': 'Status: Completed\nProcedure: Depression screening (procedure), Medical Number: 171207006, Coding Classification System: http://snomed.info/sct\nPerformed from: 2020-02-04T12:01:02-05:00\nPerformed to: 2020-02-04T12:12:22-05:00\nLocation: Worcester Outpatient Clinic', 'Related health records': [('Relationship' :'encounter', 'Health Record' :'Resource Type: Encounter,\nStatus: Finished,\nClass: AMB (ambulatory),\nType: General examination of patient (procedure) (Medical Number: 162673000, Coding Classification System: SNOMED CT),\nSubject: Mr. Allen322 Ferry570,\nParticipant: Dr. Alexa171 Casper496 (Medical Number: 9999999169, Coding Classification System: NPI) as primary performer (Medical Number: PPRF, Coding Classification System: v3 ParticipationType) from 2020-02-04T10:24:54-05:00 to 2020-02-04T10:39:54-05:00,\nPeriod: From 2020-02-04T10:24:54-05:00 to 2020-02-04T10:39:54-05:00,\nLocation: Worcester Outpatient Clinic,\nService Provider: Worcester Outpatient Clinic. \n'), ('Relationship' :'procedure_3_procedure_reference', 'Health Record' :'Resource Type: Claim\nClaim Status: Active\nClaim Type: Institutional\nClaim Use: Claim\nPatient Name: Allen322 Ferry570\nClaim Billable Period Start: February 4, 2020 at 10:24:54 AM EST\nClaim Billable Period End: February 4, 2020 at 10:39:54 AM EST\nClaim Creation Date: February 4, 2020 at 10:39:54 AM EST\nClaim Provider: Worcester Outpatient Clinic\nClaim Provider Identifier: https://github.com/synthetichealth/synthea|d311e70d-86e7-3c03-b115-53892bcf7ef1\nClaim Priority: Normal\nClaim Facility: Worcester Outpatient Clinic\nClaim Facility Identifier: https://github.com/synthetichealth/synthea|ca946e7b-d7ef-325a-aa6a-a80bb8cda341\nSupporting Information Category: Info\nDiagnosis 1 Sequence: 1\nDiagnosis 2 Sequence: 2\nProcedure 1 Sequence: 1\nProcedure 2 Sequence: 2\nProcedure 3 Sequence: 3\nProcedure 4 Sequence: 4\nProcedure 5 Sequence: 5\nInsurance 1 Sequence: 1\nInsurance 1 Coverage: Medicare\nIs Insurance 1 Focal: true\nItem 1 Sequence: 1\nItem 1 Product or Service: General examination of patient (procedure)\nItem 1 Product or Service Medical Code: 162673000\nItem 1 Product or Service Medical Coding System: http://snomed.info/sct\nItem 2 Sequence: 2\nItem 2 Procedure Sequence: 1\nItem 2 Product or Service: Electrical cardioversion\nItem 2 Product or Service Medical Code: 180325003\nItem 2 Product or Service Medical Coding System: http://snomed.info/sct\nItem 2 Net Value: 32961.1 USD\nItem 3 Sequence: 3\nItem 3 Information Sequence: 1\nItem 3 Product or Service: Influenza, seasonal, injectable, preservative free\nItem 3 Product or Service Medical Code: 140\nItem 3 Product or Service Medical Coding System: http://hl7.org/fhir/sid/cvx\nItem 3 Net Value: 140.52 USD\nItem 4 Sequence: 4\nItem 4 Procedure Sequence: 2\nItem 4 Product or Service: Assessment of health and social care needs (procedure)\nItem 4 Product or Service Medical Code: 710824005\nItem 4 Product or Service Medical Coding System: http://snomed.info/sct\nItem 4 Net Value: 516.65 USD\nItem 5 Sequence: 5\nItem 5 Diagnosis Sequence: 1\nItem 5 Product or Service: Full-time employment (finding)\nItem 5 Product or Service Medical Code: 160903007\nItem 5 Product or Service Medical Coding System: http://snomed.info/sct\nItem 6 Sequence: 6\nItem 6 Diagnosis Sequence: 2\nItem 6 Product or Service: Limited social contact (finding)\nItem 6 Product or Service Medical Code: 423315002\nItem 6 Product or Service Medical Coding System: http://snomed.info/sct\nItem 7 Sequence: 7\nItem 7 Procedure Sequence: 3\nItem 7 Product or Service: Screening for domestic abuse (procedure)\nItem 7 Product or Service Medical Code: 866148006\nItem 7 Product or Service Medical Coding System: http://snomed.info/sct\nItem 7 Net Value: 516.65 USD\nItem 8 Sequence: 8\nItem 8 Procedure Sequence: 4\nItem 8 Product or Service: Depression screening (procedure)\nItem 8 Product or Service Medical Code: 171207006\nItem 8 Product or Service Medical Coding System: http://snomed.info/sct\nItem 8 Net Value: 516.65 USD\nItem 9 Sequence: 9\nItem 9 Procedure Sequence: 5\nItem 9 Product or Service: Depression screening using Patient Health Questionnaire Two-Item score (procedure)\nItem 9 Product or Service Medical Code: 454711000124102\nItem 9 Product or Service Medical Coding System: http://snomed.info/sct\nItem 9 Net Value: 516.65 USD\nClaim Total Value: 33747.43 USD\n'), ]}\n\n"
-    ],
-    "caracteres_count": [
-        4347
-    ],
-    "caracteres_count_after_reduce": [
-        4347
-    ],
-    "pass_map_reduce": [
-        false
-    ],
-    "resource_type": [
-        ""
-    ],
-    "main_keys": [
-        "procedures surgeries operations treatments"
-    ],
-    "user_query": [
-        ""
-    ],
-    "llm_token_limit": [
-        128000
-    ],
-    "strategy_name": [
-        "SimilaritySearch1HopStrategy"
-    ]
-}{
-    "experiment_id": [
-        "Q7:DeepSeek-R1-Distill-Llama-70B-FP8:similarity_search_1_hop"
-    ],
-    "timestamp": [
         "2025-02-10 18:40:19"
     ],
     "records": [

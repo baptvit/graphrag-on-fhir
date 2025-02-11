@@ -1,0 +1,35 @@
+{
+    "experiment_id": [
+        "Q7:llama-3-70b-instruct-awq:similarity_search_1_hop"
+    ],
+    "timestamp": [
+        "2025-02-11 11:30:10"
+    ],
+    "records": [
+        "{'Main health record': 'Status: Completed\nProcedure: Depression screening (procedure), Medical number: 171207006, Coding Classification System: http://snomed.info/sct\nPerformed from: 07/24/2013 05:01:30 PM GMT\nPerformed to: 07/24/2013 05:13:25 PM GMT\nLocation: PCP167180', 'Related health records': [('Relationship' :'encounter', 'Health Record' :'Resource Type: Encounter,\nStatus: Finished,\nClass: ambulatory,\nType: Well child visit (procedure) (Medical Number: 410620009; Coding Classification System: SNOMED CT),\nSubject: Mr. Milton509 Ortiz186,\nParticipant: Dr. Lionel365 Cormier289 (Medical Number: 9999945659; Coding Classification System: NPI) as primary performer (Medical Number: PPRF; Coding Classification System: v3 Code System Participation Type) from 2013-07-24T16:36:45-04:00 to 2013-07-24T16:51:45-04:00,\nPeriod: from 2013-07-24T16:36:45-04:00 to 2013-07-24T16:51:45-04:00,\nLocation: PCP167180,\nService Provider: PCP167180 \n'), ('Relationship' :'procedure_2_procedure_reference', 'Health Record' :'Claim Status: active,\nClaim Type: institutional,\nPatient: Milton509 Ortiz186,\nClaim Billable Period Start: July 24, 2013 4:36 PM,\nClaim Billable Period End: July 24, 2013 4:51 PM,\nClaim Creation Date: July 24, 2013 4:51 PM,\nProvider: PCP167180 (Medical Number: https://github.com/synthetichealth/synthea|24bcfc89-997e-3a62-a6c3-83ed31af8901),\nClaim Priority: normal,\nFacility: PCP167180 (Medical Number: https://github.com/synthetichealth/synthea|606fd011-a5ff-3a38-a7be-d7f2632fafe9),\nSupporting Information Category: info,\nProcedure 1: Procedure,\nProcedure 2: Procedure,\nProcedure 3: Procedure,\nProcedure 4: Procedure,\nProcedure 5: Procedure,\nProcedure 6: Procedure,\nProcedure 7: Procedure,\nInsurance: NO_INSURANCE,\nItem 1: Well child visit (procedure) (Medical Number: http://snomed.info/sct|410620009),\nItem 2: meningococcal MCV4P (Medical Number: http://hl7.org/fhir/sid/cvx|114), Item Net Value: $140.52,\nItem 3: Assessment of anxiety (procedure) (Medical Number: http://snomed.info/sct|710841007), Item Net Value: $516.65,\nItem 4: Medication Reconciliation (procedure) (Medical Number: http://snomed.info/sct|430193006), Item Net Value: $614.80,\nItem 5: Depression screening (procedure) (Medical Number: http://snomed.info/sct|171207006), Item Net Value: $516.65,\nItem 6: Depression screening using Patient Health Questionnaire Nine Item score (procedure) (Medical Number: http://snomed.info/sct|715252007), Item Net Value: $37.11,\nItem 7: Assessment of substance use (procedure) (Medical Number: http://snomed.info/sct|428211000124100), Item Net Value: $516.65,\nItem 8: Assessment using Car, Relax, Alone, Forget, Friends, Trouble Screening Test (procedure) (Medical Number: http://snomed.info/sct|868187001), Item Net Value: $516.65,\nItem 9: Anticipatory guidance (procedure) (Medical Number: http://snomed.info/sct|386516004), Item Net Value: $516.65,\nClaim Total Value: $1401.13\n'), ]}\n\n"
+    ],
+    "caracteres_count": [
+        2912
+    ],
+    "caracteres_count_after_reduce": [
+        2912
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        ""
+    ],
+    "main_keys": [
+        "procedures surgeries operations treatments"
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        128000
+    ],
+    "strategy_name": [
+        "SimilaritySearch1HopStrategy"
+    ]
+}
