@@ -1,0 +1,35 @@
+{
+    "experiment_id": [
+        "Q7:llama-3-70b-instruct-awq:similarity_search_0_hop"
+    ],
+    "timestamp": [
+        "2025-02-10 20:00:04"
+    ],
+    "records": [
+        "{'Main health record': 'Status: Completed,\nIntent: Order,\nCategory: Assess and plan,\nCategory: [SNOMED CT: 91251008] Physical therapy procedure,\nEncounter: Unknown,\nPeriod Start: 02/19/2021 08:28:09 PM EST,\nPeriod End: 03/10/2021 08:28:09 PM EST,\nCare Team: Unknown,\nAddresses: Unknown,\nActivity: [SNOMED CT: 229586001] Rest, ice, compression and elevation treatment programme - Status: Completed - Location: NEWTON-WELLESLEY HOSPITAL,\nActivity: [SNOMED CT: 229070002] Stretching exercises - Status: Completed - Location: NEWTON-WELLESLEY HOSPITAL,\nSubject: Unknown,\nDescription: Care Plan for Physical therapy procedure.<br/>Activities: <ul><li>Physical therapy procedure</li><li>Physical therapy procedure</li></ul><br/>Care plan is meant to treat Sprain of wrist.\n'}\n\n{'Main health record': 'Status: Completed\nProcedure: Depression screening (procedure), Medical Number: 171207006, Coding Classification System: http://snomed.info/sct\nPerformed From: July 3, 2018 12:46 AM\nPerformed To: July 3, 2018 1:00 AM\nLocation: NEWTON-WELLESLEY UROLOGY, PC'}\n\n{'Main health record': 'Resource Type: Procedure\nStatus: completed\nCode: Assessment of health and social care needs (procedure)\nCoding System: http://snomed.info/sct\nMedical Code: 710824005\nSubject: unknown\nEncounter: unknown\nPerformed Period Start: 2016-06-28T00:03:08-04:00\nPerformed Period End: 2016-06-28T00:57:12-04:00\nLocation: NEWTON-WELLESLEY UROLOGY, PC \n'}\n\n{'Main health record': 'Procedure Status: completed\nProcedure Code: 710841007\nCoding Classification System: http://snomed.info/sct\nProcedure Text: Assessment of anxiety (procedure)\nProcedure Performed Start Date: 2020-07-07T00:50:08-04:00\nProcedure Performed End Date: 2020-07-07T01:13:45-04:00\nProcedure Location: NEWTON-WELLESLEY UROLOGY, PC\n'}\n\n{'Main health record': 'Procedure Status: completed\nProcedure Code: 171207006\nCoding Classification System: http://snomed.info/sct\nProcedure Description: Depression screening (procedure)\nProcedure Performed Start Date: 2020-07-07T01:13:45-04:00\nProcedure Performed End Date: 2020-07-07T01:25:41-04:00\nProcedure Location: NEWTON-WELLESLEY UROLOGY, PC\n'}\n\n"
+    ],
+    "caracteres_count": [
+        2123
+    ],
+    "caracteres_count_after_reduce": [
+        2123
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        ""
+    ],
+    "main_keys": [
+        "procedures surgeries operations treatments"
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        128000
+    ],
+    "strategy_name": [
+        "SimilaritySearch0HopStrategy"
+    ]
+}

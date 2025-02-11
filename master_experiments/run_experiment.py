@@ -100,9 +100,9 @@ if __name__ == "__main__":
     # }
 
     EXPERIMENT_QUESTIONS = {
-        "Q1": "What's my current medications and how should I be taking them ?",
-        "Q2": "What are my documented allergies, and how severe are they ?",
-        "Q3": "Can you summarize my current medical conditions ?",
+        #"Q1": "What's my current medications and how should I be taking them ?",
+        #"Q2": "What are my documented allergies, and how severe are they ?",
+        #"Q3": "Can you summarize my current medical conditions ?",
         "Q4": "What are my recent laboratory values, what do they mean, and how can I improve them ?",
         "Q5": "Can you summarize my care plan history ?",
         "Q6": "Can you provide a breakdown of my medical bills ?",
@@ -111,11 +111,11 @@ if __name__ == "__main__":
     }
 
     list_search_strategies = [
-        "lexical_search_0_hop",
+        #"lexical_search_0_hop",
         "lexical_search_1_hop",
         ## "lexical_search_2_hop",
-        "similarity_search_0_hop",
-        "similarity_search_1_hop",
+        #"similarity_search_0_hop",
+        #"similarity_search_1_hop",
         ## "similarity_search_2_hop",
     ]
 

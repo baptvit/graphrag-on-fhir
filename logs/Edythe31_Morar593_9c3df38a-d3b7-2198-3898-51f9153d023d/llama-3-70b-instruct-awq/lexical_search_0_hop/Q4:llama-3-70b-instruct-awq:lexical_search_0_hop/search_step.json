@@ -1,0 +1,23 @@
+{
+    "experiment_id": [
+        "Q4:llama-3-70b-instruct-awq:lexical_search_0_hop"
+    ],
+    "timestamp": [
+        "2025-02-10 19:52:37"
+    ],
+    "latency_s": [
+        0.05147433280944824
+    ],
+    "query": [
+        "\n                MATCH (n)\n                WHERE toLower(n.name) CONTAINS toLower('DiagnosticReport') AND toLower(n.consumer_id) CONTAINS toLower('Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d')\n                RETURN \"{'Main health record': '\" + n.text + \"'}\n\" AS text\n            "
+    ],
+    "similarity_threshold": [
+        0.84
+    ],
+    "k": [
+        100000
+    ],
+    "embedding_model": [
+        "BAAI/bge-small-en-v1.5"
+    ]
+}

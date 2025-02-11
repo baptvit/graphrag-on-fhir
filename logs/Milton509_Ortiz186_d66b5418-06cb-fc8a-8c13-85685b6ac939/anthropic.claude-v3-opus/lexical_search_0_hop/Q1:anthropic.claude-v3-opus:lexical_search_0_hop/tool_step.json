@@ -1,0 +1,35 @@
+{
+    "experiment_id": [
+        "Q1:anthropic.claude-v3-opus:lexical_search_0_hop"
+    ],
+    "timestamp": [
+        "2025-02-11 08:30:28"
+    ],
+    "records": [
+        "{'Main health record': 'Resource Type: MedicationRequest\nStatus: Stopped\nIntent: Order\nMedication: Acetaminophen 325 MG Oral Tablet\nMedication Coding System: http://www.nlm.nih.gov/research/umls/rxnorm\nMedication Code: 313782\nEncounter: Unknown\nAuthored On: 12/21/2012 5:56:16 PM GMT-05:00\nRequester: Dr. Wilfredo622 Medhurst46\nRequester Medical Number: 9999999959\nRequester Medical Number Coding Classification System: http://hl7.org/fhir/sid/us-npi\nReason: Unknown\nSubject: Unknown'}\n\n{'Main health record': 'Medication request status: Stopped\nMedication request intent: Order\nMedication: amLODIPine 2.5 MG Oral Tablet (RxNorm: 308136)\nMedication request authored on: August 5, 2015, 4:36 PM Coordinated Universal Time-04:00\nMedication requester: Dr. Lionel365 Cormier289 (National Provider Identifier: 9999945659)\nDosage instructions: Take 1 tablet by mouth, 1 time per day'}\n\n{'Main health record': 'Resource Type: Medication Request\nStatus: Stopped\nIntent: Order\nMedication: amLODIPine 2.5 MG Oral Tablet (RxNorm: 308136)\nSubject: Unknown (Resource not provided)\nEncounter: Unknown (Resource not provided)\nAuthored On: August 10, 2016 8:36 PM UTC\nRequester: Dr. Lionel365 Cormier289 (NPI: 9999945659)\nReason: Unknown (Resource not provided)\nDosage Instruction: - Take 1 tablet, 1 time per day\n'}\n\n{'Main health record': 'Medication request status: Stopped,\nMedication request intent: Order,\nMedication: amLODIPine 2.5 MG Oral Tablet (RxNorm: 308136),\nMedication request authored on: August 22, 2018 at 4:36 PM,\nMedication requester: Dr. Lionel365 Cormier289 (NPI: 9999945659),\nDosage instructions: Take 1 tablet 1 time a day. \n'}\n\n{'Main health record': 'Resource Type: Medication Request\nStatus: Stopped\nIntent: Order\nMedication: amLODIPine 2.5 MG Oral Tablet (RxNorm: 308136)\nSubject: Unknown \nEncounter: Unknown \nAuthored On: August 16, 2017 at 4:36 PM-04:00\nRequester: Dr. Lionel365 Cormier289 (NPI: 9999945659)\nReason: Unknown \nDosage Instruction: Take one  daily as needed: No \nDosage Instruction Type: Ordered (http://terminology.hl7.org/CodeSystem/dose-rate-type)\n'}\n\n{'Main health record': 'Resource Type: Medication Request\nStatus: Stopped\nIntent: Order\nMedication: amLODIPine 2.5 MG Oral Tablet (RxNorm: 308136)\nSubject: Unknown (Details not provided)\nEncounter: Unknown (Details not provided)\nAuthored On: August 28, 2019, 4:36:45 PM (Eastern Daylight Time)\nRequester: Dr. Lionel365 Cormier289 (NPI: 9999945659)\nReason: Unknown (Details not provided)\nDosage Instruction: Take 1 dose by mouth, 1 time per day. \n'}\n\n{'Main health record': 'Status: Stopped\nIntent: Order\nMedication: amLODIPine 2.5 MG Oral Tablet (RxNorm: 308136)\nSubject: Unknown\nEncounter: Unknown\nAuthored On: 09/02/2020 04:36:45 PM UTC\nRequester: Dr. Lionel365 Cormier289 (NPI: 9999945659)\nReason: Unknown\nDosage Instructions: - Take 1.0 unit 1 time a day as ordered. \n'}\n\n{'Main health record': 'Medication request status: Active\nMedication request intent: Order\nMedication reference: Not available\nPatient: Not available\nEncounter: Not available\nDate written: November 21, 2020 at 5:05 PM Eastern Standard Time\nRequester: Dr. Lesley194 Fisher429, NPI 9999999989'}\n\n{'Main health record': 'Resource Type: MedicationRequest\nStatus: Active\nIntent: Order\nMedication: Not Specified\nPatient: Not Specified\nEncounter: Not Specified\nAuthored On: November 21, 2020 at 5:05 PM EST\nRequester: Dr. Lesley194 Fisher429, Medical number ([http://hl7.org/fhir/sid/us-npi](http://hl7.org/fhir/sid/us-npi)): 9999999989 \n'}\n\n{'Main health record': 'Resource Type: Medication Request\nProfile: US Core Medication Request\nStatus: Active\nIntent: Order\nMedication: (not specified)\nPatient: (not specified)\nEncounter: (not specified)\nAuthored On: December 2, 2020 at 5:05 PM EST\nRequester: Dr. Lesley194 Fisher429 (NPI: 9999999989)\nReason: (not specified)\nDosage Instruction: - Sequence: 1\nDosage Instruction: - Timing: Repeat once a day\nDosage Instruction: - As Needed: False\nDosage Instruction: - Dose and Rate: Ordered - 1 (unspecified unit)'}\n\n{'Main health record': 'Resource Type: Medication Request\nProfile: US Core Medication Request\nStatus: Active\nIntent: Order\nMedication: amLODIPine 2.5 MG Oral Tablet (RxNorm: 308136)\nSubject: Unknown (Resource not provided)\nEncounter: Unknown (Resource not provided)\nAuthored On: September 8, 2021, 4:36 PM Coordinated Universal Time - 04:00\nRequester: Dr. Lionel365 Cormier289 (NPI: 9999945659)\nReason: Unknown (Resource not provided)\nDosage Instructions: - Take 1 dose, 1 time per day as needed: No'}\n"
+    ],
+    "caracteres_count": [
+        4511
+    ],
+    "caracteres_count_after_reduce": [
+        4511
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        "MedicationRequest"
+    ],
+    "main_keys": [
+        ""
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        200000
+    ],
+    "strategy_name": [
+        "LexicalSearch0HopStrategy"
+    ]
+}
