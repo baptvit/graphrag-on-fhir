@@ -1,0 +1,26 @@
+{
+    "experiment_id": [
+        "Q1:llama-3-70b-instruct-awq:lexical_search_1_hop"
+    ],
+    "timestamp": [
+        "2025-02-11 09:46:24"
+    ],
+    "total_cost": [
+        0.0
+    ],
+    "total_tokens": [
+        42684
+    ],
+    "successful_requests": [
+        2
+    ],
+    "completion_tokens": [
+        874
+    ],
+    "prompt_tokens": [
+        41810
+    ],
+    "total_time": [
+        20.99319291114807
+    ]
+}

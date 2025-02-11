@@ -1,0 +1,35 @@
+{
+    "experiment_id": [
+        "Q5:DeepSeek-R1-Distill-Llama-70B-FP8:lexical_search_0_hop"
+    ],
+    "timestamp": [
+        "2025-02-11 09:12:22"
+    ],
+    "records": [
+        "{'Main health record': 'Resource Type: CarePlan\nStatus: Active\nIntent: Order\nCategory: Assess and Plan\nCategory: Lifestyle education regarding hypertension (SNOMED CT: 443402002)\nSubject: Not Specified\nEncounter: Not Specified\nPeriod Start: June 6, 1973 at 1:53 PM UTC\nCare Team: Not Specified\nAddresses: Not Specified\nActivity Code: Prescribed activity/exercise education (SNOMED CT: 386463000)\nActivity Reason: Not Specified\nActivity Status: In progress\nActivity Location: DAVIS SQUARE FAMILY PRACTICE\nActivity Code: Counseling about alcohol consumption (SNOMED CT: 413473000)\nActivity Reason: Not Specified\nActivity Status: In progress\nActivity Location: DAVIS SQUARE FAMILY PRACTICE\nActivity Code: Dietary approaches to stop hypertension diet (SNOMED CT: 1151000175103)\nActivity Reason: Not Specified\nActivity Status: In progress\nActivity Location: DAVIS SQUARE FAMILY PRACTICE\nActivity Code: Smoking cessation education (SNOMED CT: 225323000)\nActivity Reason: Not Specified\nActivity Status: In progress\nActivity Location: DAVIS SQUARE FAMILY PRACTICE\nText Status: Generated\nText: Care Plan for Lifestyle education regarding hypertension.<br/>Care plan is meant to treat Essential hypertension (disorder).<br/>Activities: <ul><li>Lifestyle education regarding hypertension</li><li>Lifestyle education regarding hypertension</li><li>Lifestyle education regarding hypertension</li><li>Lifestyle education regarding hypertension</li></ul>\n'}\n\n{'Main health record': 'Resource Type: CarePlan\nStatus: Completed\nIntent: Order\nCategory: Assess and Plan\nCategory: Physiotherapy care plan (record artifact) (Medical Number: 773513001 - SNOMED CT)\nSubject: Not Specified\nEncounter: Not Specified\nPeriod Start: 07/02/2020 2:20:54 PM UTC\nPeriod End: 07/26/2020 2:20:54 PM UTC\nCare Team: Not Specified\nAddresses: Not Specified\nActivity Code: Rest, ice, compression and elevation treatment program (regime/therapy) (Medical Number: 229586001 - SNOMED CT)\nActivity Reason: Not Specified\nActivity Status: Completed\nActivity Location: CAMBRIDGE REHABILITATION & NURSING CENTER\nActivity Code: Stretching exercises (Medical Number: 229070002 - SNOMED CT)\nActivity Reason: Not Specified\nActivity Status: Completed\nActivity Location: CAMBRIDGE REHABILITATION & NURSING CENTER \n'}\n\n{'Main health record': 'Resource Type: CarePlan\nStatus: Active\nIntent: Order\nCategory: Assess plan\nCategory: Physiotherapy care plan (record artifact) (Medical Number: 773513001, Coding Classification System: SNOMED CT)\nEncounter: Not available\nPeriod Start: October 31, 2023 2:20 PM Coordinated Universal Time\nCare Team: Not available\nAddresses: Not available\nActivity Code: Rest, ice, compression and elevation treatment program (regime/therapy) (Medical Number: 229586001, Coding Classification System: SNOMED CT)\nActivity Reason: Not available\nActivity Status: In progress\nActivity Location: CAMBRIDGE REHABILITATION & NURSING CENTER\nActivity Code: Stretching exercises (Medical Number: 229070002, Coding Classification System: SNOMED CT)\nActivity Reason: Not available\nActivity Status: In progress\nActivity Location: CAMBRIDGE REHABILITATION & NURSING CENTER\nSubject: Not available\nText: Care Plan for Physiotherapy care plan (record artifact).<br/>Care plan is meant to treat Sprain of ankle.<br/>Activities: <ul><li>Physiotherapy care plan (record artifact)</li><li>Physiotherapy care plan (record artifact)</li></ul>\n'}\n"
+    ],
+    "caracteres_count": [
+        3392
+    ],
+    "caracteres_count_after_reduce": [
+        3392
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        "CarePlan"
+    ],
+    "main_keys": [
+        ""
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        128000
+    ],
+    "strategy_name": [
+        "LexicalSearch0HopStrategy"
+    ]
+}

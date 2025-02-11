@@ -1,0 +1,26 @@
+{
+    "experiment_id": [
+        "Q3:DeepSeek-R1-Distill-Llama-70B-FP8:lexical_search_1_hop"
+    ],
+    "timestamp": [
+        "2025-02-11 08:56:20"
+    ],
+    "total_cost": [
+        0.0
+    ],
+    "total_tokens": [
+        74640
+    ],
+    "successful_requests": [
+        2
+    ],
+    "completion_tokens": [
+        1064
+    ],
+    "prompt_tokens": [
+        73576
+    ],
+    "total_time": [
+        23.59708595275879
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "experiment_id": [
+        "Q2:llama-3-70b-instruct-awq:lexical_search_0_hop"
+    ],
+    "timestamp": [
+        "2025-02-11 09:43:06"
+    ],
+    "records": [
+        ""
+    ],
+    "caracteres_count": [
+        0
+    ],
+    "caracteres_count_after_reduce": [
+        0
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        "AllergyIntolerance"
+    ],
+    "main_keys": [
+        ""
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        128000
+    ],
+    "strategy_name": [
+        "LexicalSearch0HopStrategy"
+    ]
+}

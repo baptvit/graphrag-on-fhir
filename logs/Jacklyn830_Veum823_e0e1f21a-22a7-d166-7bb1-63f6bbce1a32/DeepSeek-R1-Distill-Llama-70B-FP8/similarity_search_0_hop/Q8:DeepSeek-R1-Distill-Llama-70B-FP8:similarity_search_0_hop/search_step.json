@@ -1,0 +1,23 @@
+{
+    "experiment_id": [
+        "Q8:DeepSeek-R1-Distill-Llama-70B-FP8:similarity_search_0_hop"
+    ],
+    "timestamp": [
+        "2025-02-11 09:21:23"
+    ],
+    "latency_s": [
+        0.07756328582763672
+    ],
+    "query": [
+        "Similarity Search 0-Hop"
+    ],
+    "similarity_threshold": [
+        0.84
+    ],
+    "k": [
+        100000
+    ],
+    "embedding_model": [
+        "BAAI/bge-small-en-v1.5"
+    ]
+}

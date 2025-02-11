@@ -1,0 +1,35 @@
+{
+    "experiment_id": [
+        "Q8:DeepSeek-R1-Distill-Llama-70B-FP8:similarity_search_0_hop"
+    ],
+    "timestamp": [
+        "2025-02-11 09:03:27"
+    ],
+    "records": [
+        "{'Main health record': 'Immunization Status: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Codes: 140; Coding Classification System: http://hl7.org/fhir/sid/cvx\nImmunization Date: July 3, 2018, 12:03:08 AM GMT-04:00\nPrimary Source: true\nLocation: NEWTON-WELLESLEY UROLOGY, PC'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Codes: 140 | http://hl7.org/fhir/sid/cvx\nCoding Classification System: CVX\nImmunization Date: 2016-06-28T00:03:08-04:00\nReported From Primary Source: true\nLocation: NEWTON-WELLESLEY UROLOGY, PC'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical code: 140\nCoding Classification System: http://hl7.org/fhir/sid/cvx\nImmunization Date: July 7, 2020, 12:03:08 AM GMT\nReported From Primary Source: true\nLocation: NEWTON-WELLESLEY UROLOGY, PC'}\n\n{'Main health record': 'Immunization Status: Completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Codes: 140 | CVX\nPatient: Unknown\nEncounter: Unknown\nDate Administered: June 24, 2014, 12:03:08 AM GMT-04:00\nWas this the primary source of this information: Yes\nLocation: NEWTON-WELLESLEY UROLOGY, PC'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Td (adult) preservative free\nMedical Codes: 113 | CVX\nCoding Classification System: http://hl7.org/fhir/sid/cvx\nDate Administered: 2016-06-28T00:03:08-04:00\nReported From Primary Source: true\nLocation: NEWTON-WELLESLEY UROLOGY, PC \n'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Hep A, adult\nMedical Codes: 52 | http://hl7.org/fhir/sid/cvx\nCoding Classification System: http://hl7.org/fhir/sid/cvx\nDate Administered: 2016-06-28T00:03:08-04:00\nReported From Primary Source: true\nLocation: NEWTON-WELLESLEY UROLOGY, PC \n'}\n\n{'Main health record': 'Resource Type: Immunization\nStatus: Completed\nVaccine Code: Hep A, adult\nMedical Number: 52\nCoding Classification System: http://hl7.org/fhir/sid/cvx\nOccurrence Date Time: 2014-06-24T00:03:08-04:00\nPrimary Source: true\nLocation: NEWTON-WELLESLEY UROLOGY, PC\n'}\n\n{'Main health record': 'Immunization Status: completed\nVaccine Code: Influenza, seasonal, injectable, preservative free\nMedical Codes: 140 | CVX\nPatient: Unknown\nEncounter: Unknown\nDate Administered: 12/28/2020 11:03:08 PM GMT\nPrimary Source: true\nLocation: NEWTON-WELLESLEY HOSPITAL'}\n\n{'Main health record': 'Status: Finished,\nClass: ambulatory,\nType: Administration of vaccine to produce active immunity (procedure) (Medical Number: 33879002, Coding Classification System: SNOMED CT),\nSubject: Mrs. Edythe31 Morar593,\nParticipant: Dr. Darrick836 Franecki195 (Medical Number: 9999999579, Coding Classification System: NPI) as a primary performer (Medical Number: PPRF, Coding Classification System: v3-ParticipationType) from 2021-04-27T00:03:08-04:00 to 2021-04-27T00:18:08-04:00,\nPeriod: from 2021-04-27T00:03:08-04:00 to 2021-04-27T00:18:08-04:00,\nLocation: NEWTON-WELLESLEY HOSPITAL,\nService Provider: NEWTON-WELLESLEY HOSPITAL. \n'}\n\n{'Main health record': 'Status: Completed\nVaccine Code: SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 100 mcg/0.5mL dose\nMedical Codes: CVX: 207\nPatient: Unknown\nEncounter: Unknown\nDate of Immunization: March 30, 2021, 12:03:08 AM PDT\nWas this the primary source of the data?: Yes\nLocation: NEWTON-WELLESLEY HOSPITAL'}\n\n"
+    ],
+    "caracteres_count": [
+        3488
+    ],
+    "caracteres_count_after_reduce": [
+        3488
+    ],
+    "pass_map_reduce": [
+        false
+    ],
+    "resource_type": [
+        ""
+    ],
+    "main_keys": [
+        "immunizations vaccinations shots"
+    ],
+    "user_query": [
+        ""
+    ],
+    "llm_token_limit": [
+        128000
+    ],
+    "strategy_name": [
+        "SimilaritySearch0HopStrategy"
+    ]
+}

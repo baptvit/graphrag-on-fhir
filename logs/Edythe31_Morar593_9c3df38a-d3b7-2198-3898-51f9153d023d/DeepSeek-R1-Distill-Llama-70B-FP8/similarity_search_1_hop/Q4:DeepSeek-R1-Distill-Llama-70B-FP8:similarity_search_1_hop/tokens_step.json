@@ -1,0 +1,26 @@
+{
+    "experiment_id": [
+        "Q4:DeepSeek-R1-Distill-Llama-70B-FP8:similarity_search_1_hop"
+    ],
+    "timestamp": [
+        "2025-02-11 09:05:29"
+    ],
+    "total_cost": [
+        0.0
+    ],
+    "total_tokens": [
+        104380
+    ],
+    "successful_requests": [
+        2
+    ],
+    "completion_tokens": [
+        2452
+    ],
+    "prompt_tokens": [
+        101928
+    ],
+    "total_time": [
+        39.18670177459717
+    ]
+}
