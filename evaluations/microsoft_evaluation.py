@@ -12,8 +12,8 @@ from itertools import combinations
 
 # Constants
 CONSUMER_ID = "Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625"
-SOURCE_INTERMEDIATE_PATH = "/home/baptvit/repositories/graphrag-on-fhir/evaluations/data/silver/Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625-llama-3-70b-instruct-awq.csv"
-SOURCE_GOLD_PATH = "/home/baptvit/repositories/graphrag-on-fhir/evaluations/data/gold/Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625-llama-3-70b-instruct-awq.csv_microsoft_eval.csv"
+SOURCE_INTERMEDIATE_PATH = "/home/baptvit/repositories/graphrag-on-fhir/evaluations/data/silver/Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625-DeepSeek-R1-Distill-Llama-70B-FP8.csv"
+SOURCE_GOLD_PATH = "/home/baptvit/repositories/graphrag-on-fhir/evaluations/data/gold/Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625-DeepSeek-R1-Distill-Llama-70B-FP8_microsoft_eval.csv"
 
 AZURE_OPENAI_ENDPOINT = ""
 AZURE_OPENAI_API_KEY = ""

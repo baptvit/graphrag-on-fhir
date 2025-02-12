@@ -27,8 +27,8 @@ THRESHOLD = 0.5
 SILVER_DIR = Path("/home/baptvit/repositories/graphrag-on-fhir/evaluations/data/silver")
 GOLD_DIR = Path("/home/baptvit/repositories/graphrag-on-fhir/evaluations/data/gold")
 
-SILVER_FILE = Path("/home/baptvit/repositories/graphrag-on-fhir/evaluations/data/silver/Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625-llama-3-70b-instruct-awq.csv")
-GOLD_FILE = Path("/home/baptvit/repositories/graphrag-on-fhir/evaluations/data/gold/Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625-llama-3-70b-instruct-awq_deepeval.csv")
+SILVER_FILE = Path("/home/baptvit/repositories/graphrag-on-fhir/evaluations/data/silver/Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625-DeepSeek-R1-Distill-Llama-70B-FP8.csv")
+GOLD_FILE = Path("/home/baptvit/repositories/graphrag-on-fhir/evaluations/data/gold/Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625-DeepSeek-R1-Distill-Llama-70B-FP8_deepeval.csv")
 
 
 from deepeval.models import DeepEvalBaseLLM
