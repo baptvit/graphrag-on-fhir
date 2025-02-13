@@ -128,6 +128,22 @@ Once the consolidated log files are prepared, proceed to run the evaluation usin
 
    - The script will process the data and output the evaluation results.
 
+## Results from DeepEval
+
+| Model                   | Search Type               | Avg Score Answer Relevancy (%) | Std Score Answer Relevancy (%) | Avg Score Contextual Relevancy (%) | Std Score Contextual Relevancy (%) | Avg Score Hallucination (%) | Std Score Hallucination (%) |
+|-------------------------|---------------------------|--------------------------------|--------------------------------|------------------------------------|------------------------------------|-----------------------------|-----------------------------|
+| anthropic.claude-v3-opus | lexical_search_0_hop      | 83.47                          | 29.32                          | 63.91                              | 24.40                              | 21.88                       | 42.00                       |
+| anthropic.claude-v3-opus | lexical_search_1_hop      | 94.50                          | 6.15                           | 73.44                              | 25.95                              | 48.28                       | 50.85                       |
+| anthropic.claude-v3-opus | similarity_search_0_hop   | 90.24                          | 23.85                          | 63.58                              | 22.52                              | 30.30                       | 46.67                       |
+| anthropic.claude-v3-opus | similarity_search_1_hop   | 83.48                          | 32.54                          | 70.21                              | 23.63                              | 40.63                       | 49.90                       |
+| gemini-1.5-pro           | lexical_search_0_hop      | 98.73                          | 5.54                           | 86.17                              | 33.04                              | 0.00                        | 0.00                        |
+| gemini-1.5-pro           | lexical_search_1_hop      | 98.93                          | 5.52                           | 84.06                              | 33.70                              | 2.50                        | 15.81                       |
+| gemini-1.5-pro           | similarity_search_0_hop   | 99.43                          | 2.70                           | 86.00                              | 30.65                              | 0.00                        | 0.00                        |
+| gemini-1.5-pro           | similarity_search_1_hop   | 94.36                          | 17.64                          | 83.39                              | 31.94                              | 7.50                        | 26.67                       |
+| gpt-4o-2024-08-06        | lexical_search_0_hop      | 89.65                          | 25.34                          | 67.68                              | 30.52                              | 15.71                       | 36.47                       |
+| gpt-4o-2024-08-06        | lexical_search_1_hop      | 92.58                          | 14.78                          | 69.04                              | 30.45                              | 34.38                       | 48.26                       |
+| gpt-4o-2024-08-06        | similarity_search_0_hop   | 90.23                          | 23.83                          | 57.91                              | 30.79                              | 14.29                       | 35.50                       |
+| gpt-4o-2024-08-06        | similarity_search_1_hop   | 87.78                          | 27.64                          | 61.89                              | 27.69                              | 34.29                       | 48.16                       |
 <!-- ## Additional Information
 
 - **Dependencies**:
