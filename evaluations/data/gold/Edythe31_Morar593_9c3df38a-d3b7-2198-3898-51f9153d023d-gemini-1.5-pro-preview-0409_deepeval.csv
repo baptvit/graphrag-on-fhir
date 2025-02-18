@@ -1,5 +1,5 @@
-,Unnamed: 0.2,Unnamed: 0.1,Unnamed: 0,consumer_id,test_name,success,metric_name,threshold,metric_success,score,reason,strict_mode,evaluation_model,error,evaluation_cost,verbose_logs,conversational,multimodal,input,actual_output,expected_output,context
-0,0,0,0,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q7:gemini-1.5-pro:similarity_search_0_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns perfectly with the provided context, effectively summarizing the patient's medical procedures without introducing any hallucinations or extraneous information.  Therefore, there is no evidence of hallucination.",False,Custom Azure OpenAI Model,,,"Verdicts:
+,Unnamed: 0.3,Unnamed: 0.2,Unnamed: 0.1,Unnamed: 0,consumer_id,test_name,success,metric_name,threshold,metric_success,score,reason,strict_mode,evaluation_model,error,evaluation_cost,verbose_logs,conversational,multimodal,input,actual_output,expected_output,context,retrieval_context
+0,0,0,0,0,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q7:gemini-1.5-pro:similarity_search_0_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns perfectly with the provided context, effectively summarizing the patient's medical procedures without introducing any hallucinations or extraneous information.  Therefore, there is no evidence of hallucination.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -209,8 +209,8 @@ Performed Period End: 2016-06-28T01:52:50-04:00
 Location: NEWTON-WELLESLEY UROLOGY, PC 
 '}
 
-"
-1,1,1,1,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q7:gemini-1.5-pro:similarity_search_0_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response is relevant and accurate, addressing the user's request for information about recent procedures and their outcomes.  It's great that there are no irrelevant statements holding the score back! Keep up the good work!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+1,1,1,1,1,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q7:gemini-1.5-pro:similarity_search_0_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response is relevant and accurate, addressing the user's request for information about recent procedures and their outcomes.  It's great that there are no irrelevant statements holding the score back! Keep up the good work!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""You have undergone several procedures, primarily screenings, at NEWTON-WELLESLEY UROLOGY, PC."",
     ""Drug Abuse Screening:"",
@@ -555,8 +555,8 @@ Performed Period End: 2016-06-28T01:52:50-04:00
 Location: NEWTON-WELLESLEY UROLOGY, PC 
 '}
 
-"
-2,2,2,2,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q7:gemini-1.5-pro:similarity_search_0_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because the retrieved context includes specific procedures like 'Screening for drug abuse', 'Assessment of health and social care needs', 'Depression screening', 'Assessment of anxiety', and 'Measurement of respiratory function', directly addressing the user's request for recently undergone procedures.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+2,2,2,2,2,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q7:gemini-1.5-pro:similarity_search_0_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because the retrieved context includes specific procedures like 'Screening for drug abuse', 'Assessment of health and social care needs', 'Depression screening', 'Assessment of anxiety', and 'Measurement of respiratory function', directly addressing the user's request for recently undergone procedures.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -846,8 +846,8 @@ Performed Period End: 2016-06-28T01:52:50-04:00
 Location: NEWTON-WELLESLEY UROLOGY, PC 
 '}
 
-"
-3,3,3,3,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q3:gemini-1.5-pro:similarity_search_0_hop,False,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns perfectly with the provided context, with no contradictions found.  This indicates a high level of factual accuracy and adherence to the source material.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+3,3,3,3,3,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q3:gemini-1.5-pro:similarity_search_0_hop,False,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns perfectly with the provided context, with no contradictions found.  This indicates a high level of factual accuracy and adherence to the source material.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -894,8 +894,8 @@ Recorded Date: 1993-08-17T00:03:08-04:00
     - Period: From July 16, 1991, 12:03:08 AM UTC to July 16, 1991, 12:18:08 AM UTC 
 '}
 
-"
-4,4,4,4,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q3:gemini-1.5-pro:similarity_search_0_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response is relevant and accurate, addressing the prompt appropriately.  Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+4,4,4,4,4,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q3:gemini-1.5-pro:similarity_search_0_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response is relevant and accurate, addressing the prompt appropriately.  Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""Based on the information available in your medical records, you were diagnosed with Anemia in August 1993."",
     ""Anemia in August 1993"",
@@ -1023,8 +1023,8 @@ Recorded Date: 1993-08-17T00:03:08-04:00
     - Period: From July 16, 1991, 12:03:08 AM UTC to July 16, 1991, 12:18:08 AM UTC 
 '}
 
-"
-5,5,5,5,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q3:gemini-1.5-pro:similarity_search_0_hop,False,Contextual Relevancy,0.5,False,0.3333333333333333,"The score is 0.33 because while the context mentions ""Resource Type: Condition,\nClinical Status: Active,\n...Code: Anemia (disorder)..."", indicating an active medical condition of Anemia, other irrelevant information like a resolved 'Full-time employment' status and a 'Superseded' document reference, which is outdated, lowers the overall relevancy.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+5,5,5,5,5,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q3:gemini-1.5-pro:similarity_search_0_hop,False,Contextual Relevancy,0.5,False,0.3333333333333333,"The score is 0.33 because while the context mentions ""Resource Type: Condition,\nClinical Status: Active,\n...Code: Anemia (disorder)..."", indicating an active medical condition of Anemia, other irrelevant information like a resolved 'Full-time employment' status and a 'Superseded' document reference, which is outdated, lowers the overall relevancy.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -1086,8 +1086,8 @@ Recorded Date: 1993-08-17T00:03:08-04:00
     - Period: From July 16, 1991, 12:03:08 AM UTC to July 16, 1991, 12:18:08 AM UTC 
 '}
 
-"
-6,6,6,6,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q4:gemini-1.5-pro:similarity_search_0_hop,False,Hallucination,0.5,True,0.0,The score is 0.00 because there are no contradictions identified between the actual output and the provided context.  The alignment explicitly confirms that the output accurately reflects the context.,False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+6,6,6,6,6,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q4:gemini-1.5-pro:similarity_search_0_hop,False,Hallucination,0.5,True,0.0,The score is 0.00 because there are no contradictions identified between the actual output and the provided context.  The alignment explicitly confirms that the output accurately reflects the context.,False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -1691,8 +1691,8 @@ Observation Issued Date: June 24, 2014, 12:03 AM PDT
 Observation Value: 6.23 % 
 '}
 
-"
-7,7,7,7,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q4:gemini-1.5-pro:similarity_search_0_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response effectively addresses the user's prompt by advising on general health improvements that could positively impact lab results, and encourages seeking professional medical advice for accurate interpretation and personalized recommendations.  It's excellent that the response focuses on actionable steps while also emphasizing the importance of consulting with healthcare providers.",False,Custom Azure OpenAI Model,,,"Statements:
+",
+7,7,7,7,7,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q4:gemini-1.5-pro:similarity_search_0_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response effectively addresses the user's prompt by advising on general health improvements that could positively impact lab results, and encourages seeking professional medical advice for accurate interpretation and personalized recommendations.  It's excellent that the response focuses on actionable steps while also emphasizing the importance of consulting with healthcare providers.",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""I can see from your records that you have undergone several lab tests, including Basic Metabolic Panels and Lipid Panels, at NEWTON-WELLESLEY UROLOGY, PC on various dates such as July 3, 2018, June 24, 2014, June 28, 2016, July 7, 2020, and December 28, 2020."",
     ""These panels measure levels of substances like glucose, creatinine, calcium, and cholesterol in your blood."",
@@ -2321,16 +2321,16 @@ Observation Issued Date: June 24, 2014, 12:03 AM PDT
 Observation Value: 6.23 % 
 '}
 
-"
-8,8,8,9,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q2:gemini-1.5-pro:similarity_search_0_hop,False,Hallucination,0.5,False,1.0,"The score is 1.00 because the output contradicts the provided context.  The context explicitly states there is no information available to answer the question, yet the output attempts to provide an answer.  This fabrication of information, when the context clearly indicates no relevant information exists, signifies a complete hallucination.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+8,8,8,8,9,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q2:gemini-1.5-pro:similarity_search_0_hop,False,Hallucination,0.5,False,1.0,"The score is 1.00 because the output contradicts the provided context.  The context explicitly states there is no information available to answer the question, yet the output attempts to provide an answer.  This fabrication of information, when the context clearly indicates no relevant information exists, signifies a complete hallucination.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""no"",
         ""reason"": ""The context states that there is no data available to answer the question. However, the actual output provides an answer regarding documented allergies in medical records. Therefore, the actual output contradicts the provided context.""
     }
 ]",False,False,"What are my documented allergies, and how severe are they ?","I do not see any documented allergies in your medical records. 
-",,No data available for this question.
-9,9,9,10,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q2:gemini-1.5-pro:similarity_search_0_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response effectively addresses the user's prompt about allergies and their severity, although it lacks specific information about the user's personal allergies.  It correctly explains the importance of documentation and the information that should be included when documenting allergies, which is relevant to the user's request.  Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
+",,No data available for this question.,
+9,9,9,9,10,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q2:gemini-1.5-pro:similarity_search_0_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response effectively addresses the user's prompt about allergies and their severity, although it lacks specific information about the user's personal allergies.  It correctly explains the importance of documentation and the information that should be included when documenting allergies, which is relevant to the user's request.  Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""I do not see any documented allergies in your medical records.""
 ] 
@@ -2342,8 +2342,8 @@ Verdicts:
         ""reason"": null
     }
 ]",False,False,"What are my documented allergies, and how severe are they ?","I do not see any documented allergies in your medical records. 
-",,No data available for this question.
-10,10,10,11,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q2:gemini-1.5-pro:similarity_search_0_hop,False,Contextual Relevancy,0.5,False,0.0,"The score is 0.00 because none of the retrieved statements are relevant to the user's request for *their own* documented allergies.  All of the sources discuss general allergy documentation practices or describe what *should* be documented for a suspected allergy, as highlighted by the reasons for irrelevancy such as ""This statement describes what should be documented when a patient presents with a *suspected* drug allergy, not what is documented in the patient's record regarding *confirmed* allergies."" and ""This statement discusses allergy documentation as a general topic, but does not relate to the user's specific documented allergies.""  Since the retrieval context contains no information about the user's specific allergies, the score is 0.00.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",,No data available for this question.,
+10,10,10,10,11,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q2:gemini-1.5-pro:similarity_search_0_hop,False,Contextual Relevancy,0.5,False,0.0,"The score is 0.00 because none of the retrieved statements are relevant to the user's request for *their own* documented allergies.  All of the sources discuss general allergy documentation practices or describe what *should* be documented for a suspected allergy, as highlighted by the reasons for irrelevancy such as ""This statement describes what should be documented when a patient presents with a *suspected* drug allergy, not what is documented in the patient's record regarding *confirmed* allergies."" and ""This statement discusses allergy documentation as a general topic, but does not relate to the user's specific documented allergies.""  Since the retrieval context contains no information about the user's specific allergies, the score is 0.00.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -2390,8 +2390,8 @@ Verdicts:
         ]
     }
 ]",False,False,"What are my documented allergies, and how severe are they ?","I do not see any documented allergies in your medical records. 
-",,No data available for this question.
-11,11,11,12,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q1:gemini-1.5-pro:similarity_search_0_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns perfectly with the provided context, effectively summarizing the medication requests, their statuses, and the ordering physician, indicating no hallucinations.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",,No data available for this question.,
+11,11,11,11,12,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q1:gemini-1.5-pro:similarity_search_0_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns perfectly with the provided context, effectively summarizing the medication requests, their statuses, and the ordering physician, indicating no hallucinations.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -2666,8 +2666,8 @@ Requester: Dr. Darrick836 Franecki195
 Requester National Provider Identifier: 9999999579 
 '}
 
-"
-12,12,12,13,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q1:gemini-1.5-pro:similarity_search_0_hop,True,Answer Relevancy,0.5,True,1.0,The score is 1.00 because the response effectively addresses the user's prompt by acknowledging the need for a personalized medication list and advising consultation with a healthcare provider or pharmacist.  It correctly states that providing specific medication information without access to medical records is not possible. This demonstrates a perfect understanding of the limitations and ethical considerations involved.,False,Custom Azure OpenAI Model,,,"Statements:
+",
+12,12,12,12,13,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q1:gemini-1.5-pro:similarity_search_0_hop,True,Answer Relevancy,0.5,True,1.0,The score is 1.00 because the response effectively addresses the user's prompt by acknowledging the need for a personalized medication list and advising consultation with a healthcare provider or pharmacist.  It correctly states that providing specific medication information without access to medical records is not possible. This demonstrates a perfect understanding of the limitations and ethical considerations involved.,False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""This EHR data contains a list of medications prescribed to you, but doesn't specify if they are current."",
     ""It does mention the following details about your medications:"",
@@ -3066,8 +3066,8 @@ Requester: Dr. Darrick836 Franecki195
 Requester National Provider Identifier: 9999999579 
 '}
 
-"
-13,13,13,14,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q1:gemini-1.5-pro:similarity_search_0_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because the retrieved context includes a comprehensive list of medications, precisely aligning with the user's request for current medications and dosage information.  The presence of entries like 'acetaminophen 325 mg oral tablet', 'nitrofurantoin 5 mg/ml oral suspension', and others directly address the user's need.  Excellent work!",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+13,13,13,13,14,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q1:gemini-1.5-pro:similarity_search_0_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because the retrieved context includes a comprehensive list of medications, precisely aligning with the user's request for current medications and dosage information.  The presence of entries like 'acetaminophen 325 mg oral tablet', 'nitrofurantoin 5 mg/ml oral suspension', and others directly address the user's need.  Excellent work!",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -3492,8 +3492,8 @@ Requester: Dr. Darrick836 Franecki195
 Requester National Provider Identifier: 9999999579 
 '}
 
-"
-14,14,14,15,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q6:gemini-1.5-pro:similarity_search_0_hop,False,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output correctly aligns with the information provided in the context, demonstrating no hallucinations.  There are no contradictions present.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+14,14,14,14,15,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q6:gemini-1.5-pro:similarity_search_0_hop,False,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output correctly aligns with the information provided in the context, demonstrating no hallucinations.  There are no contradictions present.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -7144,8 +7144,8 @@ Context - Encounter: Referred to by ID: 48e8d55f-2450-6a0f-f424-389bbc412925
 Context - Period: August 20, 1996 12:03:08 AM to August 20, 1996 12:18:08 AM 
 '}
 
-"
-15,15,15,16,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q6:gemini-1.5-pro:similarity_search_0_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response is relevant, helpful, and comprehensive, addressing all aspects of the user's query about medical bill breakdowns.  It excellently guides the user toward understanding how to obtain a breakdown, apply for financial assistance, and negotiate bills, making it a perfect response.",False,Custom Azure OpenAI Model,,,"Statements:
+",
+15,15,15,15,16,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q6:gemini-1.5-pro:similarity_search_0_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response is relevant, helpful, and comprehensive, addressing all aspects of the user's query about medical bill breakdowns.  It excellently guides the user toward understanding how to obtain a breakdown, apply for financial assistance, and negotiate bills, making it a perfect response.",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""I found several Explanation of Benefit forms in your records."",
     ""For example: one from Anthem with a claim ID b4cacf48-0886-37f8-7371-5aa434f2ffa3 from February 7, 2017 for inpatient hospital services."",
@@ -10856,8 +10856,8 @@ Context - Encounter: Referred to by ID: 48e8d55f-2450-6a0f-f424-389bbc412925
 Context - Period: August 20, 1996 12:03:08 AM to August 20, 1996 12:18:08 AM 
 '}
 
-"
-16,16,16,18,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q5:gemini-1.5-pro:similarity_search_0_hop,False,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns perfectly with the provided contexts, with no contradictions found.  This indicates no hallucinations according to the definition of groundedness, where a score of 0 represents the presence of hallucination and 1 represents no hallucination.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+16,16,16,16,18,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q5:gemini-1.5-pro:similarity_search_0_hop,False,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns perfectly with the provided contexts, with no contradictions found.  This indicates no hallucinations according to the definition of groundedness, where a score of 0 represents the presence of hallucination and 1 represents no hallucination.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -11127,8 +11127,8 @@ The patient was prescribed the following medications:
 - jolivette 28 day pack
 '}
 
-"
-17,17,17,19,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q5:gemini-1.5-pro:similarity_search_0_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response effectively summarizes key aspects of care plan history, including its purpose, content, access, key steps, and the importance of patient history.  Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+17,17,17,17,19,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q5:gemini-1.5-pro:similarity_search_0_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response effectively summarizes key aspects of care plan history, including its purpose, content, access, key steps, and the importance of patient history.  Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""You were placed on a diabetes self management care plan on August 17, 1993 by Dr. Elva122 Langosh790."",
     ""This plan was created to treat your prediabetes and includes a diabetic diet and exercise therapy."",
@@ -11433,8 +11433,8 @@ The patient was prescribed the following medications:
 - jolivette 28 day pack
 '}
 
-"
-18,18,18,20,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q5:gemini-1.5-pro:similarity_search_0_hop,False,Contextual Relevancy,0.5,False,0.2727272727272727,"The score is 0.27 because while the context mentions some information about ""CarePlan"", it primarily focuses on the history of illnesses and prescribed medications, as indicated by the reasons for irrelevancy: 'This is about the history of the illness and not the care plan itself.' and 'This is about the history of the illness and prescribed medications, not the care plan itself.'. Although there are relevant statements such as 'Resource Type: CarePlan\nStatus: Completed\nIntent: Order', they are insufficient to provide a complete summary of care plan history.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+18,18,18,18,20,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q5:gemini-1.5-pro:similarity_search_0_hop,False,Contextual Relevancy,0.5,False,0.2727272727272727,"The score is 0.27 because while the context mentions some information about ""CarePlan"", it primarily focuses on the history of illnesses and prescribed medications, as indicated by the reasons for irrelevancy: 'This is about the history of the illness and not the care plan itself.' and 'This is about the history of the illness and prescribed medications, not the care plan itself.'. Although there are relevant statements such as 'Resource Type: CarePlan\nStatus: Completed\nIntent: Order', they are insufficient to provide a complete summary of care plan history.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -11759,8 +11759,8 @@ The patient was prescribed the following medications:
 - jolivette 28 day pack
 '}
 
-"
-19,19,19,21,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q8:gemini-1.5-pro:similarity_search_0_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because there are no contradictions detected between the actual output and the provided contexts.  Furthermore, the factual alignments confirm that the output accurately reflects information present in the source material.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+19,19,19,19,21,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q8:gemini-1.5-pro:similarity_search_0_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because there are no contradictions detected between the actual output and the provided contexts.  Furthermore, the factual alignments confirm that the output accurately reflects information present in the source material.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -11881,8 +11881,8 @@ Date of Immunization: April 27, 2021, 12:03:08 AM PDT
 Was this the primary source of the immunization record?: Yes
 Location: NEWTON-WELLESLEY HOSPITAL'}
 
-"
-20,20,20,22,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q8:gemini-1.5-pro:similarity_search_0_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response effectively summarizes ways to access immunization records, which directly addresses the user's request.  Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+20,20,20,20,22,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q8:gemini-1.5-pro:similarity_search_0_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response effectively summarizes ways to access immunization records, which directly addresses the user's request.  Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""Your immunization records indicate that you have received the following vaccinations at NEWTON-WELLESLEY UROLOGY, PC and NEWTON-WELLESLEY HOSPITAL:"",
     ""Influenza, seasonal, injectable, preservative free"",
@@ -12088,8 +12088,8 @@ Date of Immunization: April 27, 2021, 12:03:08 AM PDT
 Was this the primary source of the immunization record?: Yes
 Location: NEWTON-WELLESLEY HOSPITAL'}
 
-"
-21,21,21,23,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q8:gemini-1.5-pro:similarity_search_0_hop,True,Contextual Relevancy,0.5,True,0.9090909090909092,"The score is 0.91, which is great! This is because the retrieved context includes specific immunization records, as requested by the input 'Can you summarize my immunization history?'.  While some retrieved information may lack details as indicated by the provided reasons for irrelevancy ('This information mentions vaccine administration but lacks specific vaccine details'), the presence of detailed records such as 'Immunization Status: Completed, Vaccine Code: Influenza, seasonal, injectable, preservative free, Administered: June 24, 2014' and others significantly contributes to the high relevancy score.  Keep up the good work!",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+21,21,21,21,23,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q8:gemini-1.5-pro:similarity_search_0_hop,True,Contextual Relevancy,0.5,True,0.9090909090909092,"The score is 0.91, which is great! This is because the retrieved context includes specific immunization records, as requested by the input 'Can you summarize my immunization history?'.  While some retrieved information may lack details as indicated by the provided reasons for irrelevancy ('This information mentions vaccine administration but lacks specific vaccine details'), the presence of detailed records such as 'Immunization Status: Completed, Vaccine Code: Influenza, seasonal, injectable, preservative free, Administered: June 24, 2014' and others significantly contributes to the high relevancy score.  Keep up the good work!",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -12265,8 +12265,8 @@ Date of Immunization: April 27, 2021, 12:03:08 AM PDT
 Was this the primary source of the immunization record?: Yes
 Location: NEWTON-WELLESLEY HOSPITAL'}
 
-"
-22,22,22,24,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q4:gemini-1.5-pro:lexical_search_1_hop,False,Hallucination,0.5,False,1.0,"The score is 1.00 because the actual output contradicts all provided contexts. The contexts explain that patients *can* often access their lab results, sometimes directly, sometimes through a patient portal, while the actual output states the opposite.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+22,22,22,22,24,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q4:gemini-1.5-pro:lexical_search_1_hop,False,Hallucination,0.5,False,1.0,"The score is 1.00 because the actual output contradicts all provided contexts. The contexts explain that patients *can* often access their lab results, sometimes directly, sometimes through a patient portal, while the actual output states the opposite.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""no"",
@@ -14762,8 +14762,8 @@ Period: from 2021-04-27T00:03:08-04:00 to 2021-04-27T00:18:08-04:00,
 Location: NEWTON-WELLESLEY HOSPITAL,
 Service Provider: NEWTON-WELLESLEY HOSPITAL. 
 '), ]}
-"
-23,23,23,25,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q4:gemini-1.5-pro:lexical_search_1_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response lacks the requested information. While some sources discuss general lab values and how to improve lab quality, none of them provide access to the user's personal lab data.  Therefore, the response cannot directly address the user's questions about their own values, their meanings, and how to improve them.",False,Custom Azure OpenAI Model,,,"Statements:
+",
+23,23,23,23,25,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q4:gemini-1.5-pro:lexical_search_1_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response lacks the requested information. While some sources discuss general lab values and how to improve lab quality, none of them provide access to the user's personal lab data.  Therefore, the response cannot directly address the user's questions about their own values, their meanings, and how to improve them.",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""I lack access to specific lab values or the means to interpret them."",
     ""I cannot provide you with your recent laboratory values, their meanings, or recommendations for improvement."",
@@ -17274,8 +17274,8 @@ Period: from 2021-04-27T00:03:08-04:00 to 2021-04-27T00:18:08-04:00,
 Location: NEWTON-WELLESLEY HOSPITAL,
 Service Provider: NEWTON-WELLESLEY HOSPITAL. 
 '), ]}
-"
-24,24,24,26,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q4:gemini-1.5-pro:lexical_search_1_hop,False,Contextual Relevancy,0.5,True,0.631578947368421,"The score is 0.63 because while the retrieved context contains some relevant information like ""Result: Glucose\nResult: Urea Nitrogen\nResult: Creatinine"", a lot of it discusses general search engine queries such as ""A search query is the combination of words or phrases a user enters into a search engine's search box."" as indicated in the reasons for irrelevance.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+24,24,24,24,26,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q4:gemini-1.5-pro:lexical_search_1_hop,False,Contextual Relevancy,0.5,True,0.631578947368421,"The score is 0.63 because while the retrieved context contains some relevant information like ""Result: Glucose\nResult: Urea Nitrogen\nResult: Creatinine"", a lot of it discusses general search engine queries such as ""A search query is the combination of words or phrases a user enters into a search engine's search box."" as indicated in the reasons for irrelevance.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -19866,8 +19866,8 @@ Period: from 2021-04-27T00:03:08-04:00 to 2021-04-27T00:18:08-04:00,
 Location: NEWTON-WELLESLEY HOSPITAL,
 Service Provider: NEWTON-WELLESLEY HOSPITAL. 
 '), ]}
-"
-25,25,25,27,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q5:gemini-1.5-pro:lexical_search_1_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output perfectly aligns with the provided context, effectively summarizing the four care plans and their details without introducing any contradictory or hallucinated information.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+25,25,25,25,27,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q5:gemini-1.5-pro:lexical_search_1_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output perfectly aligns with the provided context, effectively summarizing the four care plans and their details without introducing any contradictory or hallucinated information.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -20130,8 +20130,8 @@ Period: From 2021-02-19T23:28:09-05:00 to 2021-02-20T00:28:09-05:00
 Location: NEWTON-WELLESLEY HOSPITAL
 Service Provider: NEWTON-WELLESLEY HOSPITAL 
 '), ]}
-"
-26,26,26,28,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q5:gemini-1.5-pro:lexical_search_1_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response effectively summarizes the history of care plans, covering key aspects such as their evolution, purpose, and components.  Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+26,26,26,26,28,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q5:gemini-1.5-pro:lexical_search_1_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response effectively summarizes the history of care plans, covering key aspects such as their evolution, purpose, and components.  Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""You have four care plans in your record:"",
     ""1. Diabetes Self Management Plan"",
@@ -20631,8 +20631,8 @@ Period: From 2021-02-19T23:28:09-05:00 to 2021-02-20T00:28:09-05:00
 Location: NEWTON-WELLESLEY HOSPITAL
 Service Provider: NEWTON-WELLESLEY HOSPITAL 
 '), ]}
-"
-27,27,27,29,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q5:gemini-1.5-pro:lexical_search_1_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because the retrieval context contains statements directly related to the user's request for their care plan history.  For example, the context includes entries like 'Resource Type: CarePlan\nStatus: active' and other similar structured data clearly indicating the presence of care plan information.  Excellent!",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+27,27,27,27,29,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q5:gemini-1.5-pro:lexical_search_1_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because the retrieval context contains statements directly related to the user's request for their care plan history.  For example, the context includes entries like 'Resource Type: CarePlan\nStatus: active' and other similar structured data clearly indicating the presence of care plan information.  Excellent!",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -20915,8 +20915,8 @@ Period: From 2021-02-19T23:28:09-05:00 to 2021-02-20T00:28:09-05:00
 Location: NEWTON-WELLESLEY HOSPITAL
 Service Provider: NEWTON-WELLESLEY HOSPITAL 
 '), ]}
-"
-28,28,28,30,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q7:gemini-1.5-pro:lexical_search_1_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because all aspects of the actual output align with the provided contexts, indicating no hallucinations.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+28,28,28,28,30,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q7:gemini-1.5-pro:lexical_search_1_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because all aspects of the actual output align with the provided contexts, indicating no hallucinations.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -23713,8 +23713,8 @@ Item 8 Medical Number Classification: SNOMED CT
 Item 8 Net Price: 516.65 USD
 Total Claim Amount: 218.01 USD
 '), ]}
-"
-29,29,29,31,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q7:gemini-1.5-pro:lexical_search_1_hop,True,Answer Relevancy,0.5,True,0.975,"The score is 0.97 because the response is mostly relevant, covering various common procedures. However, it lacks information about the specific procedures *you* have undergone and their outcomes, hence the slightly lower score.",False,Custom Azure OpenAI Model,,,"Statements:
+",
+29,29,29,29,31,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q7:gemini-1.5-pro:lexical_search_1_hop,True,Answer Relevancy,0.5,True,0.975,"The score is 0.97 because the response is mostly relevant, covering various common procedures. However, it lacks information about the specific procedures *you* have undergone and their outcomes, hence the slightly lower score.",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""You have undergone a number of procedures recently."",
     ""On June 24, 2014, you had a depression screening using the Patient Health Questionnaire Two-Item score at NEWTON-WELLESLEY UROLOGY, PC."",
@@ -26585,8 +26585,8 @@ Item 8 Medical Number Classification: SNOMED CT
 Item 8 Net Price: 516.65 USD
 Total Claim Amount: 218.01 USD
 '), ]}
-"
-30,30,30,32,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q7:gemini-1.5-pro:lexical_search_1_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because the retrieval context contains statements directly responding to the input query.  For example, the context includes details such as 'Depression screening using Patient Health Questionnaire Two-Item score (procedure) performed on June 24, 2014 from 12:50:01 AM EDT to 1:19:36 AM EDT at NEWTON-WELLESLEY UROLOGY, PC' and other similar entries detailing various procedures undertaken.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+30,30,30,30,32,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q7:gemini-1.5-pro:lexical_search_1_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because the retrieval context contains statements directly responding to the input query.  For example, the context includes details such as 'Depression screening using Patient Health Questionnaire Two-Item score (procedure) performed on June 24, 2014 from 12:50:01 AM EDT to 1:19:36 AM EDT at NEWTON-WELLESLEY UROLOGY, PC' and other similar entries detailing various procedures undertaken.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -29421,16 +29421,16 @@ Item 8 Medical Number Classification: SNOMED CT
 Item 8 Net Price: 516.65 USD
 Total Claim Amount: 218.01 USD
 '), ]}
-"
-31,31,31,33,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q2:gemini-1.5-pro:lexical_search_1_hop,False,Hallucination,0.5,False,1.0,"The score is 1.00 because the model generated an answer that contradicts the provided context.  The context explicitly states there is no information available to answer the question, yet the model fabricated an answer. This complete contradiction indicates a high probability of hallucination.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+31,31,31,31,33,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q2:gemini-1.5-pro:lexical_search_1_hop,False,Hallucination,0.5,False,1.0,"The score is 1.00 because the model generated an answer that contradicts the provided context.  The context explicitly states there is no information available to answer the question, yet the model fabricated an answer. This complete contradiction indicates a high probability of hallucination.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""no"",
         ""reason"": ""The context states that there is no data available to answer the question. However, the actual output provides an answer regarding documented allergies in medical records. It should state that it cannot find an answer to the question.""
     }
 ]",False,False,"What are my documented allergies, and how severe are they ?","I do not see any documented allergies for you in your medical records. 
-",,No data available for this question.
-32,32,32,34,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q2:gemini-1.5-pro:lexical_search_1_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response effectively and concisely addresses the user's prompt, which is a request for documented allergies and their severity.  The absence of irrelevant information further strengthens the justification for this perfect score. Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
+",,No data available for this question.,
+32,32,32,32,34,Edythe31_Morar593_9c3df38a-d3b7-2198-3898-51f9153d023d,Q2:gemini-1.5-pro:lexical_search_1_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response effectively and concisely addresses the user's prompt, which is a request for documented allergies and their severity.  The absence of irrelevant information further strengthens the justification for this perfect score. Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""I do not see any documented allergies for you in your medical records.""
 ] 
@@ -29442,4 +29442,4 @@ Verdicts:
         ""reason"": null
     }
 ]",False,False,"What are my documented allergies, and how severe are they ?","I do not see any documented allergies for you in your medical records. 
-",,No data available for this question.
+",,No data available for this question.,

@@ -1,5 +1,5 @@
-,Unnamed: 0.2,Unnamed: 0.1,Unnamed: 0,consumer_id,test_name,success,metric_name,threshold,metric_success,score,reason,strict_mode,evaluation_model,error,evaluation_cost,verbose_logs,conversational,multimodal,input,actual_output,expected_output,context
-0,0,0,0,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q7:gemini-1.5-pro:similarity_search_0_hop,True,Hallucination,0.5,True,0.0,The score is 0.00 because the actual output fully aligns with the provided context and shows no signs of hallucination.,False,Custom Azure OpenAI Model,,,"Verdicts:
+,Unnamed: 0.3,Unnamed: 0.2,Unnamed: 0.1,Unnamed: 0,consumer_id,test_name,success,metric_name,threshold,metric_success,score,reason,strict_mode,evaluation_model,error,evaluation_cost,verbose_logs,conversational,multimodal,input,actual_output,expected_output,context,retrieval_context
+0,0,0,0,0,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q7:gemini-1.5-pro:similarity_search_0_hop,True,Hallucination,0.5,True,0.0,The score is 0.00 because the actual output fully aligns with the provided context and shows no signs of hallucination.,False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -436,8 +436,8 @@ Date: January 23, 2018 from 12:26:35 PM to 12:51:48 PM
 Location: Worcester Outpatient Clinic 
 '}
 
-"
-1,1,1,1,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q7:gemini-1.5-pro:similarity_search_0_hop,True,Answer Relevancy,0.5,True,0.9565217391304348,"The score is 0.96 because while the response likely addresses the user's request for procedures and outcomes, the presence of disclaimers and suggestions to seek information elsewhere indicate a slight deviation from a purely factual and direct response.  It's great that the answer still maintains a high relevancy score!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+1,1,1,1,1,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q7:gemini-1.5-pro:similarity_search_0_hop,True,Answer Relevancy,0.5,True,0.9565217391304348,"The score is 0.96 because while the response likely addresses the user's request for procedures and outcomes, the presence of disclaimers and suggestions to seek information elsewhere indicate a slight deviation from a purely factual and direct response.  It's great that the answer still maintains a high relevancy score!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""I found records of several procedures you've undergone."",
     ""They include:"",
@@ -1417,8 +1417,8 @@ Date: January 23, 2018 from 12:26:35 PM to 12:51:48 PM
 Location: Worcester Outpatient Clinic 
 '}
 
-"
-2,2,2,2,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q7:gemini-1.5-pro:similarity_search_0_hop,True,Contextual Relevancy,0.5,True,0.9666666666666668,"The score is 0.97 because the retrieval context lists several medical procedures, which strongly relates to the user's question about their medical procedures: 'What procedures have I undergone recently, and what were the outcomes?'. While irrelevant information like 'The retrieval context contained the information 'Procedure: Medication Reconciliation (procedure)' when it has nothing to do with procedures undergone recently and their outcomes.' is present, the extensive list of accurate procedures outweighs this outlier.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+2,2,2,2,2,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q7:gemini-1.5-pro:similarity_search_0_hop,True,Contextual Relevancy,0.5,True,0.9666666666666668,"The score is 0.97 because the retrieval context lists several medical procedures, which strongly relates to the user's question about their medical procedures: 'What procedures have I undergone recently, and what were the outcomes?'. While irrelevant information like 'The retrieval context contained the information 'Procedure: Medication Reconciliation (procedure)' when it has nothing to do with procedures undergone recently and their outcomes.' is present, the extensive list of accurate procedures outweighs this outlier.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -2005,8 +2005,8 @@ Date: January 23, 2018 from 12:26:35 PM to 12:51:48 PM
 Location: Worcester Outpatient Clinic 
 '}
 
-"
-3,3,3,3,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q3:gemini-1.5-pro:similarity_search_0_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output perfectly aligns with the provided context, with no contradictions found.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+3,3,3,3,3,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q3:gemini-1.5-pro:similarity_search_0_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output perfectly aligns with the provided context, with no contradictions found.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -2071,8 +2071,8 @@ Condition Abatement Date/Time: August 21, 1990 at 12:07:29 PM -04:00,
 Condition Recorded Date: July 29, 1986 at 12:19:47 PM -04:00
 '}
 
-"
-4,4,4,4,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q3:gemini-1.5-pro:similarity_search_0_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00, signifying perfect relevancy! This is because there are no irrelevant statements in the output, indicating a completely focused and accurate response.",False,Custom Azure OpenAI Model,,,"Statements:
+",
+4,4,4,4,4,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q3:gemini-1.5-pro:similarity_search_0_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00, signifying perfect relevancy! This is because there are no irrelevant statements in the output, indicating a completely focused and accurate response.",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""Based on your medical records, you have had a history of the following medical conditions:"",
     ""Stress (finding)"",
@@ -2223,8 +2223,8 @@ Condition Abatement Date/Time: August 21, 1990 at 12:07:29 PM -04:00,
 Condition Recorded Date: July 29, 1986 at 12:19:47 PM -04:00
 '}
 
-"
-5,5,5,5,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q3:gemini-1.5-pro:similarity_search_0_hop,True,Contextual Relevancy,0.5,True,1.0,Perfect score! This is fantastic!,False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+5,5,5,5,5,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q3:gemini-1.5-pro:similarity_search_0_hop,True,Contextual Relevancy,0.5,True,1.0,Perfect score! This is fantastic!,False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -2314,8 +2314,8 @@ Condition Abatement Date/Time: August 21, 1990 at 12:07:29 PM -04:00,
 Condition Recorded Date: July 29, 1986 at 12:19:47 PM -04:00
 '}
 
-"
-6,6,6,6,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q4:gemini-1.5-pro:similarity_search_0_hop,False,Hallucination,0.5,False,1.0,The score is 1.00 because the model hallucinates by requesting additional information about laboratory values instead of providing the information supposedly present in the provided context.,False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+6,6,6,6,6,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q4:gemini-1.5-pro:similarity_search_0_hop,False,Hallucination,0.5,False,1.0,The score is 1.00 because the model hallucinates by requesting additional information about laboratory values instead of providing the information supposedly present in the provided context.,False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""no"",
@@ -3722,8 +3722,8 @@ Issued: December 25, 2012 at 10:24:54 AM EST
 Value Quantity: 90.728 fL (Units of Measure: fL) 
 '}
 
-"
-7,7,7,7,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q4:gemini-1.5-pro:similarity_search_0_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00, which is the highest possible score, indicating a perfect response. Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+7,7,7,7,7,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q4:gemini-1.5-pro:similarity_search_0_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00, which is the highest possible score, indicating a perfect response. Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""Please provide the specific laboratory values you are interested in."",
     ""I can tell you more about what they mean"",
@@ -5150,8 +5150,8 @@ Issued: December 25, 2012 at 10:24:54 AM EST
 Value Quantity: 90.728 fL (Units of Measure: fL) 
 '}
 
-"
-8,8,8,9,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q2:gemini-1.5-pro:similarity_search_0_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the output demonstrates perfect factual alignment with the provided medical record, with no contradictions found.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+8,8,8,8,9,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q2:gemini-1.5-pro:similarity_search_0_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the output demonstrates perfect factual alignment with the provided medical record, with no contradictions found.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -5183,8 +5183,8 @@ Reactions:
     - Anaphylaxis (disorder) (Medical Number: 39579001, Coding Classification System: SNOMED CT), Severity: Severe
 '}
 
-"
-9,9,9,10,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q2:gemini-1.5-pro:similarity_search_0_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00, indicating a perfectly relevant response. Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+9,9,9,9,10,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q2:gemini-1.5-pro:similarity_search_0_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00, indicating a perfectly relevant response. Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""Based on your medical records, you have a documented allergy to peanuts."",
     ""This allergy is classified as active and was last recorded on July 20, 1941."",
@@ -5268,8 +5268,8 @@ Reactions:
     - Anaphylaxis (disorder) (Medical Number: 39579001, Coding Classification System: SNOMED CT), Severity: Severe
 '}
 
-"
-10,10,10,11,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q2:gemini-1.5-pro:similarity_search_0_hop,True,Contextual Relevancy,0.5,True,1.0,The score is 1.00 because you nailed it! All the crucial info is right there!,False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+10,10,10,10,11,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q2:gemini-1.5-pro:similarity_search_0_hop,True,Contextual Relevancy,0.5,True,1.0,The score is 1.00 because you nailed it! All the crucial info is right there!,False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -5316,8 +5316,8 @@ Reactions:
     - Anaphylaxis (disorder) (Medical Number: 39579001, Coding Classification System: SNOMED CT), Severity: Severe
 '}
 
-"
-11,11,11,12,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q1:gemini-1.5-pro:similarity_search_0_hop,True,Hallucination,0.5,True,0.0,The score is 0.00 because the actual output does not contradict the provided context.,False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+11,11,11,11,12,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q1:gemini-1.5-pro:similarity_search_0_hop,True,Hallucination,0.5,True,0.0,The score is 0.00 because the actual output does not contradict the provided context.,False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -7942,8 +7942,8 @@ The patient was placed on a careplan:
 - lifestyle education regarding hypertension
 '}
 
-"
-12,12,12,13,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q1:gemini-1.5-pro:similarity_search_0_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00, signifying perfect relevancy! This is exactly how we want every response to be: completely relevant and on-point. Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+12,12,12,12,13,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q1:gemini-1.5-pro:similarity_search_0_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00, signifying perfect relevancy! This is exactly how we want every response to be: completely relevant and on-point. Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""Your current medications include Warfarin Sodium (5 MG Oral Tablet) and Galantamine (4 MG Oral Tablet)"",
     ""Warfarin Sodium"",
@@ -10624,8 +10624,8 @@ The patient was placed on a careplan:
 - lifestyle education regarding hypertension
 '}
 
-"
-13,13,13,14,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q1:gemini-1.5-pro:similarity_search_0_hop,True,Contextual Relevancy,0.5,True,0.8918918918918919,"The score is 0.89 because while the retrieval context does mention medications like ""lisinopril 10 mg oral tablet"", it also includes irrelevant medications such as ""Galantamine 4 MG Oral Tablet"" as indicated in the reasons for irrelevancy.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+13,13,13,13,14,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q1:gemini-1.5-pro:similarity_search_0_hop,True,Contextual Relevancy,0.5,True,0.8918918918918919,"The score is 0.89 because while the retrieval context does mention medications like ""lisinopril 10 mg oral tablet"", it also includes irrelevant medications such as ""Galantamine 4 MG Oral Tablet"" as indicated in the reasons for irrelevancy.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -13435,8 +13435,8 @@ The patient was placed on a careplan:
 - lifestyle education regarding hypertension
 '}
 
-"
-14,14,14,15,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q6:gemini-1.5-pro:similarity_search_0_hop,False,Hallucination,0.5,True,0.0,The score is 0.00 because the actual output fully aligns with the provided context and shows no signs of hallucination.,False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+14,14,14,14,15,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q6:gemini-1.5-pro:similarity_search_0_hop,False,Hallucination,0.5,True,0.0,The score is 0.00 because the actual output fully aligns with the provided context and shows no signs of hallucination.,False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -23850,8 +23850,8 @@ Managing Organization: PCP248432 (Organization Identifier: 395a9f52-1f2d-35cd-8c
 Profile: US Core CareTeam
 '}
 
-"
-15,15,15,16,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q6:gemini-1.5-pro:similarity_search_0_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00, signifying perfect relevancy, as there are no irrelevant statements present. Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+15,15,15,15,16,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q6:gemini-1.5-pro:similarity_search_0_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00, signifying perfect relevancy, as there are no irrelevant statements present. Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""I can tell you about some of your medical bills."",
     ""For example, you had an Explanation of Benefit from Medicare for an institutional claim that was created on January 23, 2018."",
@@ -34305,8 +34305,8 @@ Managing Organization: PCP248432 (Organization Identifier: 395a9f52-1f2d-35cd-8c
 Profile: US Core CareTeam
 '}
 
-"
-16,16,16,18,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q5:gemini-1.5-pro:similarity_search_0_hop,False,Hallucination,0.5,False,0.696969696969697,"The score is 0.70 because while the actual output demonstrates a good understanding of the provided care plan details, it frequently misses information from other medical documents like history and physical notes, diagnostic reports, explanations of benefits, and document references.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+16,16,16,16,18,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q5:gemini-1.5-pro:similarity_search_0_hop,False,Hallucination,0.5,False,0.696969696969697,"The score is 0.70 because while the actual output demonstrates a good understanding of the provided care plan details, it frequently misses information from other medical documents like history and physical notes, diagnostic reports, explanations of benefits, and document references.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -35599,8 +35599,8 @@ Payment Amount: 0.0,
 Payment Currency: USD
 '}
 
-"
-17,17,17,19,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q5:gemini-1.5-pro:similarity_search_0_hop,False,Answer Relevancy,0.5,True,0.9428571428571428,"The score is 0.94 because it still provides a summary of the care plan history, despite mentioning two items that are categories rather than specific summary elements. It loses a small amount of relevancy for including extra information, but the majority of the response is on track.",False,Custom Azure OpenAI Model,,,"Statements:
+",
+17,17,17,17,19,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q5:gemini-1.5-pro:similarity_search_0_hop,False,Answer Relevancy,0.5,True,0.9428571428571428,"The score is 0.94 because it still provides a summary of the care plan history, despite mentioning two items that are categories rather than specific summary elements. It loses a small amount of relevancy for including extra information, but the majority of the response is on track.",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""You have had several care plans over the years to address various health concerns."",
     ""Starting with the most recent, you had a care plan for Dementia management that began on February 9, 2021."",
@@ -36950,8 +36950,8 @@ Payment Amount: 0.0,
 Payment Currency: USD
 '}
 
-"
-18,18,18,20,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q5:gemini-1.5-pro:similarity_search_0_hop,False,Contextual Relevancy,0.5,True,0.875,"The score is 0.88 because, despite the note mentioning the care team instead of the care plan itself, the context still provides multiple examples of 'Resource Type: CarePlan', as shown in the relevant statements.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+18,18,18,18,20,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q5:gemini-1.5-pro:similarity_search_0_hop,False,Contextual Relevancy,0.5,True,0.875,"The score is 0.88 because, despite the note mentioning the care team instead of the care plan itself, the context still provides multiple examples of 'Resource Type: CarePlan', as shown in the relevant statements.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -38156,8 +38156,8 @@ Payment Amount: 0.0,
 Payment Currency: USD
 '}
 
-"
-19,19,19,21,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q8:gemini-1.5-pro:similarity_search_0_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns with the information provided in the context, showing no signs of hallucination.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+19,19,19,19,21,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q8:gemini-1.5-pro:similarity_search_0_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns with the information provided in the context, showing no signs of hallucination.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -38314,8 +38314,8 @@ Date Administered: February 9, 2021, 10:24:54 AM EST
 Source of Information: Primary
 Administered at: Worcester Outpatient Clinic'}
 
-"
-20,20,20,22,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q8:gemini-1.5-pro:similarity_search_0_hop,True,Answer Relevancy,0.5,True,1.0,It appears there is nothing to critique regarding your response. Keep up the great work!,False,Custom Azure OpenAI Model,,,"Statements:
+",
+20,20,20,20,22,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q8:gemini-1.5-pro:similarity_search_0_hop,True,Answer Relevancy,0.5,True,1.0,It appears there is nothing to critique regarding your response. Keep up the great work!,False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""You have received the following immunizations:"",
     ""Influenza, seasonal, injectable, preservative free"",
@@ -38553,8 +38553,8 @@ Date Administered: February 9, 2021, 10:24:54 AM EST
 Source of Information: Primary
 Administered at: Worcester Outpatient Clinic'}
 
-"
-21,21,21,23,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q8:gemini-1.5-pro:similarity_search_0_hop,True,Contextual Relevancy,0.5,True,0.8571428571428571,"The score is 0.86 because while the retrieval context does include statements related to immunizations such as 'Immunization Status: completed Vaccine Code: Influenza, seasonal, injectable, preservative free Medical Codes: 140', it also contains somewhat irrelevant information like 'Resource Type: Encounter' and 'Type: Administration of vaccine to produce active immunity'  which only describe the nature of the medical record rather than the immunization history itself.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+21,21,21,21,23,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q8:gemini-1.5-pro:similarity_search_0_hop,True,Contextual Relevancy,0.5,True,0.8571428571428571,"The score is 0.86 because while the retrieval context does include statements related to immunizations such as 'Immunization Status: completed Vaccine Code: Influenza, seasonal, injectable, preservative free Medical Codes: 140', it also contains somewhat irrelevant information like 'Resource Type: Encounter' and 'Type: Administration of vaccine to produce active immunity'  which only describe the nature of the medical record rather than the immunization history itself.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -38781,8 +38781,8 @@ Date Administered: February 9, 2021, 10:24:54 AM EST
 Source of Information: Primary
 Administered at: Worcester Outpatient Clinic'}
 
-"
-22,22,22,24,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q4:gemini-1.5-pro:lexical_search_1_hop,False,Hallucination,0.5,True,0.0,The score is 0.00 because the actual output does not contradict the provided context.,False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+22,22,22,22,24,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q4:gemini-1.5-pro:lexical_search_1_hop,False,Hallucination,0.5,True,0.0,The score is 0.00 because the actual output does not contradict the provided context.,False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -44189,8 +44189,8 @@ Period: 2021-05-25 11:24:54-04:00 to 2021-05-25 11:39:54-04:00,
 Location: Worcester Outpatient Clinic,
 Service Provider: Worcester Outpatient Clinic. 
 '), ]}
-"
-23,23,23,25,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q4:gemini-1.5-pro:lexical_search_1_hop,False,Answer Relevancy,0.5,True,1.0,"It's awesome there are no irrelevant statements! This indicates a perfect understanding and response to the input, keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+23,23,23,23,25,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q4:gemini-1.5-pro:lexical_search_1_hop,False,Answer Relevancy,0.5,True,1.0,"It's awesome there are no irrelevant statements! This indicates a perfect understanding and response to the input, keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""Please provide me with the specific laboratory test results you are interested in."",
     ""I need to know the name of the test and the date it was performed to retrieve the information from your records."",
@@ -49623,8 +49623,8 @@ Period: 2021-05-25 11:24:54-04:00 to 2021-05-25 11:39:54-04:00,
 Location: Worcester Outpatient Clinic,
 Service Provider: Worcester Outpatient Clinic. 
 '), ]}
-"
-24,24,24,27,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q5:gemini-1.5-pro:lexical_search_1_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output completely aligns with the provided context, with no contradictions found.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+24,24,24,24,27,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q5:gemini-1.5-pro:lexical_search_1_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output completely aligns with the provided context, with no contradictions found.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -50135,8 +50135,8 @@ Period: From 2021-02-09 10:24:54 to 2021-02-09 10:39:54,
 Location: Worcester Outpatient Clinic,
 Service Provider: Worcester Outpatient Clinic. 
 '), ]}
-"
-25,25,25,28,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q5:gemini-1.5-pro:lexical_search_1_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00, indicating a perfectly relevant response. Keep up the great work in providing accurate and pertinent information!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+25,25,25,25,28,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q5:gemini-1.5-pro:lexical_search_1_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00, indicating a perfectly relevant response. Keep up the great work in providing accurate and pertinent information!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""This is a summary of your care plan history:"",
     ""Care Plan 1"",
@@ -51295,8 +51295,8 @@ Period: From 2021-02-09 10:24:54 to 2021-02-09 10:39:54,
 Location: Worcester Outpatient Clinic,
 Service Provider: Worcester Outpatient Clinic. 
 '), ]}
-"
-26,26,26,29,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q5:gemini-1.5-pro:lexical_search_1_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00, perfectly relevant! Great job!",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+26,26,26,26,29,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q5:gemini-1.5-pro:lexical_search_1_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00, perfectly relevant! Great job!",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -51913,8 +51913,8 @@ Period: From 2021-02-09 10:24:54 to 2021-02-09 10:39:54,
 Location: Worcester Outpatient Clinic,
 Service Provider: Worcester Outpatient Clinic. 
 '), ]}
-"
-27,27,27,30,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q7:gemini-1.5-pro:lexical_search_1_hop,True,Hallucination,0.5,True,0.0,The score is 0.00 because the output aligns perfectly with the provided contexts and introduces no contradictory or hallucinated information.,False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+27,27,27,27,30,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q7:gemini-1.5-pro:lexical_search_1_hop,True,Hallucination,0.5,True,0.0,The score is 0.00 because the output aligns perfectly with the provided contexts and introduces no contradictory or hallucinated information.,False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -57338,8 +57338,8 @@ Claim Item 9 Product or Service Code System: http://snomed.info/sct
 Claim Item 9 Net Value: 516.65 USD
 Claim Total Value: 31527.47 USD
 '), ]}
-"
-28,28,28,31,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q7:gemini-1.5-pro:lexical_search_1_hop,True,Answer Relevancy,0.5,True,1.0,The score is 1.00 which is the highest possible score because there are no irrelevant statements made.  Keep up the great work!,False,Custom Azure OpenAI Model,,,"Statements:
+",
+28,28,28,28,31,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q7:gemini-1.5-pro:lexical_search_1_hop,True,Answer Relevancy,0.5,True,1.0,The score is 1.00 which is the highest possible score because there are no irrelevant statements made.  Keep up the great work!,False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""You have undergone a number of procedures over the years."",
     ""Here is a summary of the most recent ones"",
@@ -62819,8 +62819,8 @@ Claim Item 9 Product or Service Code System: http://snomed.info/sct
 Claim Item 9 Net Value: 516.65 USD
 Claim Total Value: 31527.47 USD
 '), ]}
-"
-29,29,29,32,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q7:gemini-1.5-pro:lexical_search_1_hop,True,Contextual Relevancy,0.5,True,0.9,"The score is 0.90 because the retrieval context contains some relevant statements, such as 'Electrical cardioversion was performed on 2011-12-20, from 10:24:54-05:00 to 10:39:54-05:00 at Worcester Outpatient Clinic due to Atrial Fibrillation', that directly answer the user's query about procedures and outcomes. However, the presence of irrelevant statements like 'The patient's Claim Insurance 1 Coverage is Medicare.' slightly lowers the score.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+29,29,29,29,32,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q7:gemini-1.5-pro:lexical_search_1_hop,True,Contextual Relevancy,0.5,True,0.9,"The score is 0.90 because the retrieval context contains some relevant statements, such as 'Electrical cardioversion was performed on 2011-12-20, from 10:24:54-05:00 to 10:39:54-05:00 at Worcester Outpatient Clinic due to Atrial Fibrillation', that directly answer the user's query about procedures and outcomes. However, the presence of irrelevant statements like 'The patient's Claim Insurance 1 Coverage is Medicare.' slightly lowers the score.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -68594,8 +68594,8 @@ Claim Item 9 Product or Service Code System: http://snomed.info/sct
 Claim Item 9 Net Value: 516.65 USD
 Claim Total Value: 31527.47 USD
 '), ]}
-"
-30,30,30,33,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q2:gemini-1.5-pro:lexical_search_1_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output perfectly aligns with the provided context, successfully summarizing all three allergies without introducing any contradictions or hallucinations.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+30,30,30,30,33,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q2:gemini-1.5-pro:lexical_search_1_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output perfectly aligns with the provided context, successfully summarizing all three allergies without introducing any contradictions or hallucinations.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -68653,8 +68653,8 @@ Reactions:
     - Eruption of skin (disorder) (Medical Number: 271807003, Coding Classification System: SNOMED CT), Severity: Mild
     - Anaphylaxis (disorder) (Medical Number: 39579001, Coding Classification System: SNOMED CT), Severity: Severe
 ', 'Related health records': []}
-"
-31,31,31,34,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q2:gemini-1.5-pro:lexical_search_1_hop,True,Answer Relevancy,0.5,True,1.0,"It's fantastic that there are no irrelevant statements! This indicates a focused and relevant response, which is exactly what we want. Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+31,31,31,31,34,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q2:gemini-1.5-pro:lexical_search_1_hop,True,Answer Relevancy,0.5,True,1.0,"It's fantastic that there are no irrelevant statements! This indicates a focused and relevant response, which is exactly what we want. Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""You have three documented allergies on file"",
     ""Penicillin V"",
@@ -68772,8 +68772,8 @@ Reactions:
     - Eruption of skin (disorder) (Medical Number: 271807003, Coding Classification System: SNOMED CT), Severity: Mild
     - Anaphylaxis (disorder) (Medical Number: 39579001, Coding Classification System: SNOMED CT), Severity: Severe
 ', 'Related health records': []}
-"
-32,32,32,35,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q2:gemini-1.5-pro:lexical_search_1_hop,True,Contextual Relevancy,0.5,True,1.0,The score is 1.00 because the context perfectly answers the user's question about their documented allergies and their severity! Great job!,False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+32,32,32,32,35,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q2:gemini-1.5-pro:lexical_search_1_hop,True,Contextual Relevancy,0.5,True,1.0,The score is 1.00 because the context perfectly answers the user's question about their documented allergies and their severity! Great job!,False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -68846,8 +68846,8 @@ Reactions:
     - Eruption of skin (disorder) (Medical Number: 271807003, Coding Classification System: SNOMED CT), Severity: Mild
     - Anaphylaxis (disorder) (Medical Number: 39579001, Coding Classification System: SNOMED CT), Severity: Severe
 ', 'Related health records': []}
-"
-33,33,33,36,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q8:gemini-1.5-pro:lexical_search_1_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output fully aligns with the provided context, with no contradictions found.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+33,33,33,33,36,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q8:gemini-1.5-pro:lexical_search_1_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output fully aligns with the provided context, with no contradictions found.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -69904,8 +69904,8 @@ Coding System: http://hl7.org/fhir/sid/cvx
 Service Net Price: $140.52 USD
 Claim Total: $269.68 USD
 '), ]}
-"
-34,34,34,37,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q8:gemini-1.5-pro:lexical_search_1_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00, indicating a perfectly relevant response. Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+34,34,34,34,37,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q8:gemini-1.5-pro:lexical_search_1_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00, indicating a perfectly relevant response. Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""Your immunization history shows you received the following vaccinations at Worcester Outpatient Clinic"",
     ""Td (adult) preservative free"",
@@ -71019,8 +71019,8 @@ Coding System: http://hl7.org/fhir/sid/cvx
 Service Net Price: $140.52 USD
 Claim Total: $269.68 USD
 '), ]}
-"
-35,35,35,38,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q8:gemini-1.5-pro:lexical_search_1_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because the retrieved context directly provides immunization history, which perfectly aligns with the input query 'Can you summarize my immunization history?'.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+35,35,35,35,38,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q8:gemini-1.5-pro:lexical_search_1_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because the retrieved context directly provides immunization history, which perfectly aligns with the input query 'Can you summarize my immunization history?'.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -72093,8 +72093,8 @@ Coding System: http://hl7.org/fhir/sid/cvx
 Service Net Price: $140.52 USD
 Claim Total: $269.68 USD
 '), ]}
-"
-36,36,36,39,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q3:gemini-1.5-pro:lexical_search_1_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns perfectly with the provided medical records, with no contradictions found.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+36,36,36,36,39,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q3:gemini-1.5-pro:lexical_search_1_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns perfectly with the provided medical records, with no contradictions found.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -81586,8 +81586,8 @@ Period: From 2021-02-09 10:24:54 to 2021-02-09 10:39:54,
 Location: Worcester Outpatient Clinic,
 Service Provider: Worcester Outpatient Clinic. 
 '), ]}
-"
-37,37,37,40,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q3:gemini-1.5-pro:lexical_search_1_hop,True,Answer Relevancy,0.5,True,0.9574468085106383,"The score is 0.96 which is high, indicating the response is mostly relevant to the user's request for a summary of their medical conditions. However, the inclusion of potentially sensitive information like 'Opioid abuse' and irrelevant details like 'Criminal record' without explicit user consent slightly lowers its relevancy.",False,Custom Azure OpenAI Model,,,"Statements:
+",
+37,37,37,37,40,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q3:gemini-1.5-pro:lexical_search_1_hop,True,Answer Relevancy,0.5,True,0.9574468085106383,"The score is 0.96 which is high, indicating the response is mostly relevant to the user's request for a summary of their medical conditions. However, the inclusion of potentially sensitive information like 'Opioid abuse' and irrelevant details like 'Criminal record' without explicit user consent slightly lowers its relevancy.",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""This is a summary of your current medical conditions"",
     ""Hypertension"",
@@ -91323,8 +91323,8 @@ Period: From 2021-02-09 10:24:54 to 2021-02-09 10:39:54,
 Location: Worcester Outpatient Clinic,
 Service Provider: Worcester Outpatient Clinic. 
 '), ]}
-"
-38,38,38,41,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q3:gemini-1.5-pro:lexical_search_1_hop,True,Contextual Relevancy,0.5,True,1.0,The score is 1.00! This is fantastic and exactly what we were aiming for - great work!,False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+38,38,38,38,41,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q3:gemini-1.5-pro:lexical_search_1_hop,True,Contextual Relevancy,0.5,True,1.0,The score is 1.00! This is fantastic and exactly what we were aiming for - great work!,False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -100871,8 +100871,8 @@ Period: From 2021-02-09 10:24:54 to 2021-02-09 10:39:54,
 Location: Worcester Outpatient Clinic,
 Service Provider: Worcester Outpatient Clinic. 
 '), ]}
-"
-39,39,39,42,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q1:gemini-1.5-pro:lexical_search_1_hop,False,Hallucination,0.5,True,0.0,"The score is 0.00 because all information in the actual output is present in the given context, leading to no hallucinated facts.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+39,39,39,39,42,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q1:gemini-1.5-pro:lexical_search_1_hop,False,Hallucination,0.5,True,0.0,"The score is 0.00 because all information in the actual output is present in the given context, leading to no hallucinated facts.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -108762,8 +108762,8 @@ Encounter: Unknown
 Claim Total Value: $0.00
 Claim Total Currency: USD 
 '), ]}
-"
-40,40,40,43,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q1:gemini-1.5-pro:lexical_search_1_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00, signifying perfect relevancy, as there are no irrelevant statements present. This is exactly what we strive for! Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+40,40,40,40,43,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q1:gemini-1.5-pro:lexical_search_1_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00, signifying perfect relevancy, as there are no irrelevant statements present. This is exactly what we strive for! Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""You are currently taking the following medications:"",
     ""Verapamil Hydrochloride 40 MG"",
@@ -116757,8 +116757,8 @@ Encounter: Unknown
 Claim Total Value: $0.00
 Claim Total Currency: USD 
 '), ]}
-"
-41,41,41,46,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q6:gemini-1.5-pro:lexical_search_1_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00, indicating a perfectly relevant response. Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+41,41,41,41,46,Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625,Q6:gemini-1.5-pro:lexical_search_1_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00, indicating a perfectly relevant response. Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""This is a summary of your medical bills"",
     ""Claim 1"",
@@ -132646,4 +132646,4 @@ Payment Amount: 26358.608 USD
 Facility: Worcester Outpatient Clinic
 Claim Outcome: complete 
 '), ]}
-"
+",

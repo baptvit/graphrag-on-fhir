@@ -1,5 +1,5 @@
-,Unnamed: 0.2,Unnamed: 0.1,Unnamed: 0,consumer_id,test_name,success,metric_name,threshold,metric_success,score,reason,strict_mode,evaluation_model,error,evaluation_cost,verbose_logs,conversational,multimodal,input,actual_output,expected_output,context
-0,0,0,0,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q7:gemini-1.5-pro:similarity_search_0_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns perfectly with the provided medical records, indicating no hallucinations.  There are no contradictions present.",False,Custom Azure OpenAI Model,,,"Verdicts:
+,Unnamed: 0.3,Unnamed: 0.2,Unnamed: 0.1,Unnamed: 0,consumer_id,test_name,success,metric_name,threshold,metric_success,score,reason,strict_mode,evaluation_model,error,evaluation_cost,verbose_logs,conversational,multimodal,input,actual_output,expected_output,context,retrieval_context
+0,0,0,0,0,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q7:gemini-1.5-pro:similarity_search_0_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns perfectly with the provided medical records, indicating no hallucinations.  There are no contradictions present.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -205,8 +205,8 @@ Location: BLUESKIES WELLNESS INC,
 Service Provider: BLUESKIES WELLNESS INC
 '}
 
-"
-1,1,1,1,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q7:gemini-1.5-pro:similarity_search_0_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response is relevant and accurate, addressing the user's request for information about recently undergone procedures and their outcomes.  Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+1,1,1,1,1,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q7:gemini-1.5-pro:similarity_search_0_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response is relevant and accurate, addressing the user's request for information about recently undergone procedures and their outcomes.  Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""You have undergone several procedures, primarily well-child visits and check-ups."",
     ""Well-child visits"",
@@ -519,8 +519,8 @@ Location: BLUESKIES WELLNESS INC,
 Service Provider: BLUESKIES WELLNESS INC
 '}
 
-"
-2,2,2,2,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q7:gemini-1.5-pro:similarity_search_0_hop,True,Contextual Relevancy,0.5,True,0.7777777777777778,"The score is 0.78 because while the context includes several instances of ""well child visit"" for Beatris270 Bogan287, as noted in statements like 'Beatris270 Bogan287 had a well child visit on 2016-07-10', it also contains more relevant information such as 'Beatris270 Bogan287 had a Transthoracic echocardiography on 2023-03-28'.  The irrelevant statements, such as 'This statement describes the mission and services of Blueskies Wellness, Inc. but does not provide information about Beatris270 Bogan287's procedures and outcomes.', do not contribute to answering the query.  More specific details about the procedures and their outcomes would improve the score.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+2,2,2,2,2,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q7:gemini-1.5-pro:similarity_search_0_hop,True,Contextual Relevancy,0.5,True,0.7777777777777778,"The score is 0.78 because while the context includes several instances of ""well child visit"" for Beatris270 Bogan287, as noted in statements like 'Beatris270 Bogan287 had a well child visit on 2016-07-10', it also contains more relevant information such as 'Beatris270 Bogan287 had a Transthoracic echocardiography on 2023-03-28'.  The irrelevant statements, such as 'This statement describes the mission and services of Blueskies Wellness, Inc. but does not provide information about Beatris270 Bogan287's procedures and outcomes.', do not contribute to answering the query.  More specific details about the procedures and their outcomes would improve the score.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -816,8 +816,8 @@ Location: BLUESKIES WELLNESS INC,
 Service Provider: BLUESKIES WELLNESS INC
 '}
 
-"
-3,3,3,3,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q3:gemini-1.5-pro:similarity_search_0_hop,False,Hallucination,0.5,True,0.0,The score is 0.00 because the output correctly reflects the information from the provided context and includes an appropriate caveat acknowledging the limitation of relying solely on the available records.,False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+3,3,3,3,3,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q3:gemini-1.5-pro:similarity_search_0_hop,False,Hallucination,0.5,True,0.0,The score is 0.00 because the output correctly reflects the information from the provided context and includes an appropriate caveat acknowledging the limitation of relying solely on the available records.,False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -835,8 +835,8 @@ Please note that this summary only reflects the information present in the provi
 {'Main health record': 'Resource Type: Observation, Status: final, Category: Social history, Code: Tobacco smoking status, Code Text: Tobacco smoking status, Effective Date Time: 2015-06-07T13:37:42+00:00, Issued: 2015-06-07T13:37:42.868+00:00, Value: Never smoked tobacco (finding), Value Text: Never smoked tobacco (finding)
 '}
 
-"
-4,4,4,4,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q3:gemini-1.5-pro:similarity_search_0_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response is relevant and accurate, addressing the prompt appropriately.  Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+4,4,4,4,4,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q3:gemini-1.5-pro:similarity_search_0_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response is relevant and accurate, addressing the prompt appropriately.  Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""Based on the available medical records, the only condition documented is that you have ""Never smoked tobacco"""",
     ""This information was recorded on three separate dates: September 04, 2017"",
@@ -884,8 +884,8 @@ Please note that this summary only reflects the information present in the provi
 {'Main health record': 'Resource Type: Observation, Status: final, Category: Social history, Code: Tobacco smoking status, Code Text: Tobacco smoking status, Effective Date Time: 2015-06-07T13:37:42+00:00, Issued: 2015-06-07T13:37:42.868+00:00, Value: Never smoked tobacco (finding), Value Text: Never smoked tobacco (finding)
 '}
 
-"
-5,5,5,5,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q3:gemini-1.5-pro:similarity_search_0_hop,False,Contextual Relevancy,0.5,False,0.0,"The score is 0.00 because the context mentions tobacco smoking status, which is not a medical condition, as stated in the reasons for irrelevancy: 'The information provided contains details about tobacco smoking status, which is not a medical condition currently affecting you. It only indicates that you have never smoked.'  The context lacks information on current medical conditions and therefore is completely irrelevant to the input requesting a summary of current medical conditions.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+5,5,5,5,5,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q3:gemini-1.5-pro:similarity_search_0_hop,False,Contextual Relevancy,0.5,False,0.0,"The score is 0.00 because the context mentions tobacco smoking status, which is not a medical condition, as stated in the reasons for irrelevancy: 'The information provided contains details about tobacco smoking status, which is not a medical condition currently affecting you. It only indicates that you have never smoked.'  The context lacks information on current medical conditions and therefore is completely irrelevant to the input requesting a summary of current medical conditions.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -918,8 +918,8 @@ Please note that this summary only reflects the information present in the provi
 {'Main health record': 'Resource Type: Observation, Status: final, Category: Social history, Code: Tobacco smoking status, Code Text: Tobacco smoking status, Effective Date Time: 2015-06-07T13:37:42+00:00, Issued: 2015-06-07T13:37:42.868+00:00, Value: Never smoked tobacco (finding), Value Text: Never smoked tobacco (finding)
 '}
 
-"
-6,6,6,6,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q4:gemini-1.5-pro:similarity_search_0_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because there are no contradictions found between the actual output and the provided context. Additionally, the factual alignment confirms that the output correctly reflects the information present in the context.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+6,6,6,6,6,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q4:gemini-1.5-pro:similarity_search_0_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because there are no contradictions found between the actual output and the provided context. Additionally, the factual alignment confirms that the output correctly reflects the information present in the context.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -1143,8 +1143,8 @@ Observation issued date: February 28, 2021 at 1:37 PM UTC
 Observation value: 352.58 10*3/uL 
 '}
 
-"
-7,7,7,7,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q4:gemini-1.5-pro:similarity_search_0_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response effectively addresses the user's prompt by providing an overview of how to interpret lab results, including the importance of reference ranges, and offers actionable advice on improving lab values through lifestyle changes such as diet and exercise.  The response is comprehensive and informative, covering various aspects of the user's question without including irrelevant information. Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+7,7,7,7,7,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q4:gemini-1.5-pro:similarity_search_0_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response effectively addresses the user's prompt by providing an overview of how to interpret lab results, including the importance of reference ranges, and offers actionable advice on improving lab values through lifestyle changes such as diet and exercise.  The response is comprehensive and informative, covering various aspects of the user's question without including irrelevant information. Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""Based on your available lab results, on May 3, 2015, at 1:37 PM UTC, your laboratory values were:"",
     ""Leukocytes: 4.372 x 10^3/uL"",
@@ -1454,8 +1454,8 @@ Observation issued date: February 28, 2021 at 1:37 PM UTC
 Observation value: 352.58 10*3/uL 
 '}
 
-"
-8,8,8,8,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q4:gemini-1.5-pro:similarity_search_0_hop,True,Contextual Relevancy,0.5,True,0.9411764705882352,"The score is 0.94, which is great! This high score is due to the presence of multiple relevant laboratory values in the context, such as 'Leukocytes [#/volume] in Blood', 'Hemoglobin [Mass/volume] in Blood', and 'Platelets [#/volume] in Blood', directly addressing the user's request for recent lab values. While the mention of 'Transthoracic echocardiography' is irrelevant as it's an imaging study, the abundance of relevant lab data outweighs this, resulting in a near-perfect score.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+8,8,8,8,8,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q4:gemini-1.5-pro:similarity_search_0_hop,True,Contextual Relevancy,0.5,True,0.9411764705882352,"The score is 0.94, which is great! This high score is due to the presence of multiple relevant laboratory values in the context, such as 'Leukocytes [#/volume] in Blood', 'Hemoglobin [Mass/volume] in Blood', and 'Platelets [#/volume] in Blood', directly addressing the user's request for recent lab values. While the mention of 'Transthoracic echocardiography' is irrelevant as it's an imaging study, the abundance of relevant lab data outweighs this, resulting in a near-perfect score.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -1764,8 +1764,8 @@ Observation issued date: February 28, 2021 at 1:37 PM UTC
 Observation value: 352.58 10*3/uL 
 '}
 
-"
-9,9,9,9,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q2:gemini-1.5-pro:similarity_search_0_hop,False,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns perfectly with the provided context, indicating no hallucinations.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+9,9,9,9,9,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q2:gemini-1.5-pro:similarity_search_0_hop,False,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns perfectly with the provided context, indicating no hallucinations.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -2053,8 +2053,8 @@ Reaction Manifestation: Eruption of skin (disorder)
 Reaction Severity: moderate 
 '}
 
-"
-10,10,10,10,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q2:gemini-1.5-pro:similarity_search_0_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response is relevant, accurate, and comprehensive.  It directly addresses the user's question about documented allergies and their severity by explaining how allergies are typically documented by healthcare professionals.  There are no irrelevant statements, so the score is perfect.",False,Custom Azure OpenAI Model,,,"Statements:
+",
+10,10,10,10,10,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q2:gemini-1.5-pro:similarity_search_0_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response is relevant, accurate, and comprehensive.  It directly addresses the user's question about documented allergies and their severity by explaining how allergies are typically documented by healthcare professionals.  There are no irrelevant statements, so the score is perfect.",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""You have the following documented allergies:"",
     ""Latex (substance)"",
@@ -2486,8 +2486,8 @@ Reaction Manifestation: Eruption of skin (disorder)
 Reaction Severity: moderate 
 '}
 
-"
-11,11,11,11,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q2:gemini-1.5-pro:similarity_search_0_hop,False,Contextual Relevancy,0.5,False,0.4444444444444444,"The score is 0.44 because while the context contains some relevant information about specific allergies like ""Latex, with a mild reaction involving wheals and itching"" and others like ""Tree pollen"", ""Grass pollen"", ""House dust mite"", ""Aspirin"", ""Mold"", ""Animal dander"", and ""Bee venom"" with their respective severities, a significant portion is irrelevant.  For example, several entries mention conditions like ""Perennial allergic rhinitis"" and ""Atopic dermatitis"" or the presence of an ""Allergy screening test"" without specifying the actual allergies or their severity, as noted in the reasons for irrelevancy.  This mix of relevant and irrelevant information explains the moderate score.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+11,11,11,11,11,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q2:gemini-1.5-pro:similarity_search_0_hop,False,Contextual Relevancy,0.5,False,0.4444444444444444,"The score is 0.44 because while the context contains some relevant information about specific allergies like ""Latex, with a mild reaction involving wheals and itching"" and others like ""Tree pollen"", ""Grass pollen"", ""House dust mite"", ""Aspirin"", ""Mold"", ""Animal dander"", and ""Bee venom"" with their respective severities, a significant portion is irrelevant.  For example, several entries mention conditions like ""Perennial allergic rhinitis"" and ""Atopic dermatitis"" or the presence of an ""Allergy screening test"" without specifying the actual allergies or their severity, as noted in the reasons for irrelevancy.  This mix of relevant and irrelevant information explains the moderate score.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -2865,8 +2865,8 @@ Reaction Manifestation: Eruption of skin (disorder)
 Reaction Severity: moderate 
 '}
 
-"
-12,12,12,12,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q1:gemini-1.5-pro:similarity_search_0_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because there are no contradictions detected between the actual output and the provided context.  The presence of factual alignments further supports the output's adherence to the context, indicating no hallucination.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+12,12,12,12,12,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q1:gemini-1.5-pro:similarity_search_0_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because there are no contradictions detected between the actual output and the provided context.  The presence of factual alignments further supports the output's adherence to the context, indicating no hallucination.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -3073,8 +3073,8 @@ The following procedures were conducted:
 - medication reconciliation (procedure)
 '}
 
-"
-13,13,13,13,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q1:gemini-1.5-pro:similarity_search_0_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response effectively answers the user's question about their current medications and how to take them by advising them to consult their own medical records or healthcare provider. Since the system cannot access Protected Health Information (PHI), this is the best and most appropriate response.  There are no irrelevant statements, so the score reflects a perfect answer given the context and limitations.",False,Custom Azure OpenAI Model,,,"Statements:
+",
+13,13,13,13,13,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q1:gemini-1.5-pro:similarity_search_0_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response effectively answers the user's question about their current medications and how to take them by advising them to consult their own medical records or healthcare provider. Since the system cannot access Protected Health Information (PHI), this is the best and most appropriate response.  There are no irrelevant statements, so the score reflects a perfect answer given the context and limitations.",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""You are currently taking Fexofenadine hydrochloride 30 MG Oral Tablet."",
     ""It was prescribed by Dr. Alvin56 Crona259 on August 22, 2017"",
@@ -3296,8 +3296,8 @@ The following procedures were conducted:
 - medication reconciliation (procedure)
 '}
 
-"
-14,14,14,14,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q1:gemini-1.5-pro:similarity_search_0_hop,True,Contextual Relevancy,0.5,True,0.625,"The score is 0.62 because while the context mentions relevant medications and dosage instructions such as 'Fexofenadine hydrochloride 30 MG Oral Tablet' with instructions to 'Take as needed', some information is irrelevant as it refers to stopped medications like 'Penicillin V Potassium' and 'Acetaminophen'.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+14,14,14,14,14,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q1:gemini-1.5-pro:similarity_search_0_hop,True,Contextual Relevancy,0.5,True,0.625,"The score is 0.62 because while the context mentions relevant medications and dosage instructions such as 'Fexofenadine hydrochloride 30 MG Oral Tablet' with instructions to 'Take as needed', some information is irrelevant as it refers to stopped medications like 'Penicillin V Potassium' and 'Acetaminophen'.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -3544,8 +3544,8 @@ The following procedures were conducted:
 - medication reconciliation (procedure)
 '}
 
-"
-15,15,15,15,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q6:gemini-1.5-pro:similarity_search_0_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the output aligns with the provided context.  The context explicitly confirms the details present in the output regarding the ExplanationOfBenefit, claim date, amount, services, provider, insurer, and payment.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+15,15,15,15,15,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q6:gemini-1.5-pro:similarity_search_0_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the output aligns with the provided context.  The context explicitly confirms the details present in the output regarding the ExplanationOfBenefit, claim date, amount, services, provider, insurer, and payment.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -7748,8 +7748,8 @@ Context start: April 7, 2019
 Context end: April 7, 2019
 '}
 
-"
-16,16,16,16,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q6:gemini-1.5-pro:similarity_search_0_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response is relevant and helpful to the user's request, providing various options for managing and potentially reducing medical bills.  Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+16,16,16,16,16,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q6:gemini-1.5-pro:similarity_search_0_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response is relevant and helpful to the user's request, providing various options for managing and potentially reducing medical bills.  Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""I can tell you about your medical bills."",
     ""For example, on May 29, 2021, you were billed $948.35 for an inpatient hospital visit for a referral for and a transthoracic echocardiography."",
@@ -11982,8 +11982,8 @@ Context start: April 7, 2019
 Context end: April 7, 2019
 '}
 
-"
-17,17,17,17,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q6:gemini-1.5-pro:similarity_search_0_hop,True,Contextual Relevancy,0.5,True,0.719626168224299,"The score is 0.72 because while a substantial portion of the retrieved context pertains to medical claims and ExplanationOfBenefit resources, providing cost information like ""Total Amount: 948.35 USD"" and ""Payment Amount: 690.24 USD"", some parts are not directly related to the breakdown of medical bills. For example, the context also includes information about patient history, social history, allergies, medication, and plan, as indicated by the reasons for irrelevance: ""This context contains patient history, social history, allergies, medication and plan but no billing information."".  The presence of these unrelated elements lowers the overall relevancy score.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+17,17,17,17,17,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q6:gemini-1.5-pro:similarity_search_0_hop,True,Contextual Relevancy,0.5,True,0.719626168224299,"The score is 0.72 because while a substantial portion of the retrieved context pertains to medical claims and ExplanationOfBenefit resources, providing cost information like ""Total Amount: 948.35 USD"" and ""Payment Amount: 690.24 USD"", some parts are not directly related to the breakdown of medical bills. For example, the context also includes information about patient history, social history, allergies, medication, and plan, as indicated by the reasons for irrelevance: ""This context contains patient history, social history, allergies, medication and plan but no billing information."".  The presence of these unrelated elements lowers the overall relevancy score.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -16721,8 +16721,8 @@ Context start: April 7, 2019
 Context end: April 7, 2019
 '}
 
-"
-18,18,18,18,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q5:gemini-1.5-pro:similarity_search_0_hop,False,Hallucination,0.5,True,0.0,The score is 0.00 because there are no contradictions found between the actual output and the provided contexts.  The output aligns with the information in the context.,False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+18,18,18,18,18,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q5:gemini-1.5-pro:similarity_search_0_hop,False,Hallucination,0.5,True,0.0,The score is 0.00 because there are no contradictions found between the actual output and the provided contexts.  The output aligns with the information in the context.,False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -17243,8 +17243,8 @@ Location: BLUESKIES WELLNESS INC,
 Service Provider: BLUESKIES WELLNESS INC
 '}
 
-"
-19,19,19,19,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q5:gemini-1.5-pro:similarity_search_0_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response is relevant and accurate, addressing the user's request for a care plan history summary.  There are no irrelevant statements, so the score is perfect. Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+19,19,19,19,19,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q5:gemini-1.5-pro:similarity_search_0_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response is relevant and accurate, addressing the user's request for a care plan history summary.  There are no irrelevant statements, so the score is perfect. Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""You have two care plans documented in your medical records"",
     ""Skin condition care"",
@@ -17836,8 +17836,8 @@ Location: BLUESKIES WELLNESS INC,
 Service Provider: BLUESKIES WELLNESS INC
 '}
 
-"
-20,20,20,20,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q5:gemini-1.5-pro:similarity_search_0_hop,False,Contextual Relevancy,0.5,False,0.1052631578947368,"The score is 0.11 because while the context mentions ""Care Plan for Skin condition care"" and ""Care Plan for Self-care interventions"", which appear relevant to summarizing care plan history, the overall context lacks a comprehensive summary of past care plans as indicated by the multiple reasons for irrelevance such as ""This entire record pertains to a specific instance of care and doesn't summarize the care plan history"" and ""This describes a single encounter and does not summarize the care plan history"".",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+20,20,20,20,20,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q5:gemini-1.5-pro:similarity_search_0_hop,False,Contextual Relevancy,0.5,False,0.1052631578947368,"The score is 0.11 because while the context mentions ""Care Plan for Skin condition care"" and ""Care Plan for Self-care interventions"", which appear relevant to summarizing care plan history, the overall context lacks a comprehensive summary of past care plans as indicated by the multiple reasons for irrelevance such as ""This entire record pertains to a specific instance of care and doesn't summarize the care plan history"" and ""This describes a single encounter and does not summarize the care plan history"".",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -18453,8 +18453,8 @@ Location: BLUESKIES WELLNESS INC,
 Service Provider: BLUESKIES WELLNESS INC
 '}
 
-"
-21,21,21,21,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q8:gemini-1.5-pro:similarity_search_0_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output correctly summarizes the information provided in the context and doesn't introduce any contradictory information.  Since there are no contradictions, the hallucination score, which reflects the proportion of contradictions relative to the total number of contexts, is 0.00.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+21,21,21,21,21,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q8:gemini-1.5-pro:similarity_search_0_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output correctly summarizes the information provided in the context and doesn't introduce any contradictory information.  Since there are no contradictions, the hallucination score, which reflects the proportion of contradictions relative to the total number of contexts, is 0.00.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -18877,8 +18877,8 @@ Location: BLUESKIES WELLNESS INC,
 Service Provider: BLUESKIES WELLNESS INC
 '}
 
-"
-22,22,22,22,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q8:gemini-1.5-pro:similarity_search_0_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response provides relevant information on how to find immunization history, which directly addresses the user's request.  It's great that the response covers multiple avenues for retrieving this information, making it very helpful!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+22,22,22,22,22,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q8:gemini-1.5-pro:similarity_search_0_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response provides relevant information on how to find immunization history, which directly addresses the user's request.  It's great that the response covers multiple avenues for retrieving this information, making it very helpful!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""Your immunization history shows you received the following vaccinations:"",
     ""DTaP:"",
@@ -19409,8 +19409,8 @@ Location: BLUESKIES WELLNESS INC,
 Service Provider: BLUESKIES WELLNESS INC
 '}
 
-"
-23,23,23,23,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q8:gemini-1.5-pro:similarity_search_0_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because the retrieval context contains multiple instances of ""Resource Type: Immunization"" followed by details like status, vaccine code, and administration date.  For example, 'Resource Type: Immunization\nStatus: completed\nVaccine Code: DTaP\nOccurrence Date Time: 2015-10-11T13:37:42+00:00' and many more provide precisely the information needed to summarize an immunization history.  Excellent work!",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+23,23,23,23,23,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q8:gemini-1.5-pro:similarity_search_0_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because the retrieval context contains multiple instances of ""Resource Type: Immunization"" followed by details like status, vaccine code, and administration date.  For example, 'Resource Type: Immunization\nStatus: completed\nVaccine Code: DTaP\nOccurrence Date Time: 2015-10-11T13:37:42+00:00' and many more provide precisely the information needed to summarize an immunization history.  Excellent work!",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -20018,8 +20018,8 @@ Location: BLUESKIES WELLNESS INC,
 Service Provider: BLUESKIES WELLNESS INC
 '}
 
-"
-24,24,24,25,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q4:gemini-1.5-pro:lexical_search_1_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response effectively addresses the user's prompt by providing information regarding how to interpret lab values, what they mean, and offers advice on how to potentially improve these values.  Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+24,24,24,24,25,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q4:gemini-1.5-pro:lexical_search_1_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response effectively addresses the user's prompt by providing information regarding how to interpret lab values, what they mean, and offers advice on how to potentially improve these values.  Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""I found one record of laboratory values in your medical history."",
     ""Date: May 3, 2015, 1:37 PM UTC"",
@@ -21431,8 +21431,8 @@ Period: From 2018-04-08T13:37:42+00:00 to 2018-04-08T13:52:42+00:00,
 Location: BLUESKIES WELLNESS INC,
 Service Provider: BLUESKIES WELLNESS INC,
 '), ]}
-"
-25,25,25,26,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q4:gemini-1.5-pro:lexical_search_1_hop,False,Contextual Relevancy,0.5,True,0.6875,"The score is 0.69 because while the context includes some relevant blood test data such as ""Leukocytes [#/volume] in Blood by Automated count: 4.372 10*3/uL"" and other similar values, it lacks crucial information for a complete answer.  For example, it doesn't explain what these values mean or how to improve them, as requested by the user. The irrelevant information, such as the ""BLUESKIES WELLNESS, INC.'s mission as a bullying prevention agency,"" further detracts from the overall relevancy.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+25,25,25,25,26,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q4:gemini-1.5-pro:lexical_search_1_hop,False,Contextual Relevancy,0.5,True,0.6875,"The score is 0.69 because while the context includes some relevant blood test data such as ""Leukocytes [#/volume] in Blood by Automated count: 4.372 10*3/uL"" and other similar values, it lacks crucial information for a complete answer.  For example, it doesn't explain what these values mean or how to improve them, as requested by the user. The irrelevant information, such as the ""BLUESKIES WELLNESS, INC.'s mission as a bullying prevention agency,"" further detracts from the overall relevancy.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -22812,8 +22812,8 @@ Period: From 2018-04-08T13:37:42+00:00 to 2018-04-08T13:52:42+00:00,
 Location: BLUESKIES WELLNESS INC,
 Service Provider: BLUESKIES WELLNESS INC,
 '), ]}
-"
-26,26,26,27,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q5:gemini-1.5-pro:lexical_search_1_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns perfectly with the provided context, effectively summarizing the care plans with accurate details, indicating no hallucination.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+26,26,26,26,27,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q5:gemini-1.5-pro:lexical_search_1_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns perfectly with the provided context, effectively summarizing the care plans with accurate details, indicating no hallucination.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -22915,8 +22915,8 @@ Reason Code: Atopic dermatitis
 Location: HOLY FAMILY HOSPITAL
 Service Provider: HOLY FAMILY HOSPITAL
 '), ]}
-"
-27,27,27,28,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q5:gemini-1.5-pro:lexical_search_1_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response is relevant and comprehensive, addressing the user's request for a care plan history summary.  It effectively explains what a care plan is, its historical context, and the information it typically contains. Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+27,27,27,27,28,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q5:gemini-1.5-pro:lexical_search_1_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response is relevant and comprehensive, addressing the user's request for a care plan history summary.  It effectively explains what a care plan is, its historical context, and the information it typically contains. Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""You have two care plans in your record."",
     ""The first care plan, started on August 30, 2017, focuses on self-care interventions and is marked as active."",
@@ -23068,8 +23068,8 @@ Reason Code: Atopic dermatitis
 Location: HOLY FAMILY HOSPITAL
 Service Provider: HOLY FAMILY HOSPITAL
 '), ]}
-"
-28,28,28,29,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q5:gemini-1.5-pro:lexical_search_1_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because the retrieval context contains statements directly related to the user's request for their care plan history.  For example, the context includes specific care plan details such as 'Care Plan for Self-care interventions from 2017-08-30' and 'Care Plan for Skin condition care from 2015-09-13', showing relevant information about past care plans.  Excellent!",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+28,28,28,28,29,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q5:gemini-1.5-pro:lexical_search_1_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because the retrieval context contains statements directly related to the user's request for their care plan history.  For example, the context includes specific care plan details such as 'Care Plan for Self-care interventions from 2017-08-30' and 'Care Plan for Skin condition care from 2015-09-13', showing relevant information about past care plans.  Excellent!",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -23206,8 +23206,8 @@ Reason Code: Atopic dermatitis
 Location: HOLY FAMILY HOSPITAL
 Service Provider: HOLY FAMILY HOSPITAL
 '), ]}
-"
-29,29,29,30,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q7:gemini-1.5-pro:lexical_search_1_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns perfectly with the provided medical records without any contradictions, indicating no hallucinations.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+29,29,29,29,30,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q7:gemini-1.5-pro:lexical_search_1_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns perfectly with the provided medical records without any contradictions, indicating no hallucinations.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -24087,8 +24087,8 @@ Claim Item 6 Net Price: $136.00
 Claim Item 7 Product/Service: Medication Reconciliation (procedure)
 Claim Item 7 Net Price: $596.03
 Claim Total: $1,412.83'), ]}
-"
-30,30,30,31,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q7:gemini-1.5-pro:lexical_search_1_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response acknowledges the user's request for information about recent procedures and outcomes.  It correctly states that it cannot directly access personal medical records containing details about procedures undergone, outcomes, or other medical history. It suggests seeking information from healthcare providers for accurate and up-to-date information. This demonstrates a responsible approach to privacy and data security.  Furthermore, it offers helpful general information about common one-day surgical procedures, which could be useful for educational purposes. Providing examples of such procedures without claiming they are specific to the user maintains the response's relevance and value.  The inclusion of information about where to find reliable medical information is also beneficial. This combination of acknowledging limitations, respecting privacy, and offering relevant general information warrants a perfect score.",False,Custom Azure OpenAI Model,,,"Statements:
+",
+30,30,30,30,31,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q7:gemini-1.5-pro:lexical_search_1_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response acknowledges the user's request for information about recent procedures and outcomes.  It correctly states that it cannot directly access personal medical records containing details about procedures undergone, outcomes, or other medical history. It suggests seeking information from healthcare providers for accurate and up-to-date information. This demonstrates a responsible approach to privacy and data security.  Furthermore, it offers helpful general information about common one-day surgical procedures, which could be useful for educational purposes. Providing examples of such procedures without claiming they are specific to the user maintains the response's relevance and value.  The inclusion of information about where to find reliable medical information is also beneficial. This combination of acknowledging limitations, respecting privacy, and offering relevant general information warrants a perfect score.",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""You have undergone several procedures, here is a summary:"",
     ""1. Medication Reconciliation"",
@@ -25218,8 +25218,8 @@ Claim Item 6 Net Price: $136.00
 Claim Item 7 Product/Service: Medication Reconciliation (procedure)
 Claim Item 7 Net Price: $596.03
 Claim Total: $1,412.83'), ]}
-"
-31,31,31,32,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q7:gemini-1.5-pro:lexical_search_1_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because the retrieval context contains statements directly answering the input query.  The context lists several procedures like 'Medication Reconciliation', 'Allergy screening test', 'Transthoracic echocardiography', and 'Throat culture', along with dates and locations where they were performed. This detailed information covers the user's request for procedures and outcomes.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+31,31,31,31,32,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q7:gemini-1.5-pro:lexical_search_1_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because the retrieval context contains statements directly answering the input query.  The context lists several procedures like 'Medication Reconciliation', 'Allergy screening test', 'Transthoracic echocardiography', and 'Throat culture', along with dates and locations where they were performed. This detailed information covers the user's request for procedures and outcomes.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -26189,8 +26189,8 @@ Claim Item 6 Net Price: $136.00
 Claim Item 7 Product/Service: Medication Reconciliation (procedure)
 Claim Item 7 Net Price: $596.03
 Claim Total: $1,412.83'), ]}
-"
-32,32,32,33,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q2:gemini-1.5-pro:lexical_search_1_hop,True,Hallucination,0.5,True,0.0,The score is 0.00 because there are no contradictions detected between the actual output and the provided context.  The output accurately reflects the information in the context.,False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+32,32,32,32,33,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q2:gemini-1.5-pro:lexical_search_1_hop,True,Hallucination,0.5,True,0.0,The score is 0.00 because there are no contradictions detected between the actual output and the provided context.  The output accurately reflects the information in the context.,False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -26306,8 +26306,8 @@ Criticality: Low
 Code: Allergy to substance (finding)
 Recorded Date: August 30, 2017 at 11:37:42 AM Coordinated Universal Time
 ', 'Related health records': []}
-"
-33,33,33,34,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q2:gemini-1.5-pro:lexical_search_1_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response effectively and accurately addresses the user's prompt, which asks for documented allergies and their severity.  The absence of irrelevant information further strengthens the justification for this perfect score. Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+33,33,33,33,34,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q2:gemini-1.5-pro:lexical_search_1_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response effectively and accurately addresses the user's prompt, which asks for documented allergies and their severity.  The absence of irrelevant information further strengthens the justification for this perfect score. Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""You have the following allergies documented in your records, all recorded on August 30, 2017"",
     ""Medications"",
@@ -26537,8 +26537,8 @@ Criticality: Low
 Code: Allergy to substance (finding)
 Recorded Date: August 30, 2017 at 11:37:42 AM Coordinated Universal Time
 ', 'Related health records': []}
-"
-34,34,34,35,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q2:gemini-1.5-pro:lexical_search_1_hop,True,Contextual Relevancy,0.5,True,1.0,The score is 1.00 because all relevant information such as specific allergies and their severity is present in the provided context. Great job!,False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+34,34,34,34,35,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q2:gemini-1.5-pro:lexical_search_1_hop,True,Contextual Relevancy,0.5,True,1.0,The score is 1.00 because all relevant information such as specific allergies and their severity is present in the provided context. Great job!,False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -26699,8 +26699,8 @@ Criticality: Low
 Code: Allergy to substance (finding)
 Recorded Date: August 30, 2017 at 11:37:42 AM Coordinated Universal Time
 ', 'Related health records': []}
-"
-35,35,35,36,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q8:gemini-1.5-pro:lexical_search_1_hop,False,Hallucination,0.5,True,0.0,"The score is 0.00 because there are no contradictions detected between the actual output and the provided context.  The output correctly summarizes the information within the context, indicating no hallucinations.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+35,35,35,35,36,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q8:gemini-1.5-pro:lexical_search_1_hop,False,Hallucination,0.5,True,0.0,"The score is 0.00 because there are no contradictions detected between the actual output and the provided context.  The output correctly summarizes the information within the context, indicating no hallucinations.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -28459,8 +28459,8 @@ item sequence 6 net currency: USD,
 total value: 816.8,
 total currency: USD,
 '), ]}
-"
-36,36,36,37,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q8:gemini-1.5-pro:lexical_search_1_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response is relevant and accurate, addressing the user's request to summarize their immunization history by guiding them toward resources where they can find this information.  It correctly points out potential locations of immunization records, such as MyChart and state health departments, while also acknowledging other places where this information might be stored (schools, previous applications). Keep up the good work!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+36,36,36,36,37,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q8:gemini-1.5-pro:lexical_search_1_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response is relevant and accurate, addressing the user's request to summarize their immunization history by guiding them toward resources where they can find this information.  It correctly points out potential locations of immunization records, such as MyChart and state health departments, while also acknowledging other places where this information might be stored (schools, previous applications). Keep up the good work!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""Your immunization history shows that you received the following vaccinations:"",
     ""DTaP"",
@@ -30441,8 +30441,8 @@ item sequence 6 net currency: USD,
 total value: 816.8,
 total currency: USD,
 '), ]}
-"
-37,37,37,39,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q3:gemini-1.5-pro:lexical_search_1_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns perfectly with the information extracted from the provided medical records, indicating no hallucinations.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+37,37,37,37,39,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q3:gemini-1.5-pro:lexical_search_1_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns perfectly with the information extracted from the provided medical records, indicating no hallucinations.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -32174,8 +32174,8 @@ Authored On: February 26, 2022 at 5:37 PM UTC
 Requester: Dr. Alvin56 Crona259
 Reason: Streptococcal sore throat (disorder) 
 '), ]}
-"
-38,38,38,40,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q3:gemini-1.5-pro:lexical_search_1_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response is relevant and accurate, addressing the user's request appropriately.  Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+38,38,38,38,40,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q3:gemini-1.5-pro:lexical_search_1_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response is relevant and accurate, addressing the user's request appropriately.  Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""This is a summary of your medical conditions:"",
     ""Atopic dermatitis"",
@@ -34093,8 +34093,8 @@ Authored On: February 26, 2022 at 5:37 PM UTC
 Requester: Dr. Alvin56 Crona259
 Reason: Streptococcal sore throat (disorder) 
 '), ]}
-"
-39,39,39,41,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q3:gemini-1.5-pro:lexical_search_1_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because the retrieval context contains information directly related to the user's medical conditions, including resolved conditions like Otitis Media and Streptococcal sore throat, and active conditions such as Perennial allergic rhinitis, Atopic dermatitis, and Aortic valve stenosis.  The context also includes instances of 'Medication review due', indicating a comprehensive overview of the user's medical history.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+39,39,39,39,41,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q3:gemini-1.5-pro:lexical_search_1_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because the retrieval context contains information directly related to the user's medical conditions, including resolved conditions like Otitis Media and Streptococcal sore throat, and active conditions such as Perennial allergic rhinitis, Atopic dermatitis, and Aortic valve stenosis.  The context also includes instances of 'Medication review due', indicating a comprehensive overview of the user's medical history.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -35901,8 +35901,8 @@ Authored On: February 26, 2022 at 5:37 PM UTC
 Requester: Dr. Alvin56 Crona259
 Reason: Streptococcal sore throat (disorder) 
 '), ]}
-"
-40,40,40,42,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q1:gemini-1.5-pro:lexical_search_1_hop,False,Hallucination,0.5,True,0.0,"The score is 0.00 because there are no contradictions between the actual output and the provided contexts.  The actual output aligns with the information in the contexts, indicating no hallucinations.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+40,40,40,40,42,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q1:gemini-1.5-pro:lexical_search_1_hop,False,Hallucination,0.5,True,0.0,"The score is 0.00 because there are no contradictions between the actual output and the provided contexts.  The actual output aligns with the information in the contexts, indicating no hallucinations.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -36155,8 +36155,8 @@ Item Product or Service: Penicillin V Potassium 250 MG Oral Tablet
 Total Value: 478.69
 Total Currency: USD 
 '), ]}
-"
-41,41,41,43,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q1:gemini-1.5-pro:lexical_search_1_hop,False,Answer Relevancy,0.5,True,0.7333333333333333,"The score is 0.73 because while the response attempts to address medication management, it brings in irrelevant details like cost and encounter information. The inclusion of these details detracts from the core focus on current medications and their usage, preventing a higher score. However, the response still manages to offer some relevant advice on medication management in general, justifying the current score.",False,Custom Azure OpenAI Model,,,"Statements:
+",
+41,41,41,41,43,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q1:gemini-1.5-pro:lexical_search_1_hop,False,Answer Relevancy,0.5,True,0.7333333333333333,"The score is 0.73 because while the response attempts to address medication management, it brings in irrelevant details like cost and encounter information. The inclusion of these details detracts from the core focus on current medications and their usage, preventing a higher score. However, the response still manages to offer some relevant advice on medication management in general, justifying the current score.",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""You are currently taking two medications:"",
     ""NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector"",
@@ -36485,8 +36485,8 @@ Item Product or Service: Penicillin V Potassium 250 MG Oral Tablet
 Total Value: 478.69
 Total Currency: USD 
 '), ]}
-"
-42,42,42,44,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q1:gemini-1.5-pro:lexical_search_1_hop,False,Contextual Relevancy,0.5,False,0.375,"The score is 0.38 because while the retrieved context contains some relevant information about current medications and dosages such as ""Medication: NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector, Dosage Instruction: Take as needed. Status: Active."", a significant portion is irrelevant. For instance, some statements ""discuss the symptoms and treatment of strep throat in general, but [do] not directly address the user's question about their current medications and how to take them.""",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+42,42,42,42,44,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q1:gemini-1.5-pro:lexical_search_1_hop,False,Contextual Relevancy,0.5,False,0.375,"The score is 0.38 because while the retrieved context contains some relevant information about current medications and dosages such as ""Medication: NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector, Dosage Instruction: Take as needed. Status: Active."", a significant portion is irrelevant. For instance, some statements ""discuss the symptoms and treatment of strep throat in general, but [do] not directly address the user's question about their current medications and how to take them.""",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -36819,8 +36819,8 @@ Item Product or Service: Penicillin V Potassium 250 MG Oral Tablet
 Total Value: 478.69
 Total Currency: USD 
 '), ]}
-"
-43,43,43,45,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q6:gemini-1.5-pro:lexical_search_1_hop,False,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns perfectly with the provided context, indicating no hallucinations.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+43,43,43,43,45,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q6:gemini-1.5-pro:lexical_search_1_hop,False,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns perfectly with the provided context, indicating no hallucinations.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -41331,8 +41331,8 @@ Coverage Type: Medicare,
 Coverage Beneficiary: ,
 Coverage Payor: Medicare,
 '), ]}
-"
-44,44,44,46,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q6:gemini-1.5-pro:lexical_search_1_hop,False,Answer Relevancy,0.5,True,1.0,The score is 1.00 because the response is helpful and relevant to the user's request.  Keep up the great work!,False,Custom Azure OpenAI Model,,,"Statements:
+",
+44,44,44,44,46,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q6:gemini-1.5-pro:lexical_search_1_hop,False,Answer Relevancy,0.5,True,1.0,The score is 1.00 because the response is helpful and relevant to the user's request.  Keep up the great work!,False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""This is a summary of your medical bills"",
     ""HOLY FAMILY HOSPITAL"",
@@ -46377,8 +46377,8 @@ Coverage Type: Medicare,
 Coverage Beneficiary: ,
 Coverage Payor: Medicare,
 '), ]}
-"
-45,45,45,48,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q8:gemini-1.5-pro:lexical_search_0_hop,True,Hallucination,0.5,True,0.0,The score is 0.00 because there are no contradictions detected between the actual output and the provided medical records.  This indicates a high level of factual accuracy in the generated output based on the given source.,False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+45,45,45,45,48,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q8:gemini-1.5-pro:lexical_search_0_hop,True,Hallucination,0.5,True,0.0,The score is 0.00 because there are no contradictions detected between the actual output and the provided medical records.  This indicates a high level of factual accuracy in the generated output based on the given source.,False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -46691,8 +46691,8 @@ Vaccine Code: Hib (PRP-OMP)
 Occurrence Date Time: 2015-10-11T13:37:42+00:00
 Primary Source: true
 '}
-"
-46,46,46,49,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q8:gemini-1.5-pro:lexical_search_0_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response is relevant and accurate, addressing precisely how to find immunization history.  It provides various approaches tailored to different situations, such as checking online patient portals, contacting state health departments, or inquiring with previous educational institutions.  Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+46,46,46,46,49,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q8:gemini-1.5-pro:lexical_search_0_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response is relevant and accurate, addressing precisely how to find immunization history.  It provides various approaches tailored to different situations, such as checking online patient portals, contacting state health departments, or inquiring with previous educational institutions.  Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""Your immunization history shows you received the following vaccinations at BLUESKIES WELLNESS INC:"",
     ""DTaP: 2015-08-09, 2015-10-11, 2016-01-10, and 2016-10-09"",
@@ -47080,8 +47080,8 @@ Vaccine Code: Hib (PRP-OMP)
 Occurrence Date Time: 2015-10-11T13:37:42+00:00
 Primary Source: true
 '}
-"
-47,47,47,50,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q8:gemini-1.5-pro:lexical_search_0_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because the retrieval context contains multiple entries related to various immunizations, including dates, vaccine types, and locations, directly addressing the user's request for immunization history.  For example, there are records for 'DTaP', 'Hep B', 'Influenza', and other vaccines administered at locations like 'BLUESKIES WELLNESS INC' and 'HOLY FAMILY HOSPITAL'.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+47,47,47,47,50,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q8:gemini-1.5-pro:lexical_search_0_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because the retrieval context contains multiple entries related to various immunizations, including dates, vaccine types, and locations, directly addressing the user's request for immunization history.  For example, there are records for 'DTaP', 'Hep B', 'Influenza', and other vaccines administered at locations like 'BLUESKIES WELLNESS INC' and 'HOLY FAMILY HOSPITAL'.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -47569,8 +47569,8 @@ Vaccine Code: Hib (PRP-OMP)
 Occurrence Date Time: 2015-10-11T13:37:42+00:00
 Primary Source: true
 '}
-"
-48,48,48,51,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q3:gemini-1.5-pro:lexical_search_0_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns perfectly with the provided context, as indicated by the factual alignment statement.  There are no contradictions present.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+48,48,48,48,51,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q3:gemini-1.5-pro:lexical_search_0_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns perfectly with the provided context, as indicated by the factual alignment statement.  There are no contradictions present.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -47723,8 +47723,8 @@ Onset Date Time: February 17, 2021 at 4:37 PM UTC
 Abatement Date Time: February 26, 2021 at 11:37 PM UTC
 Recorded Date: February 17, 2021 at 4:37 PM UTC 
 '}
-"
-49,49,49,52,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q3:gemini-1.5-pro:lexical_search_0_hop,True,Answer Relevancy,0.5,True,1.0,The score is 1.00 because the response appropriately addresses the prompt. It's great that the response avoids irrelevant information and focuses on providing helpful content related to summarizing medical conditions.  Keep up the good work!,False,Custom Azure OpenAI Model,,,"Statements:
+",
+49,49,49,49,52,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q3:gemini-1.5-pro:lexical_search_0_hop,True,Answer Relevancy,0.5,True,1.0,The score is 1.00 because the response appropriately addresses the prompt. It's great that the response avoids irrelevant information and focuses on providing helpful content related to summarizing medical conditions.  Keep up the good work!,False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""This is a summary of your medical conditions based on your EHR"",
     ""Active Conditions"",
@@ -48027,8 +48027,8 @@ Onset Date Time: February 17, 2021 at 4:37 PM UTC
 Abatement Date Time: February 26, 2021 at 11:37 PM UTC
 Recorded Date: February 17, 2021 at 4:37 PM UTC 
 '}
-"
-50,50,50,53,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q3:gemini-1.5-pro:lexical_search_0_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because the retrieval context contains information directly related to the user's medical conditions. For example, the context includes details such as 'Otitis media', 'Perennial allergic rhinitis', 'Atopic dermatitis', and 'Aortic valve stenosis', indicating comprehensive medical history data relevant to summarizing the user's current medical conditions.  Excellent job!",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+50,50,50,50,53,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q3:gemini-1.5-pro:lexical_search_0_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because the retrieval context contains information directly related to the user's medical conditions. For example, the context includes details such as 'Otitis media', 'Perennial allergic rhinitis', 'Atopic dermatitis', and 'Aortic valve stenosis', indicating comprehensive medical history data relevant to summarizing the user's current medical conditions.  Excellent job!",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -48256,8 +48256,8 @@ Onset Date Time: February 17, 2021 at 4:37 PM UTC
 Abatement Date Time: February 26, 2021 at 11:37 PM UTC
 Recorded Date: February 17, 2021 at 4:37 PM UTC 
 '}
-"
-51,51,51,54,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q2:gemini-1.5-pro:lexical_search_0_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the model's output aligns perfectly with the provided medical records, indicating no hallucinations and thereby achieving the lowest possible hallucination score.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+51,51,51,51,54,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q2:gemini-1.5-pro:lexical_search_0_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the model's output aligns perfectly with the provided medical records, indicating no hallucinations and thereby achieving the lowest possible hallucination score.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -48373,8 +48373,8 @@ Criticality: Low
 Code: Allergy to substance (finding)
 Recorded Date: August 30, 2017 at 11:37:42 AM Coordinated Universal Time
 '}
-"
-52,52,52,55,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q2:gemini-1.5-pro:lexical_search_0_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response effectively and accurately addresses the user's prompt, which asks about their documented allergies and their severity.  There are no irrelevant statements, and the response is well-organized and easy to understand. Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+52,52,52,52,55,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q2:gemini-1.5-pro:lexical_search_0_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response effectively and accurately addresses the user's prompt, which asks about their documented allergies and their severity.  There are no irrelevant statements, and the response is well-organized and easy to understand. Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""Based on your medical records from August 30, 2017, you have the following documented allergies:"",
     ""Medications:"",
@@ -48603,8 +48603,8 @@ Criticality: Low
 Code: Allergy to substance (finding)
 Recorded Date: August 30, 2017 at 11:37:42 AM Coordinated Universal Time
 '}
-"
-53,53,53,56,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q2:gemini-1.5-pro:lexical_search_0_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because the retrieval context contains all the relevant information about the documented allergies and their severities, as requested in the input.  For example, the context lists allergies such as 'Aspirin', 'Tree pollen', and 'Animal dander', along with their recorded reactions and severities like 'moderate' or 'mild'.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+53,53,53,53,56,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q2:gemini-1.5-pro:lexical_search_0_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because the retrieval context contains all the relevant information about the documented allergies and their severities, as requested in the input.  For example, the context lists allergies such as 'Aspirin', 'Tree pollen', and 'Animal dander', along with their recorded reactions and severities like 'moderate' or 'mild'.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -48765,8 +48765,8 @@ Criticality: Low
 Code: Allergy to substance (finding)
 Recorded Date: August 30, 2017 at 11:37:42 AM Coordinated Universal Time
 '}
-"
-54,54,54,57,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q6:gemini-1.5-pro:lexical_search_0_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns perfectly with the provided context, as indicated by the factual alignment statement.  There are no contradictions present.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+54,54,54,54,57,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q6:gemini-1.5-pro:lexical_search_0_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns perfectly with the provided context, as indicated by the factual alignment statement.  There are no contradictions present.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -49704,8 +49704,8 @@ Item Product or Service: Influenza, seasonal, injectable, preservative free
 Item Net Value: 136.0 USD
 Total Value: 272.8 USD
 '}
-"
-55,55,55,58,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q6:gemini-1.5-pro:lexical_search_0_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response acknowledges the user's request for a breakdown of medical bills, but it fails to provide any specific breakdown or actionable advice.  While the response offers general information about managing medical bills, it lacks the personalized details necessary for a truly helpful response. To improve, the response should ask clarifying questions to understand the user's specific situation or offer tailored resources based on the user's location or needs.",False,Custom Azure OpenAI Model,,,"Statements:
+",
+55,55,55,55,58,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q6:gemini-1.5-pro:lexical_search_0_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response acknowledges the user's request for a breakdown of medical bills, but it fails to provide any specific breakdown or actionable advice.  While the response offers general information about managing medical bills, it lacks the personalized details necessary for a truly helpful response. To improve, the response should ask clarifying questions to understand the user's specific situation or offer tailored resources based on the user's location or needs.",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""I have accessed your medical billing records."",
     ""Here's a summary:"",
@@ -50699,8 +50699,8 @@ Item Product or Service: Influenza, seasonal, injectable, preservative free
 Item Net Value: 136.0 USD
 Total Value: 272.8 USD
 '}
-"
-56,56,56,59,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q6:gemini-1.5-pro:lexical_search_0_hop,True,Contextual Relevancy,0.5,True,0.5555555555555556,"The score is 0.56 because while some relevant information about medical billing is present, such as claim details from ""Resource Type: Claim\nStatus: Active\nType: Professional\nUse: Claim\nPatient: Beatris270 Bogan287..."", irrelevant information like ""The input is about medical bills breakdown, while the statement 'The MMR vaccine is a vaccine against measles, mumps, and rubella (German measles), abbreviated as MMR.' is about MMR vaccine."" is hindering a perfect score.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+56,56,56,56,59,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q6:gemini-1.5-pro:lexical_search_0_hop,True,Contextual Relevancy,0.5,True,0.5555555555555556,"The score is 0.56 because while some relevant information about medical billing is present, such as claim details from ""Resource Type: Claim\nStatus: Active\nType: Professional\nUse: Claim\nPatient: Beatris270 Bogan287..."", irrelevant information like ""The input is about medical bills breakdown, while the statement 'The MMR vaccine is a vaccine against measles, mumps, and rubella (German measles), abbreviated as MMR.' is about MMR vaccine."" is hindering a perfect score.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -51683,8 +51683,8 @@ Item Product or Service: Influenza, seasonal, injectable, preservative free
 Item Net Value: 136.0 USD
 Total Value: 272.8 USD
 '}
-"
-57,57,57,60,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q5:gemini-1.5-pro:lexical_search_0_hop,True,Hallucination,0.5,True,0.0,The score is 0.00 because there are no contradictions detected between the actual output and the provided contexts.  The output accurately reflects the information in the contexts.,False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+57,57,57,57,60,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q5:gemini-1.5-pro:lexical_search_0_hop,True,Hallucination,0.5,True,0.0,The score is 0.00 because there are no contradictions detected between the actual output and the provided contexts.  The output accurately reflects the information in the contexts.,False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -51735,8 +51735,8 @@ Care Plan Activity Code: Application of moisturizer to skin (Application of mois
 Care Plan Activity Status: in-progress
 Care Plan Activity Location: HOLY FAMILY HOSPITAL 
 '}
-"
-58,58,58,61,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q5:gemini-1.5-pro:lexical_search_0_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response effectively addresses the user's request for a care plan history summary by providing relevant information about care plans, their purpose, and how to access them.  It's great that all the provided information contributes to a comprehensive and helpful response!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+58,58,58,58,61,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q5:gemini-1.5-pro:lexical_search_0_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response effectively addresses the user's request for a care plan history summary by providing relevant information about care plans, their purpose, and how to access them.  It's great that all the provided information contributes to a comprehensive and helpful response!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""You have two care plans listed in your record, both marked as ""active"""",
     ""Care Plan 1:"",
@@ -51873,8 +51873,8 @@ Care Plan Activity Code: Application of moisturizer to skin (Application of mois
 Care Plan Activity Status: in-progress
 Care Plan Activity Location: HOLY FAMILY HOSPITAL 
 '}
-"
-59,59,59,62,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q5:gemini-1.5-pro:lexical_search_0_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because the retrieval context is highly relevant to the input.  The input asks for a care plan history summary, and the context includes specific details about past care plans, such as: types of care plans ('Care Plan for Self-care interventions', 'Care Plan for Skin condition care'); their statuses, intents, and categories; start dates ('Period Start: 2017-08-30', 'Care Plan Period Start: 2015-09-13'); activity codes, statuses, and locations.  This information directly addresses the user's request.  Excellent!",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+59,59,59,59,62,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q5:gemini-1.5-pro:lexical_search_0_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because the retrieval context is highly relevant to the input.  The input asks for a care plan history summary, and the context includes specific details about past care plans, such as: types of care plans ('Care Plan for Self-care interventions', 'Care Plan for Skin condition care'); their statuses, intents, and categories; start dates ('Period Start: 2017-08-30', 'Care Plan Period Start: 2015-09-13'); activity codes, statuses, and locations.  This information directly addresses the user's request.  Excellent!",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -52030,8 +52030,8 @@ Care Plan Activity Code: Application of moisturizer to skin (Application of mois
 Care Plan Activity Status: in-progress
 Care Plan Activity Location: HOLY FAMILY HOSPITAL 
 '}
-"
-60,60,60,63,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q7:gemini-1.5-pro:lexical_search_0_hop,True,Hallucination,0.5,True,0.0,The score is 0.00 because the actual output accurately reflects the information extracted from the provided context.,False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+60,60,60,60,63,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q7:gemini-1.5-pro:lexical_search_0_hop,True,Hallucination,0.5,True,0.0,The score is 0.00 because the actual output accurately reflects the information extracted from the provided context.,False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -52227,8 +52227,8 @@ Performed Period Start: January 10, 2016 at 1:37 PM UTC
 Performed Period End: January 10, 2016 at 1:52 PM UTC
 Location Display: BLUESKIES WELLNESS INC 
 '}
-"
-61,61,61,64,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q7:gemini-1.5-pro:lexical_search_0_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response is relevant and accurate, directly addressing the user's prompt.  It's great that the response is so on point!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+61,61,61,61,64,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q7:gemini-1.5-pro:lexical_search_0_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response is relevant and accurate, directly addressing the user's prompt.  It's great that the response is so on point!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""You have undergone several procedures recently."",
     ""Here is a summary:"",
@@ -52579,8 +52579,8 @@ Performed Period Start: January 10, 2016 at 1:37 PM UTC
 Performed Period End: January 10, 2016 at 1:52 PM UTC
 Location Display: BLUESKIES WELLNESS INC 
 '}
-"
-62,62,62,65,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q7:gemini-1.5-pro:lexical_search_0_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because the retrieved context includes several instances of ""Medication Reconciliation"", ""Throat culture"", and echocardiography-related procedures such as ""Transthoracic echocardiography"" and ""Referral for echocardiography"", directly addressing the user's request for recently undergone procedures and their outcomes.  Perfect match!",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+62,62,62,62,65,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q7:gemini-1.5-pro:lexical_search_0_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because the retrieved context includes several instances of ""Medication Reconciliation"", ""Throat culture"", and echocardiography-related procedures such as ""Transthoracic echocardiography"" and ""Referral for echocardiography"", directly addressing the user's request for recently undergone procedures and their outcomes.  Perfect match!",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -52866,8 +52866,8 @@ Performed Period Start: January 10, 2016 at 1:37 PM UTC
 Performed Period End: January 10, 2016 at 1:52 PM UTC
 Location Display: BLUESKIES WELLNESS INC 
 '}
-"
-63,63,63,66,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q4:gemini-1.5-pro:lexical_search_0_hop,True,Hallucination,0.5,True,0.0,The score is 0.00 because there are no contradictions and the factual alignments confirm that the actual output matches the provided context.,False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+63,63,63,63,66,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q4:gemini-1.5-pro:lexical_search_0_hop,True,Hallucination,0.5,True,0.0,The score is 0.00 because there are no contradictions and the factual alignments confirm that the actual output matches the provided context.,False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -53626,8 +53626,8 @@ amoxicillin 500 mg oral tablet; acetaminophen 160 mg chewable tablet
 # Plan
 Patient was given the following immunizations: influenza, seasonal, injectable, preservative free. 
 '}
-"
-64,64,64,67,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q4:gemini-1.5-pro:lexical_search_0_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response lacked the user's specific lab values, their meanings, and personalized recommendations for improvement.  While the sources discuss lab tests and their importance, they don't contain *your* results. To get those, you will need to contact your doctor or access them through your patient portal if available.",False,Custom Azure OpenAI Model,,,"Statements:
+",
+64,64,64,64,67,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q4:gemini-1.5-pro:lexical_search_0_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response lacked the user's specific lab values, their meanings, and personalized recommendations for improvement.  While the sources discuss lab tests and their importance, they don't contain *your* results. To get those, you will need to contact your doctor or access them through your patient portal if available.",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""I can see a record for a CBC (Complete Blood Count) panel done on May 3, 2015."",
     ""Unfortunately, the actual numerical values for the results are not available in this record."",
@@ -54416,8 +54416,8 @@ amoxicillin 500 mg oral tablet; acetaminophen 160 mg chewable tablet
 # Plan
 Patient was given the following immunizations: influenza, seasonal, injectable, preservative free. 
 '}
-"
-65,65,65,68,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q4:gemini-1.5-pro:lexical_search_0_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because the retrieval context contains information directly related to lab values, as evidenced by the presence of terms like 'Leukocytes', 'Erythrocytes', 'Hemoglobin', 'Hematocrit', 'MCV', 'MCH', 'MCHC', 'Platelets', and more.  Excellent!",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+65,65,65,65,68,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q4:gemini-1.5-pro:lexical_search_0_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because the retrieval context contains information directly related to lab values, as evidenced by the presence of terms like 'Leukocytes', 'Erythrocytes', 'Hemoglobin', 'Hematocrit', 'MCV', 'MCH', 'MCHC', 'Platelets', and more.  Excellent!",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -55286,8 +55286,8 @@ amoxicillin 500 mg oral tablet; acetaminophen 160 mg chewable tablet
 # Plan
 Patient was given the following immunizations: influenza, seasonal, injectable, preservative free. 
 '}
-"
-66,66,66,69,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q1:gemini-1.5-pro:lexical_search_0_hop,False,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns perfectly with the provided context, as indicated by the factual alignment statement.  There are no contradictions present.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+66,66,66,66,69,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q1:gemini-1.5-pro:lexical_search_0_hop,False,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns perfectly with the provided context, as indicated by the factual alignment statement.  There are no contradictions present.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -55356,8 +55356,8 @@ Authored On: February 17, 2021 at 4:37 PM UTC
 Requester: Dr. Alvin56 Crona259
 Reason: Streptococcal sore throat (disorder) 
 '}
-"
-67,67,67,70,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q1:gemini-1.5-pro:lexical_search_0_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response effectively addresses the user's prompt, which asks for current medications and instructions on how to take them.  Keep up the good work!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+67,67,67,67,70,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q1:gemini-1.5-pro:lexical_search_0_hop,False,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response effectively addresses the user's prompt, which asks for current medications and instructions on how to take them.  Keep up the good work!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""You have two active medications"",
     ""NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector"",
@@ -55461,8 +55461,8 @@ Authored On: February 17, 2021 at 4:37 PM UTC
 Requester: Dr. Alvin56 Crona259
 Reason: Streptococcal sore throat (disorder) 
 '}
-"
-68,68,68,71,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q1:gemini-1.5-pro:lexical_search_0_hop,False,Contextual Relevancy,0.5,False,0.3333333333333333,"The score is 0.33 because some of the retrieved context is irrelevant. While the input asks about current medications and their dosage instructions, some of the retrieved context discusses medications that have been stopped, as indicated by the reasons for irrelevancy: ""The status of the medication is 'Stopped' indicating it is no longer being taken."" However, there are still relevant statements like ""Medication: NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector, Dosage Instruction: Take as needed"" and ""Medication: Fexofenadine hydrochloride 30 MG Oral Tablet, Dosage Instruction: Take as needed"", which slightly increases the relevancy score.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+68,68,68,68,71,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q1:gemini-1.5-pro:lexical_search_0_hop,False,Contextual Relevancy,0.5,False,0.3333333333333333,"The score is 0.33 because some of the retrieved context is irrelevant. While the input asks about current medications and their dosage instructions, some of the retrieved context discusses medications that have been stopped, as indicated by the reasons for irrelevancy: ""The status of the medication is 'Stopped' indicating it is no longer being taken."" However, there are still relevant statements like ""Medication: NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector, Dosage Instruction: Take as needed"" and ""Medication: Fexofenadine hydrochloride 30 MG Oral Tablet, Dosage Instruction: Take as needed"", which slightly increases the relevancy score.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -55561,8 +55561,8 @@ Authored On: February 17, 2021 at 4:37 PM UTC
 Requester: Dr. Alvin56 Crona259
 Reason: Streptococcal sore throat (disorder) 
 '}
-"
-69,69,69,72,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q2:gemini-1.5-pro:similarity_search_1_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because there are no contradictions detected between the actual output and the provided context.  The output aligns perfectly with the information in the context, indicating no hallucinations.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+69,69,69,69,72,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q2:gemini-1.5-pro:similarity_search_1_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because there are no contradictions detected between the actual output and the provided context.  The output aligns perfectly with the information in the context, indicating no hallucinations.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -56669,8 +56669,8 @@ Reaction Manifestation: Eruption of skin (disorder)
 Reaction Severity: moderate 
 ', 'Related health records': [('Relationship' :'recorded_date', 'Health Record' :'08/30/2017'), ]}
 
-"
-70,70,70,73,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q2:gemini-1.5-pro:similarity_search_1_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response is relevant and accurate, addressing the user's prompt effectively.  There are no irrelevant statements keeping the score from being higher. Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+70,70,70,70,73,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q2:gemini-1.5-pro:similarity_search_1_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response is relevant and accurate, addressing the user's prompt effectively.  There are no irrelevant statements keeping the score from being higher. Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""You have the following documented allergies:"",
     ""Latex:"",
@@ -57934,8 +57934,8 @@ Reaction Manifestation: Eruption of skin (disorder)
 Reaction Severity: moderate 
 ', 'Related health records': [('Relationship' :'recorded_date', 'Health Record' :'08/30/2017'), ]}
 
-"
-71,71,71,74,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q2:gemini-1.5-pro:similarity_search_1_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because all relevant information such as Latex, Tree pollen, Grass pollen, House dust mite, Aspirin, Mold, Animal dander, and Bee venom allergies, along with their severities, has been captured from the provided context. Great job!",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+71,71,71,71,74,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q2:gemini-1.5-pro:similarity_search_1_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because all relevant information such as Latex, Tree pollen, Grass pollen, House dust mite, Aspirin, Mold, Animal dander, and Bee venom allergies, along with their severities, has been captured from the provided context. Great job!",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -59082,8 +59082,8 @@ Reaction Manifestation: Eruption of skin (disorder)
 Reaction Severity: moderate 
 ', 'Related health records': [('Relationship' :'recorded_date', 'Health Record' :'08/30/2017'), ]}
 
-"
-72,72,72,75,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q5:gemini-1.5-pro:similarity_search_1_hop,False,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output perfectly aligns with the provided context, indicating no hallucinations.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+72,72,72,72,75,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q5:gemini-1.5-pro:similarity_search_1_hop,False,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output perfectly aligns with the provided context, indicating no hallucinations.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -61887,8 +61887,8 @@ Service Request Intent: order
 Coverage Status: active
 Coverage Type: Medicare'), ]}
 
-"
-73,73,73,76,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q5:gemini-1.5-pro:similarity_search_1_hop,False,Answer Relevancy,0.5,True,1.0,The score is 1.00 because the response effectively and concisely summarizes the user's care plan history without including any irrelevant information.  Keep up the great work!,False,Custom Azure OpenAI Model,,,"Statements:
+",
+73,73,73,73,76,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q5:gemini-1.5-pro:similarity_search_1_hop,False,Answer Relevancy,0.5,True,1.0,The score is 1.00 because the response effectively and concisely summarizes the user's care plan history without including any irrelevant information.  Keep up the great work!,False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""This is a summary of your care plan history"",
     ""On September 13, 2015, you were seen by Dr. Alvin56 Crona259 at HOLY FAMILY HOSPITAL for atopic dermatitis."",
@@ -64742,8 +64742,8 @@ Service Request Intent: order
 Coverage Status: active
 Coverage Type: Medicare'), ]}
 
-"
-74,74,74,77,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q5:gemini-1.5-pro:similarity_search_1_hop,False,Contextual Relevancy,0.5,False,0.375,"The score is 0.38 because while some retrieved context mentions care plans, they don't directly address the user's request for a *summary* of their *own* care plan history. For example, one retrieved statement mentions a care plan for atopic dermatitis and another for self-care interventions, but these are general examples, not the user's personal history.  As stated in the reasons for irrelevance, many of the retrieved contexts discuss medical history, medications, and other details from specific dates, but none of them ""provide information about the care plan history.""",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+74,74,74,74,77,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q5:gemini-1.5-pro:similarity_search_1_hop,False,Contextual Relevancy,0.5,False,0.375,"The score is 0.38 because while some retrieved context mentions care plans, they don't directly address the user's request for a *summary* of their *own* care plan history. For example, one retrieved statement mentions a care plan for atopic dermatitis and another for self-care interventions, but these are general examples, not the user's personal history.  As stated in the reasons for irrelevance, many of the retrieved contexts discuss medical history, medications, and other details from specific dates, but none of them ""provide information about the care plan history.""",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -67587,8 +67587,8 @@ Service Request Intent: order
 Coverage Status: active
 Coverage Type: Medicare'), ]}
 
-"
-75,75,75,78,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q8:gemini-1.5-pro:similarity_search_1_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output accurately reflects the information presented in the provided context, indicating no hallucination.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+75,75,75,75,78,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q8:gemini-1.5-pro:similarity_search_1_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output accurately reflects the information presented in the provided context, indicating no hallucination.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -70622,8 +70622,8 @@ Payment Amount Value: 108.80000000000001,
 Payment Amount Currency: USD,
 '), ]}
 
-"
-76,76,76,79,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q8:gemini-1.5-pro:similarity_search_1_hop,True,Answer Relevancy,0.5,True,0.918918918918919,"The score is 0.92 because the response accurately addresses the user's request for their immunization history by providing a summary of the history of immunization practices and vaccine development. However, the inclusion of information about insurance providers and costs is irrelevant to the user's request, slightly lowering the score.  While not perfect, the response still demonstrates a good understanding of immunization history and provides relevant information about the development and impact of vaccines.",False,Custom Azure OpenAI Model,,,"Statements:
+",
+76,76,76,76,79,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q8:gemini-1.5-pro:similarity_search_1_hop,True,Answer Relevancy,0.5,True,0.918918918918919,"The score is 0.92 because the response accurately addresses the user's request for their immunization history by providing a summary of the history of immunization practices and vaccine development. However, the inclusion of information about insurance providers and costs is irrelevant to the user's request, slightly lowering the score.  While not perfect, the response still demonstrates a good understanding of immunization history and provides relevant information about the development and impact of vaccines.",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""Your immunization history shows you received the following vaccinations:"",
     ""DTaP"",
@@ -73848,8 +73848,8 @@ Payment Amount Value: 108.80000000000001,
 Payment Amount Currency: USD,
 '), ]}
 
-"
-77,77,77,80,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q8:gemini-1.5-pro:similarity_search_1_hop,True,Contextual Relevancy,0.5,True,0.7777777777777778,"The score is 0.78 because while the retrieved context contains many relevant immunization records as shown by examples like ""Resource Type: Immunization\nStatus: completed\nVaccine Code: DTaP\nOccurrence Date Time: 2015-10-11T13:37:42+00:00\nPrimary Source: true"", it also includes some irrelevant information, such as well-child visit encounter records that don't have specific immunization details  ""This describes a well-child visit, which may include immunizations, but it doesn't contain specific immunization information."". This mix of relevant and irrelevant information lowers the score from a perfect 1.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+77,77,77,77,80,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q8:gemini-1.5-pro:similarity_search_1_hop,True,Contextual Relevancy,0.5,True,0.7777777777777778,"The score is 0.78 because while the retrieved context contains many relevant immunization records as shown by examples like ""Resource Type: Immunization\nStatus: completed\nVaccine Code: DTaP\nOccurrence Date Time: 2015-10-11T13:37:42+00:00\nPrimary Source: true"", it also includes some irrelevant information, such as well-child visit encounter records that don't have specific immunization details  ""This describes a well-child visit, which may include immunizations, but it doesn't contain specific immunization information."". This mix of relevant and irrelevant information lowers the score from a perfect 1.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -77108,8 +77108,8 @@ Payment Amount Value: 108.80000000000001,
 Payment Amount Currency: USD,
 '), ]}
 
-"
-78,78,78,81,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q7:gemini-1.5-pro:similarity_search_1_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns perfectly with the provided context, indicating no hallucinations.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+78,78,78,78,81,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q7:gemini-1.5-pro:similarity_search_1_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns perfectly with the provided context, indicating no hallucinations.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -80744,8 +80744,8 @@ Coverage Type: Medicare,
 Coverage Payor: Medicare, 
 '), ]}
 
-"
-79,79,79,82,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q7:gemini-1.5-pro:similarity_search_1_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response is relevant and comprehensive, addressing the user's request for information about recently undergone procedures and their outcomes.  Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+79,79,79,79,82,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q7:gemini-1.5-pro:similarity_search_1_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response is relevant and comprehensive, addressing the user's request for information about recently undergone procedures and their outcomes.  Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""You have undergone a few procedures recently."",
     ""March 6, 2022"",
@@ -84497,8 +84497,8 @@ Coverage Type: Medicare,
 Coverage Payor: Medicare, 
 '), ]}
 
-"
-80,80,80,83,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q7:gemini-1.5-pro:similarity_search_1_hop,True,Contextual Relevancy,0.5,True,0.7,"The score is 0.70 because while the context includes relevant information about medical procedures like 'influenza vaccine', 'medication reconciliation', 'CBC panel', and 'immunizations' ('Statement in the retrieval context that is relevant to the input'), some parts of the retrieved context are focused on general medical services and descriptions of various departments, rather than specific procedures undergone by an individual, as indicated by the multiple mentions that 'The query asks about medical procedures, not the mission/acquisition/grants of the healthcare provider' ('Reasons for why the retrieval context is irrelevant to the input').",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+80,80,80,80,83,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q7:gemini-1.5-pro:similarity_search_1_hop,True,Contextual Relevancy,0.5,True,0.7,"The score is 0.70 because while the context includes relevant information about medical procedures like 'influenza vaccine', 'medication reconciliation', 'CBC panel', and 'immunizations' ('Statement in the retrieval context that is relevant to the input'), some parts of the retrieved context are focused on general medical services and descriptions of various departments, rather than specific procedures undergone by an individual, as indicated by the multiple mentions that 'The query asks about medical procedures, not the mission/acquisition/grants of the healthcare provider' ('Reasons for why the retrieval context is irrelevant to the input').",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -88233,8 +88233,8 @@ Coverage Type: Medicare,
 Coverage Payor: Medicare, 
 '), ]}
 
-"
-81,81,81,84,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q1:gemini-1.5-pro:similarity_search_1_hop,False,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns perfectly with the provided context, indicating no hallucination.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+81,81,81,81,84,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q1:gemini-1.5-pro:similarity_search_1_hop,False,Hallucination,0.5,True,0.0,"The score is 0.00 because the actual output aligns perfectly with the provided context, indicating no hallucination.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -88623,8 +88623,8 @@ The following procedures were conducted:
 ', 'Related health records': [('Relationship' :'issued', 'Health Record' :'04/30/2023'), ('Relationship' :'effective_date_time', 'Health Record' :'04/30/2023'), ('Relationship' :'encounter', 'Health Record' :'Resource Type: Encounter, Status: Finished, Class: ambulatory, Type: Well child visit (procedure), Subject: Beatris270 Bogan287, Participant:  Role: primary performer, Encounter Period: From 2023-04-30T13:37:42+00:00 To 2023-04-30T13:52:42+00:00, Participant: Dr. Elisa944 Rojo930, Encounter Period: From 2023-04-30T13:37:42+00:00 To 2023-04-30T13:52:42+00:00, Location: BLUESKIES WELLNESS INC, Service Provider: BLUESKIES WELLNESS INC
 '), ]}
 
-"
-82,82,82,85,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q1:gemini-1.5-pro:similarity_search_1_hop,False,Answer Relevancy,0.5,True,1.0,The score is 1.00 because the response effectively answers the user's question about their medications and how to take them.  It's great to see such a relevant and helpful response!,False,Custom Azure OpenAI Model,,,"Statements:
+",
+82,82,82,82,85,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q1:gemini-1.5-pro:similarity_search_1_hop,False,Answer Relevancy,0.5,True,1.0,The score is 1.00 because the response effectively answers the user's question about their medications and how to take them.  It's great to see such a relevant and helpful response!,False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""This is a summary of your medication history based on your EHR records:"",
     ""Penicillin V Potassium 250 MG Oral Tablet"",
@@ -89207,8 +89207,8 @@ The following procedures were conducted:
 ', 'Related health records': [('Relationship' :'issued', 'Health Record' :'04/30/2023'), ('Relationship' :'effective_date_time', 'Health Record' :'04/30/2023'), ('Relationship' :'encounter', 'Health Record' :'Resource Type: Encounter, Status: Finished, Class: ambulatory, Type: Well child visit (procedure), Subject: Beatris270 Bogan287, Participant:  Role: primary performer, Encounter Period: From 2023-04-30T13:37:42+00:00 To 2023-04-30T13:52:42+00:00, Participant: Dr. Elisa944 Rojo930, Encounter Period: From 2023-04-30T13:37:42+00:00 To 2023-04-30T13:52:42+00:00, Location: BLUESKIES WELLNESS INC, Service Provider: BLUESKIES WELLNESS INC
 '), ]}
 
-"
-83,83,83,86,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q1:gemini-1.5-pro:similarity_search_1_hop,False,Contextual Relevancy,0.5,False,0.4615384615384615,"The score is 0.46 because while the context mentions relevant current medications like 'Fexofenadine hydrochloride 30 MG Oral Tablet' and 'amoxicillin 500 mg oral tablet', it also contains a significant amount of irrelevant information such as past medical history ('otitis media, acute viral pharyngitis'), allergies ('Allergy to various substances including aspirin'), and immunizations ('influenza, seasonal, injectable, preservative free'), which are not current medications.  Although some past medications are mentioned like 'Penicillin V Potassium 250 MG Oral Tablet', the focus should be primarily on the current medications and their dosages.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+83,83,83,83,86,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q1:gemini-1.5-pro:similarity_search_1_hop,False,Contextual Relevancy,0.5,False,0.4615384615384615,"The score is 0.46 because while the context mentions relevant current medications like 'Fexofenadine hydrochloride 30 MG Oral Tablet' and 'amoxicillin 500 mg oral tablet', it also contains a significant amount of irrelevant information such as past medical history ('otitis media, acute viral pharyngitis'), allergies ('Allergy to various substances including aspirin'), and immunizations ('influenza, seasonal, injectable, preservative free'), which are not current medications.  Although some past medications are mentioned like 'Penicillin V Potassium 250 MG Oral Tablet', the focus should be primarily on the current medications and their dosages.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -89662,8 +89662,8 @@ The following procedures were conducted:
 ', 'Related health records': [('Relationship' :'issued', 'Health Record' :'04/30/2023'), ('Relationship' :'effective_date_time', 'Health Record' :'04/30/2023'), ('Relationship' :'encounter', 'Health Record' :'Resource Type: Encounter, Status: Finished, Class: ambulatory, Type: Well child visit (procedure), Subject: Beatris270 Bogan287, Participant:  Role: primary performer, Encounter Period: From 2023-04-30T13:37:42+00:00 To 2023-04-30T13:52:42+00:00, Participant: Dr. Elisa944 Rojo930, Encounter Period: From 2023-04-30T13:37:42+00:00 To 2023-04-30T13:52:42+00:00, Location: BLUESKIES WELLNESS INC, Service Provider: BLUESKIES WELLNESS INC
 '), ]}
 
-"
-84,84,84,87,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q3:gemini-1.5-pro:similarity_search_1_hop,True,Hallucination,0.5,True,0.0,The score is 0.00 because there are no contradictions detected between the actual output and the provided contexts.  The output accurately reflects the information within the context.,False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+84,84,84,84,87,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q3:gemini-1.5-pro:similarity_search_1_hop,True,Hallucination,0.5,True,0.0,The score is 0.00 because there are no contradictions detected between the actual output and the provided contexts.  The output accurately reflects the information within the context.,False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -89710,8 +89710,8 @@ Location: BLUESKIES WELLNESS INC
 Service Provider: BLUESKIES WELLNESS INC 
 '), ]}
 
-"
-85,85,85,88,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q3:gemini-1.5-pro:similarity_search_1_hop,True,Answer Relevancy,0.5,True,1.0,The score is 1.00 because the response lacks the information to summarize your current medical conditions.  It's important to consult a healthcare professional to discuss any health concerns and get personalized advice.,False,Custom Azure OpenAI Model,,,"Statements:
+",
+85,85,85,85,88,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q3:gemini-1.5-pro:similarity_search_1_hop,True,Answer Relevancy,0.5,True,1.0,The score is 1.00 because the response lacks the information to summarize your current medical conditions.  It's important to consult a healthcare professional to discuss any health concerns and get personalized advice.,False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""Based on the available medical records, you have been documented as a ""never smoker"" on multiple occasions during your well-child visits."",
     ""These records span from June 7, 2015, to September 4, 2017."",
@@ -89818,8 +89818,8 @@ Location: BLUESKIES WELLNESS INC
 Service Provider: BLUESKIES WELLNESS INC 
 '), ]}
 
-"
-86,86,86,89,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q3:gemini-1.5-pro:similarity_search_1_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because the retrieved context contains statements directly related to the user's medical conditions, as evidenced by the examples provided such as 'Tobacco smoking status'.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+86,86,86,86,89,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q3:gemini-1.5-pro:similarity_search_1_hop,True,Contextual Relevancy,0.5,True,1.0,"The score is 1.00 because the retrieved context contains statements directly related to the user's medical conditions, as evidenced by the examples provided such as 'Tobacco smoking status'.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -89881,8 +89881,8 @@ Location: BLUESKIES WELLNESS INC
 Service Provider: BLUESKIES WELLNESS INC 
 '), ]}
 
-"
-87,87,87,90,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q4:gemini-1.5-pro:similarity_search_1_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the output accurately reflects the information in the provided context.  There are no contradictions between the output and the context, indicating a perfect alignment with the source material and thus no hallucination.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+87,87,87,87,90,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q4:gemini-1.5-pro:similarity_search_1_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because the output accurately reflects the information in the provided context.  There are no contradictions between the output and the context, indicating a perfect alignment with the source material and thus no hallucination.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -90562,8 +90562,8 @@ result: Platelet distribution width [Entitic volume] in Blood by Automated count
 result: Platelet mean volume [Entitic volume] in Blood by Automated count,
 '), ]}
 
-"
-88,88,88,91,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q4:gemini-1.5-pro:similarity_search_1_hop,True,Answer Relevancy,0.5,True,0.9444444444444444,"The score is 0.94 because the response, while containing some good general information about improving lab values through nutrition and exercise, lacks the specific lab values requested by the user and advice tailored to the user's situation.  It correctly identifies the three parts of the user's question, but only provides a general answer to the third part about improving values, missing the opportunity to address the first two parts about obtaining and understanding the values themselves. This omission of key requested information prevents a perfect score.",False,Custom Azure OpenAI Model,,,"Statements:
+",
+88,88,88,88,91,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q4:gemini-1.5-pro:similarity_search_1_hop,True,Answer Relevancy,0.5,True,0.9444444444444444,"The score is 0.94 because the response, while containing some good general information about improving lab values through nutrition and exercise, lacks the specific lab values requested by the user and advice tailored to the user's situation.  It correctly identifies the three parts of the user's question, but only provides a general answer to the third part about improving values, missing the opportunity to address the first two parts about obtaining and understanding the values themselves. This omission of key requested information prevents a perfect score.",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""Your laboratory results from February 28, 2021, show that your Leukocytes were 4.5212 10*3/uL"",
     ""Erythrocytes were 4.459 10*6/uL"",
@@ -91334,8 +91334,8 @@ result: Platelet distribution width [Entitic volume] in Blood by Automated count
 result: Platelet mean volume [Entitic volume] in Blood by Automated count,
 '), ]}
 
-"
-89,89,89,92,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q4:gemini-1.5-pro:similarity_search_1_hop,True,Contextual Relevancy,0.5,True,0.9375,"The score is 0.94, which is great! This is because the provided context includes various laboratory values such as 'Leukocytes in Blood,' 'Erythrocyte distribution width,' 'Platelets in Blood,' 'Hemoglobin in Blood,' and more.  Although some information was related to an imaging study and deemed irrelevant as indicated by ""This information pertains to an imaging study, specifically a transthoracic echocardiography, which is not a laboratory value."", the presence of actual lab values significantly contributes to the high score.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+89,89,89,89,92,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q4:gemini-1.5-pro:similarity_search_1_hop,True,Contextual Relevancy,0.5,True,0.9375,"The score is 0.94, which is great! This is because the provided context includes various laboratory values such as 'Leukocytes in Blood,' 'Erythrocyte distribution width,' 'Platelets in Blood,' 'Hemoglobin in Blood,' and more.  Although some information was related to an imaging study and deemed irrelevant as indicated by ""This information pertains to an imaging study, specifically a transthoracic echocardiography, which is not a laboratory value."", the presence of actual lab values significantly contributes to the high score.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -92095,8 +92095,8 @@ result: Platelet distribution width [Entitic volume] in Blood by Automated count
 result: Platelet mean volume [Entitic volume] in Blood by Automated count,
 '), ]}
 
-"
-90,90,90,93,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q6:gemini-1.5-pro:similarity_search_1_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because there are no contradictions detected between the actual output and the provided contexts.  The output accurately reflects the information in the contexts related to Medicare and Humana claims, indicating no hallucinations.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+90,90,90,90,93,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q6:gemini-1.5-pro:similarity_search_1_hop,True,Hallucination,0.5,True,0.0,"The score is 0.00 because there are no contradictions detected between the actual output and the provided contexts.  The output accurately reflects the information in the contexts related to Medicare and Humana claims, indicating no hallucinations.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdict"": ""yes"",
@@ -102756,8 +102756,8 @@ Location: BLUESKIES WELLNESS INC,
 Service Provider: BLUESKIES WELLNESS INC
 '), ]}
 
-"
-91,91,91,94,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q6:gemini-1.5-pro:similarity_search_1_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response is helpful and relevant to the user's request for a breakdown of their medical bills.  While it doesn't provide a literal breakdown with specific amounts, it offers several helpful avenues for the user to explore to better understand and manage their bills, such as seeking financial assistance, negotiating with the hospital, or contacting consumer assistance programs.  Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
+",
+91,91,91,91,94,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q6:gemini-1.5-pro:similarity_search_1_hop,True,Answer Relevancy,0.5,True,1.0,"The score is 1.00 because the response is helpful and relevant to the user's request for a breakdown of their medical bills.  While it doesn't provide a literal breakdown with specific amounts, it offers several helpful avenues for the user to explore to better understand and manage their bills, such as seeking financial assistance, negotiating with the hospital, or contacting consumer assistance programs.  Keep up the great work!",False,Custom Azure OpenAI Model,,,"Statements:
 [
     ""Your medical billing records show several instances related to Medicare and Humana insurance."",
     ""Medicare Claims:"",
@@ -113505,8 +113505,8 @@ Location: BLUESKIES WELLNESS INC,
 Service Provider: BLUESKIES WELLNESS INC
 '), ]}
 
-"
-92,92,92,95,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q6:gemini-1.5-pro:similarity_search_1_hop,True,Contextual Relevancy,0.5,True,0.9864864864864864,"The score is 0.99 because the retrieval context successfully provides a breakdown of medical bills, as requested by the input. Although irrelevant personal data is present as indicated by the reasons for irrelevancy which state ""The retrieved context contains patient's personal identifiable information such as 'Race', 'Ethnicity', 'Mothers maiden name', 'Birth sex', 'Birth place', 'Disability adjusted life years', 'Quality adjusted life years', 'Medical Record Number', 'Social Security Number', 'Patients name', 'Phone number', 'Gender', 'Birth date', 'Address', 'Latitude', 'Longitude', 'Marital status', 'Multiple birth', 'Language' when it has nothing to do with the medical bills breakdown"", the numerous statements related to claim IDs, total amounts, and payment amounts, such as 'Claim Id: 56c722c2-c98c-62ce-f1c1-dba829202466, Total Amount: 948.35 USD, Payment Amount: 690.24 USD', are highly relevant and contribute to the near-perfect score.",False,Custom Azure OpenAI Model,,,"Verdicts:
+",
+92,92,92,92,95,Beatris270_Bogan287_5b3645de-a2d0-d016-0839-bab3757c4c58,Q6:gemini-1.5-pro:similarity_search_1_hop,True,Contextual Relevancy,0.5,True,0.9864864864864864,"The score is 0.99 because the retrieval context successfully provides a breakdown of medical bills, as requested by the input. Although irrelevant personal data is present as indicated by the reasons for irrelevancy which state ""The retrieved context contains patient's personal identifiable information such as 'Race', 'Ethnicity', 'Mothers maiden name', 'Birth sex', 'Birth place', 'Disability adjusted life years', 'Quality adjusted life years', 'Medical Record Number', 'Social Security Number', 'Patients name', 'Phone number', 'Gender', 'Birth date', 'Address', 'Latitude', 'Longitude', 'Marital status', 'Multiple birth', 'Language' when it has nothing to do with the medical bills breakdown"", the numerous statements related to claim IDs, total amounts, and payment amounts, such as 'Claim Id: 56c722c2-c98c-62ce-f1c1-dba829202466, Total Amount: 948.35 USD, Payment Amount: 690.24 USD', are highly relevant and contribute to the near-perfect score.",False,Custom Azure OpenAI Model,,,"Verdicts:
 [
     {
         ""verdicts"": [
@@ -124536,4 +124536,4 @@ Location: BLUESKIES WELLNESS INC,
 Service Provider: BLUESKIES WELLNESS INC
 '), ]}
 
-"
+",
