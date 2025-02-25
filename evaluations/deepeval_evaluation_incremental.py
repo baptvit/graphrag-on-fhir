@@ -17,7 +17,7 @@ from deepeval.dataset import EvaluationDataset
 from deepeval import evaluate
 
 # Configuration Constants
-CONSUMER_ID = "Jacklyn830_Veum823_e0e1f21a-22a7-d166-7bb1-63f6bbce1a32"
+CONSUMER_ID = "Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625"
 MODEL_NAME = "gemini-1.5-pro"
 TEMPERATURE = 0
 REQUEST_PARALLELISM = 1
@@ -27,8 +27,8 @@ THRESHOLD = 0.5
 SILVER_DIR = Path("/home/baptvit/repositories/graphrag-on-fhir/evaluations/data/silver")
 GOLD_DIR = Path("/home/baptvit/repositories/graphrag-on-fhir/evaluations/data/gold")
 
-SILVER_FILE = Path("/home/baptvit/repositories/graphrag-on-fhir/evaluations/data/silver/Jacklyn830_Veum823_e0e1f21a-22a7-d166-7bb1-63f6bbce1a32-gemini-1.5-pro.csv")
-GOLD_FILE = Path("/home/baptvit/repositories/graphrag-on-fhir/evaluations/data/gold/Jacklyn830_Veum823_e0e1f21a-22a7-d166-7bb1-63f6bbce1a32-gemini-1.5-pro-preview-0409_deepeval.csv")
+SILVER_FILE = Path("/home/baptvit/repositories/graphrag-on-fhir/evaluations/data/silver/Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625-gemini-1.5-pro.csv")
+GOLD_FILE = Path("/home/baptvit/repositories/graphrag-on-fhir/evaluations/data/gold/Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625-gemini-1.5-pro-preview-0409_deepeval.csv")
 
 
 from deepeval.models import DeepEvalBaseLLM

@@ -72,7 +72,7 @@ LLM_MODEL_SUMMARIZATION = llm
 #LLM_MODEL_EVAL = "anthropic.claude-v3-5-sonnet-v1" # anthropic.claude-v3-haiku, anthropic.claude-v3-5-sonnet, anthropic.claude-v3-5-sonnet-v2, anthropic.claude-v3-5-sonnet-v1, anthropic.claude-v3-sonnet
 #LLM_MODEL_EVAL = "llama-3-70b-instruct-awq"
 #LLM_MODEL_EVAL = "DeepSeek-R1-Distill-Llama-70B-FP8"
-LLM_MODEL_EVAL =  "gemini-1.5-pro-google-search" # "gemini-1.5-pro-preview-0409"
+LLM_MODEL_EVAL =  "gemini-1.5-pro-preview-0409" #"gemini-1.5-pro-google-search" # "gemini-1.5-pro-preview-0409"
 llm_eval = AzureChatOpenAI(
     api_key=OPENAI_API_KEY,
     azure_deployment=LLM_MODEL_EVAL,
@@ -95,7 +95,7 @@ SIMILARITY_THRESHOLD = 0.84
 K = 100000  # no restriction pratical
 
 # User
-CONSUMER_ID = "Milton509_Ortiz186_d66b5418-06cb-fc8a-8c13-85685b6ac939"
+CONSUMER_ID = "Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625"
 
 INPUT_QUESTION = {}
 
