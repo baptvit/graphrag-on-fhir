@@ -95,7 +95,7 @@ SIMILARITY_THRESHOLD = 0.84
 K = 100000  # no restriction pratical
 
 # User
-CONSUMER_ID = "Allen322_Ferry570_ad134528-56a5-35fd-c37f-466ff119c625"
+CONSUMER_ID = "Milton509_Ortiz186_d66b5418-06cb-fc8a-8c13-85685b6ac939"
 
 INPUT_QUESTION = {}
 
