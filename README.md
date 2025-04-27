@@ -1,12 +1,11 @@
-# GraphRAG on FHIR: Exploring Graph-Based Retrieval Augmentation for Electronic Health Records
-This repository contains all the assets for the master's thesis on GraphRAG on FHIR, which explores graph-based retrieval augmentation for electronic health records (EHRs) using advanced language models and graph databases.
+# GraphRAG on Electronic Health Record: A Knowledge Graph-Enhanced RAG Approach for Healthcare Information Access
+The increasing importance of digital health and the need for better health literacy require effective methods to access and understand Electronic Health Records (EHRs). While Large Language Models (LLMs) show promise in this domain, traditional Retrieval-Augmented Generation (RAG) struggles to handle the complex, interconnected nature of clinical data. GraphRAG emerges as a powerful alternative, leveraging knowledge graphs (KGs) to capture semantic relationships within EHRs. This research evaluates the effectiveness of graph expansion in a GraphRAG to enhance information retrieval from FHIR-formatted medical data. We propose a 1-hop expansion approach built upon a lexical search baseline which, while inheriting some limitations of traditional keyword-based retrieval, significantly enhances LLMs' access to comprehensive and diverse contextual information. Our evaluation, using synthetic patient data and a targeted set of questions across five models, reveals that the 1-hop expansion strategy consistently outperforms the baseline in subjective metrics like comprehensiveness and diversity, and frequently in qualitative metrics such as answer and contextual relevancy. These results highlight the potential of our proposal to enhance LLM response when querying intricate medical data.
 
 ## Citation
 This is a academic project so if you want to replicate or use any code. Just cite this work.
 
-# Introduction
-This project investigates the use of Graph-Based Retrieval Augmentation (GraphRAG) for enhancing the retrieval and analysis of electronic health records (EHRs) stored in the FHIR format. By leveraging graph databases (Neo4j) and advanced language models (e.g., Google Vertex AI), the project aims to improve the efficiency and accuracy of information retrieval and summarization in healthcare applications.
-
+# Database
+[Anonymous drive](https://drive.google.com/drive/folders/1wyRkhDf786SEQNHtR8ElQ6Q-qwgnX_gB)
 
 
 # Installation
