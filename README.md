@@ -3,16 +3,6 @@ This repository contains all the assets for the master's thesis on GraphRAG on F
 
 ## Citation
 This is a academic project so if you want to replicate or use any code. Just cite this work.
-```
-@misc{jvrbaptista,
-  author = {Baptista, João},
-  title = {GraphRAG on FHIR: Exploring Graph-Based Retrieval Augmentation for Electronic Health Records},
-  year = {2025},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/baptvit/graphrag-on-fhir}},
-}
-```
 
 # Introduction
 This project investigates the use of Graph-Based Retrieval Augmentation (GraphRAG) for enhancing the retrieval and analysis of electronic health records (EHRs) stored in the FHIR format. By leveraging graph databases (Neo4j) and advanced language models (e.g., Google Vertex AI), the project aims to improve the efficiency and accuracy of information retrieval and summarization in healthcare applications.
