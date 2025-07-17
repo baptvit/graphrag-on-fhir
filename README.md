@@ -5,7 +5,7 @@ This repository contains all the assets for the master's thesis on GraphRAG on F
 This is a academic project so if you want to replicate or use any code. Just cite this work.
 ```
 @misc{jvrbaptista,
-  author = {Baptista, João},
+  author = {Baptista, João. Garcia, Luís},
   title = {GraphRAG on FHIR: Exploring Graph-Based Retrieval Augmentation for Electronic Health Records},
   year = {2025},
   publisher = {GitHub},
